@@ -1,17 +1,21 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
-  "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  }
+    "name": "",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": "",
+    "license": "",
+    "author": "",
+    "scripts": {
+        "build": "parcel build index.html",
+        "dev": "parcel index.html --open",
+        "start": "npm run build && npm run dev",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier-format": "prettier --config .prettierrc 'teams/**/*.html' --write",
+        "prettier-watch": "onchange 'teams/**/*.html' -- prettier --write {{changed}}"
+    },
+    "devDependencies": {
+        "onchange": "^7.1.0",
+        "parcel-bundler": "^1.12.4",
+        "prettier": "^2.4.1"
+    }
 }
