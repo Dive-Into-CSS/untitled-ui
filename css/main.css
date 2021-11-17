@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.4;
   font-family: Inter, serif;
 }
@@ -450,7 +450,7 @@ Usage:
 .ut-display-2xl-semibold {
   font-style:  normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 90px;
   /* or 125% */
   letter-spacing: -0.02em;
