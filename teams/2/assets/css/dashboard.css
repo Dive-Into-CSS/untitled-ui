@@ -1,0 +1,109 @@
+body {
+    display: grid;
+    margin-top: 0;
+    grid-template-columns: 20% 80%;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#numbers-content {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+.number-stat {
+    height: 114px;
+    margin: 10px;
+    background-color: red;
+}
+
+.graph {
+    height: 365px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+
+#tabs-n-filters {
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+    height: 40px;
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: sandybrown;
+    height: 66px;
+}
+
+#activity-header {
+    display: flex;
+    justify-content: space-between;
+    height: 41px;
+}
+
+#activity-list {
+    list-style-type: none;
+}
+
+.activity-entity {
+    display: flex;
+    margin-top: 15px;
+    background-color: aquamarine;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+
+#navbar-main {
+    list-style-type: none;
+}
+
+.navbar-main-entity {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#navbar-bottom {
+    list-style-type: none;
+}
+
+#author {
+    display: flex;
+    justify-content: space-between;
+}
+#author-info {
+    display: flex;
+}
+.additional {
+    font-size: 1em;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.range-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+}
