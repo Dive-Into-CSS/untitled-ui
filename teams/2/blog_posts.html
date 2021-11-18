@@ -3,20 +3,114 @@
     <meta charset="utf8" />
     <title>title</title>
     <link rel="stylesheet" href="assets/css/blog_posts.css" />
+    <!--Here's the temporary styles for the markup-->
+    <style>
+        #blogpost-header {
+            border: 1px; 
+            border-style: dashed;
+        }
+        .content {
+            background-color: crimson;
+        }
+        .flex-container {
+            background-color: cyan;
+        }
+        .img-span {
+            font-size: 3em;
+        }
+        .blocks-header {
+            border: 1px black dashed
+        }
+        .i-h3 {
+            background-color: darkmagenta;
+        }
+        .li-1 {
+            height: 40px; 
+            background-color:darkslategray; 
+            font-size: 2em;
+        }
+        .li-2 {
+            height: 40px; 
+            background-color: darkorange; 
+            font-size: 2em;
+        }
+        .block-paragraph {
+            height:100px;
+            background-color:darkgreen;
+        }
+        .flex-2 {
+            background-color: cyan;
+        }
+        .big-image {
+            font-size: 50;
+        }
+        .i-h2 {
+            background-color: darkmagenta;
+        }
+        .stats-header {
+            text-align: center; background-color: gold; margin-left: 300px; margin-right: 300px;
+        }
+        .stats-description {
+            margin-left: 250px; 
+            margin-right: 250px;
+            background-color: green; 
+            text-align: center; 
+            font-size: 2em;
+        }
+        .span-strong {
+            font-size: 4em; 
+            color: green;
+        }
+        .stats-subscr {
+            font-size: 2em;
+        }
+        .row-button-1 {
+            height: 40px; 
+            width: 120px;
+        }
+        .row-button-2 {
+            height: 40px; 
+            width: 120px;
+            background-color: indigo;
+        }
+        .logo2 {
+            font-size: small;
+        }
+        .trial-header {
+            text-align: center; 
+            background-color:ivory;
+            margin-left: 50px; 
+            margin-right: 100px;
+        }
+        .trial-paragraph {
+            margin-left: 50px; 
+            background-color: green; 
+            text-align: center; 
+            font-size: 1em;
+        }
+        .trial-div {
+            margin-top: 70px;
+        }
+        .logo-subscr {
+            font-size: 50;
+        }
+        .flex-paragraph {
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <header style="border: 1px; border-style: dashed;">
+    <header id="blogpost-header">
         Header
         <nav id="navbar">
-            <div style="display: flex;">
+            <div id="header-navbar-main">
                 <div>
                     navbar
-                    <img src="" alt="i">
+                    <i>i</i>
                     <span>Span &nbsp;</span>
                 </div>
                 <div>
-                    <ul style="list-style-type: none; display: flex;">
+                    <ul class="header-links">
                         <li><a>a</a></li>
                         <li><a>a</a></li>
                         <li><a>a</a></li>
@@ -25,7 +119,7 @@
                 </div>
             </div>
             <div>
-                <ul style="list-style-type: none; display: flex;">
+                <ul class="header-links">
                     <li><a>a</a></li>
                     <li><a>a</a></li>
                 </ul>
@@ -36,7 +130,7 @@
     <main>
         <section class="first_section">
             <div>
-                <div class="content" style="background-color: crimson;">
+                <div class="content">
                     <div>
                         <h1>H1</h1>
                         <p>
@@ -54,21 +148,21 @@
             <div class="img"></div>
         </section>
         <section>
-            <p style="text-align: center;">p</p>
-            <div class="flex-container" style="background-color: cyan;">
-                <span style="font-size: 3em;">
+            <p class="flex-paragraph">p</p>
+            <div class="flex-container">
+                <span class = "img-span">
                     <img src="" alt="img">
                 </span>
-                <span style="font-size: 3em;">
+                <span class = "img-span">
                     <img src="" alt="img">
                 </span>
-                <span style="font-size: 3em;">
+                <span class = "img-span">
                     <img src="" alt="img">
                 </span>
-                <span style="font-size: 3em;">
+                <span class = "img-span">
                     <img src="" alt="img">
                 </span>
-                <span style="font-size: 3em;">
+                <span class = "img-span">
                     <img src="" alt="img">
                 </span>
             </div>
@@ -77,7 +171,7 @@
 
 
         <section>
-            <header id="blocks-header" style="border: 1px black dashed">
+            <header class="blocks-header">
                 Header<br>
                 <div id="blocks-header-div">
                     <h2>h2</h2>
@@ -88,16 +182,16 @@
             <div id="blocks-grid">
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 style="background-color: darkmagenta;">i + H3</h3>
-                        <p style="height:100px;background-color:darkgreen">p</p>
-                        <ul style="list-style-type: none">
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                        <h3 class="i-h3">i + H3</h3>
+                        <p class="block-paragraph">p</p>
+                        <ul>
+                            <li class="li-1">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color: darkorange; font-size: 2em">
+                            <li class="li-2">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                            <li class="li-1">
                                 li: i + span
                             </li>
                         </ul>
@@ -111,16 +205,16 @@
                 </div>
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 style="background-color: darkmagenta;">i + H3</h3>
-                        <p style="height:100px;background-color:darkgreen">p</p>
-                        <ul style="list-style-type: none">
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                        <h3 class="i-h3">i + H3</h3>
+                        <p class="block-paragraph">p</p>
+                        <ul>
+                            <li class="li-1">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color: darkorange; font-size: 2em">
+                            <li class="li-2">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                            <li class="li-1">
                                 li: i + span
                             </li>
                         </ul>
@@ -128,16 +222,16 @@
                 </div>
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 style="background-color: darkmagenta;">i + H3</h3>
-                        <p style="height:100px;background-color:darkgreen">p</p>
-                        <ul style="list-style-type: none">
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                        <h3 class="i-h3">i + H3</h3>
+                        <p class="block-paragraph">p</p>
+                        <ul>
+                            <li class="li-1">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color: darkorange; font-size: 2em">
+                            <li class="li-2">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                            <li class="li-1">
                                 li: i + span
                             </li>
                         </ul>
@@ -149,7 +243,7 @@
             </div>
         </section>
         <section class="flexbox1">
-            <header id="blocks-header" style="border: 1px black dashed">
+            <header class="blocks-header">
                 Header<br>
                 <div id="blocks-header-div">
                     <h2>h2</h2>
@@ -158,7 +252,7 @@
                 </div>
             </header>
 
-            <div class="flex-2" style="background-color: cyan;">
+            <div class="flex-2">
                 <div class="flex-2-div">img, span, p </div>
                 <div class="flex-2-div">img, span, p </div>
                 <div class="flex-2-div">img, span, p </div>
@@ -169,7 +263,7 @@
         </section>
         <br>
         <section>
-            <header id="blocks-header" style="border: 1px black dashed">
+            <header class="blocks-header">
                 Header<br>
                 <div id="blocks-header-div">
                     <h2>h2</h2>
@@ -177,41 +271,38 @@
                     <p>p</p>
                 </div>
             </header>
-            <div class="big-image" style="font-size: 50;">img</div>
+            <div class="big-image">img</div>
         </section>
 
         <section>
             <div id="thunder-img">IMG</div>
-            <h2 style="text-align: center; background-color: gold; margin-left: 300px; margin-right: 300px;">H2</h2>
-            <p
-                style="margin-left: 250px; margin-right: 250px; background-color: green; text-align: center; font-size: 2em;">
-                p</p>
+            <h2 class="stats-header">H2</h2>
+            <p class="stats-description">p</p>
             <div id="promo-stats">
                 <div class="promo-stat">
                     <p>div</p>
-                    <span style="font-size: 4em; color: green;">SPAN+strong</span> <br>
-                    <span style="font-size: 2em;">Another span</span>
+                    <span class="span-strong">SPAN+strong</span> <br>
+                    <span class="stats-subscr">Another span</span>
                 </div>
                 <div class="promo-stat">
                     <p>div</p>
-                    <span style="font-size: 4em; color: green;">SPAN + strong</span> <br>
-                    <span style="font-size: 2em;">Another span</span>
+                    <span class="span-strong">SPAN + strong</span> <br>
+                    <span class="stats-subscr">Another span</span>
                 </div>
                 <div class="promo-stat">
                     <p>div</p>
-                    <span style="font-size: 4em; color: green;">SPAN + strong</span> <br>
-                    <span style="font-size: 2em;">Another span</span>
+                    <span class="span-strong">SPAN + strong</span> <br>
+                    <span class="stats-subscr">Another span</span>
                 </div>
             </div>
             <footer id="trial-block">
-                <div style="margin-top: 70px;">
-                    <h3 style="text-align: center; background-color:ivory; margin-left: 50px; margin-right: 100px;">H3
-                    </h3>
-                    <p style="margin-left: 50px; background-color: green; text-align: center; font-size: 1em;">p</p>
+                <div class="trial-div">
+                    <h3 class="trial-header">H3</h3>
+                    <p class="trial-parapgraph">p</p>
                 </div>
-                <div style="margin-top: 70px;">
-                    <button style="height: 40px; width: 120px;">Button</button>
-                    <button style="height: 40px; width: 120px;background-color: indigo;">Button</button>
+                <div class="trial-div">
+                    <button class="row-button-1">Button</button>
+                    <button class="row-button-2">Button</button>
                 </div>
             </footer>
         </section>
@@ -219,9 +310,9 @@
         <section class="grid1">
             <div class="logo1">img</div>
             <div class="rectangle2">
-                <p style="font-size: 50;">p</p>
+                <p class="logo-subscr">p</p>
             </div>
-            <div class="logo2" style="font-size: small ;">img, span, span</div>
+            <div class="logo2">img, span, span</div>
 
 
         </section>
@@ -229,23 +320,23 @@
             <div id="blocks-grid">
                 <div class="block-grid">
                     <div class="block-content">
-                        <h2 style="background-color: darkmagenta;">i + H2</h2>
-                        <p style="height:100px;background-color:darkgreen">p</p>
-                        <ul style="list-style-type: none">
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                        <h2 class="i-h2">i + H2</h2>
+                        <p class="block-paragraph">p</p>
+                        <ul>
+                            <li class="li-1">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color: darkorange; font-size: 2em">
+                            <li class="li-2">
                                 li: i + span
                             </li>
-                            <li style="height: 40px; background-color:darkslategray; font-size: 2em">
+                            <li class="li-1">
                                 li: i + span
                             </li>
                         </ul>
 
                         <div>
-                            <button style="height: 40px; width: 120px;">Button</button>
-                            <button style="height: 40px; width: 120px;background-color: indigo;">Button</button>
+                            <button class="row-button-1">Button</button>
+                            <button class="row-button-2">Button</button>
                         </div>
                     </div>
                 </div>

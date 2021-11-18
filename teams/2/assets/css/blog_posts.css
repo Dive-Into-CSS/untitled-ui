@@ -233,3 +233,12 @@ h1 {
   grid-template-columns: auto auto auto auto auto auto;
 
 }
+
+#header-list {
+  list-style-type: none;
+  display: flex
+}
+
+#header-navbar-main {
+  display: flex;
+}
