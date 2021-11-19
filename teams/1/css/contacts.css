@@ -1,0 +1,44 @@
+header {
+    height: 9em;
+    /* padding: 1em; */
+}
+
+nav {
+    height: 3em;
+}
+
+.logo {
+    padding: 1em;
+    align-content: center;
+    /* background: aquamarine; */
+    float: left;
+    width: fit-content;
+}
+
+.nav-bar {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    padding-top: 2.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-left: 2em;
+    padding-top: 1.5em;
+    text-decoration: none;
+}
