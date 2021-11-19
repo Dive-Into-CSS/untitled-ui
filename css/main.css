@@ -263,9 +263,9 @@ textarea {
 }
 
 
-/**
- FONTS
- */
+/* -------------------------------------------------------
+Typography font faces
+*/
 
 @font-face {
   font-family: 'Inter';
@@ -446,6 +446,13 @@ Usage:
   src: url("../fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
+/* -------------------------------------------------------
+    Typography text styles
+
+    Naming conventions: class name must start with the prefix ut
+    For each text style used in the typography and in the pages we need to create and specific class
+    with the text styles specific to that font type.
+*/
 
 .ut-display-2xl-semibold {
   font-style:  normal;
