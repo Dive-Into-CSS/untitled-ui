@@ -1,6 +1,7 @@
 header {
     height: 9em;
     /* padding: 1em; */
+    --purple: #53389E;
 }
 
 nav {
@@ -22,6 +23,7 @@ nav {
 .right-nav {
     float: right;
     padding-top: 2.5em;
+    padding-right: 5em
 }
 
 ul {
@@ -35,10 +37,27 @@ li {
     float: left;
 }
 
+a {
+    padding: 2em;
+}
+
 li a {
     display: block;
     text-align: center;
     padding-left: 2em;
     padding-top: 1.5em;
     text-decoration: none;
+}
+
+.sign-up-btn {
+    text-decoration: none;
+    background-color: var(--purple);
+    color: white;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.log-in {
+    text-decoration: none;
+    padding-right: 1em;
 }
