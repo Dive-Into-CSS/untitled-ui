@@ -1,0 +1,32 @@
+
+/**
+  See more about the psuedo class :not https://developer.mozilla.org/en-US/docs/Web/CSS/:not
+  Other examples: https://css-tricks.com/almanac/selectors/n/not/
+ */
+.ut-badge:not(body) {
+  align-items: center;
+  background-color: #F2F4F7; /* Use variables for the colors */
+  border-radius: 1rem; /* Border radius should be consistent with the design, consider to use variables  */
+  color: #344054; /* Use variables for the colors */ /* Gray/700 */
+  display: inline-flex;
+  font-size: .75rem; /* Should be consistent with the design, consider to use variables  */
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+}
+
+.ut-badge:not(body).is-medium {
+  font-size: 1rem;
+}
+
+.ut-badge:not(body).is-large {
+  font-size: 1.25rem;
+}
+
+.ut-badge:not(body).is-error {
+  background-color:#FEF3F2; /* Error/50 */
+  color: #B42318;
+}
