@@ -1,6 +1,6 @@
 
 /**
-  See more about the psuedo class :not https://developer.mozilla.org/en-US/docs/Web/CSS/:not
+  See more about the pseudo class :not https://developer.mozilla.org/en-US/docs/Web/CSS/:not
   Other examples: https://css-tricks.com/almanac/selectors/n/not/
  */
 .ut-badge:not(body) {
@@ -26,7 +26,7 @@
   font-size: 1.25rem;
 }
 
-.ut-badge:not(body).is-error {
+.ut-badge.is-error:not(body) {
   background-color:#FEF3F2; /* Error/50 */
   color: #B42318;
 }
