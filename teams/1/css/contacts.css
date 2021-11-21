@@ -1,17 +1,18 @@
 header {
+    /* The top transparent header base properties */
     height: 5em;
-    /* padding: 1em; */
-    --purple: #53389E;
 }
 
 nav {
+    /* I just set the height in here */
+    align-content: center;
     height: 3em;
+    --purple: #53389E;
 }
 
 .logo {
     padding: 1em;
     align-content: center;
-    /* background: aquamarine; */
     float: left;
     width: fit-content;
 }
