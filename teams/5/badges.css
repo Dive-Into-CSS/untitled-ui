@@ -1,0 +1,81 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.ut-badge:not(body) {
+  align-items: center;
+  background-color: #F2F4F7; /* Use variables for the colors */
+  border-radius: 1rem; /* Border radius should be consistent with the design, consider to use variables  */
+  color: #344054; /* Use variables for the colors */ /* Gray/700 */
+  display: inline-flex;
+  font-size: .75rem; /* Should be consistent with the design, consider to use variables  */
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.ut-badge:not(body).rule2 {
+  background-color: pink;  
+}
+
+.ut-badge:not(body).rule3 {
+  background-color: #127394;  
+}
+
+
+.btn {
+  align-items: center;
+  width: 60px;
+  background-color: DodgerBlue;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: .75rem; /* Should be consistent with the design, consider to use variables  */
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #333;
+  border-radius: 2.5px;
+  display: inline-block;
+}
+
+.btn:not(body).rule2 {
+  background-color: pink;  
+}
+
+.btn:not(body).rule3 {
+  background-color: #127394;  
+}
+
+
+.btn:not(body).btn2 {
+  width: 25px;
+}
+
+
