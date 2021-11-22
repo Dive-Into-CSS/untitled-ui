@@ -50,10 +50,12 @@
 .ut-badge:not(body).is-Small {
  font-size: 0.1rem;
  color: #fff;
+ height: 25px
 }
 
 .ut-badge:not(body).is-Medium {
- font-size: 0.5em
+ font-size: 0.5em;
+  height: 25px
 }
 
 .ut-badge:not(body).is-Large {
@@ -93,14 +95,17 @@
 .btn:not(body).is-Small {
  font-size: 0.1rem;
  color: #fff;
+ height: 25px
 }
 
 .btn:not(body).is-Medium {
- font-size: 0.5em
+ font-size: 0.5em;
+ height: 25px
 }
 
 .btn:not(body).is-Large {
  font-size: 0.9em;
+  height: 27px;
   width: 100px;
 }
 
