@@ -1,0 +1,106 @@
+@import url('../../css/colors.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+#footer-team-3 {
+    background-color: var(--color-primary-800);
+    padding: 0px 80px;
+    padding-bottom: 48px;
+    color: var(--color-primary-200);
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2em;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.cta-free-trial{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.cta-free-trial > p {
+    font-size: 1.875em;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-free-trial > span {
+    font-size: 1.25em;
+    font-weight: 400;
+    color:var(--color-primary-200);
+    display: block;
+}
+
+.button-wrapper {
+    margin-top: 2.5em;
+}
+
+.button-wrapper > button {
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--color-gray-700);
+    margin-right: 12px;
+}
+
+.button-wrapper > span {
+    background-color: var(--color-primary-600);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.button-wrapper a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: solid 1px var(--color-primary-600)
+}
+
+.footer-nav {
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+.left .logo {
+    display: block;
+}
+.left a {
+    display: inline;
+    color: var(--color-primary-200);
+}
+.nav-wrapper {
+    margin-top: 2em;
+}
+.legal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
