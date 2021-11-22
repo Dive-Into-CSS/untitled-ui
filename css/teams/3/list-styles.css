@@ -27,6 +27,7 @@ li {
 }
 
 .ut-checked-list-items > li {
+    /* This should be changed with the appropriate icon path */
     background-image: url('./assets/checked.svg');
     background-repeat: no-repeat;
     display: flex;
