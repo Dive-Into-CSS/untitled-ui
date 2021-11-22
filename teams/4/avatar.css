@@ -1,0 +1,100 @@
+.avatar-list {
+	display: flex;
+}
+.avatar-list div {
+	margin: 0rem 1rem;
+}
+.avatar-indicator::after {
+	position: absolute;
+	content: " ";
+	width: 15%;
+	height: 15%;
+	right: 5%;
+	bottom: 5%;
+	background: #12b76a;
+	border: 1.5px solid #ffffff;
+	border-radius: 50%;
+}
+.avatar {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	background: url(Image.png);
+	background-size: contain;
+	border-radius: 200px;
+}
+.avatar-xs {
+	width: 24px;
+	height: 24px;
+}
+.avatar-sm {
+	width: 32px;
+	height: 32px;
+}
+.avatar-md {
+	width: 40px;
+	height: 40px;
+}
+.avatar-lg {
+	width: 48px;
+	height: 48px;
+}
+.avatar-xl {
+	width: 56px;
+	height: 56px;
+}
+.avatar-2xl {
+	width: 64px;
+	height: 64px;
+}
+.avatar_image {
+	height: 220px;
+	width: 160px;
+	left: 16px;
+	top: 16px;
+	border-radius: 0px;
+}
+.avatar-group {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	left: 16px;
+	top: 16px;
+	position: relative;
+}
+
+.avatar-group-xs .avatar:first-child {
+	left: 0px;
+}
+
+.avatar-group-xs .avatar {
+	position: relative;
+	left: calc(var(--n) * -5px);
+}
+.avatar-group-xs .avatar {
+	width: 24px;
+	height: 24px;
+	border: 1.5px solid #ffffff;
+}
+.avatar-group-sm .avatar {
+	width: 32px;
+	height: 32px;
+	border: 1.5px solid #ffffff;
+}
+.avatar-group-sm .avatar {
+	position: relative;
+	left: calc(var(--n) * -8px);
+}
+.avatar-group-md .avatar {
+	width: 40px;
+	height: 40px;
+	border: 1.5px solid #ffffff;
+}
+.avatar-group-md .avatar {
+	position: relative;
+	left: calc(var(--n) * -10px);
+}

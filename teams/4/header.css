@@ -1,0 +1,184 @@
+/* 
+    Suggested Markup For A Header:
+
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__logo-wrap">
+                <img src="../home/logo.svg" alt="" class="header__logo-img" />
+                <span class="header__logo-text">SPAN</span>
+            </a>
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__buttons-wrap">
+            <button class="header__btn">BUTTON</button>
+            <button class="header__btn">BUTTON</button>
+            <button class="header__burger-menu-btn">
+                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 7H19M1 1H19M1 13H19" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+        </div>
+    </header>
+
+    A Markup with a background modificator:
+
+    <header class="header header--purple">
+        <nav class="header__nav">
+            <a class="header__logo-wrap">
+                <img src="../home/logo.svg" alt="" class="header__logo-img" />
+                <span class="header__logo-text">SPAN</span>
+            </a>
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#">LIST</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__buttons-wrap">
+            <button class="header__btn header__btn--purple">BUTTON</button>
+            <button class="header__btn header__btn--purple">BUTTON</button>
+            <button class="header__burger-menu-btn">
+                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 7H19M1 1H19M1 13H19" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+        </div>
+    </header>
+
+*/
+
+
+.header {
+    display: flex;
+    align-items: center;
+	padding: 18px 112px;
+    background-color: #F9FAFB;
+    margin: 0 auto;
+}
+
+.header--purple {
+    background-color: #F9F5FF;
+}
+
+.header__nav {
+	display: flex;
+	width: 100%;
+}
+
+.header__logo-wrap {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.header__logo-img {
+	margin-right: 10px;
+}
+
+.header__logo-text {
+	color: #101828;
+}
+
+.header__nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav-list-item {
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-right: 32px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #667085;
+    cursor: pointer;
+}
+
+.header__nav-list-item:hover .header__nav-link {
+    color: #7F56D9;
+}
+
+.header__nav-list-item:last-child {
+	margin-right: 0;
+}
+
+.header__buttons-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header__btn {
+    background-color: #F9FAFB;
+    padding: 10px 18px;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header__btn--purple {
+    background-color: #F9F5FF;
+}
+
+.header__btn:hover {
+    transition: all .3s ease;
+    background-color: #7F56D9;
+    color: white;
+}
+
+.header__btn:first-child {
+    margin-right: 12px;
+}
+
+.header__burger-menu-btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .header {
+        padding: 20px 16px;
+    }
+
+    .header__nav-list,
+    .header__btn {
+        display: none;
+    }
+
+    .header__burger-menu-btn {
+        display: inline-block;
+    }
+}
