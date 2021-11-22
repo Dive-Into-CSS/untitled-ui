@@ -1,4 +1,4 @@
-@import '../../css/colors.css';
+@import url(colors.css);
 
 .row {
     display: flex;
@@ -70,7 +70,7 @@
     cursor: pointer;
     font-size: 0.75rem; /* Should be consistent with the design, consider to use variables  */
     height: 2em;
-    justify-content: space-around;  
+    justify-content: space-around;
     white-space: nowrap;
     margin-top: 10px;
 }
