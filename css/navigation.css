@@ -22,12 +22,12 @@
     display: inline;
     margin-right: 32px;
     font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .ut-top-navbar .nav-brand{
