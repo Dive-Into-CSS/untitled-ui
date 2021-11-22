@@ -17,36 +17,36 @@
     margin-top: 10px;
 }
 
-.ut-badge:not(body).is-Gray {
+.ut-badge:not(body).is-gray {
     background-color: var(--color-gray-300);
 }
 
-.ut-badge:not(body).is-Primary {
+.ut-badge:not(body).is-primary {
     background-color: var(--color-primary-300);
 }
 
-.ut-badge:not(body).is-Success {
+.ut-badge:not(body).is-success {
     background-color: var(--color-success-300);
 }
 
-.ut-badge:not(body).is-Small {
+.ut-badge:not(body).is-small {
     font-size: 0.3em;
     color: #fff;
 }
 
-.ut-badge:not(body).is-Medium {
+.ut-badge:not(body).is-medium {
     font-size: 0.5em;
 }
 
-.ut-badge:not(body).is-Large {
+.ut-badge:not(body).is-large {
     font-size: 0.7em;
 }
 
-.btn {
+.ut-label {
     display: flex;
     align-items: center;
     width: 60px;
-    background-color: DodgerBlue;
+    background-color: var(--color-success-300);
     border-radius: 1rem;
     border: none;
     color: white;
@@ -59,9 +59,6 @@
     margin-top: 10px;
 }
 
-.btn:hover {
-    background-color: RoyalBlue;
-}
 
 .dot {
     height: 5px;
@@ -71,29 +68,29 @@
     display: inline-block;
 }
 
-.btn:not(body).is-Small {
+.ut-label:not(body).is-Small {
     font-size: 0.3em;
     color: #fff;
 }
 
-.btn:not(body).is-Medium {
+.ut-label:not(body).is-Medium {
     font-size: 0.5em;
 }
 
-.btn:not(body).is-Large {
+.ut-label:not(body).is-Large {
     font-size: 0.9em;
     width: 100px;
 }
 
-.btn:not(body).is-Gray {
+.ut-label:not(body).is-Gray {
     background-color: var(--color-gray-300);
 }
 
-.btn:not(body).is-Primary {
+.ut-label:not(body).is-Primary {
     background-color: var(--color-primary-300);
 }
 
-.btn:not(body).is-Success {
+.ut-label:not(body).is-Success {
     background-color: var(--color-success-300);
 }
 
