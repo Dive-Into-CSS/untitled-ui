@@ -31,7 +31,7 @@
 
 .ut-badge:not(body).is-small {
     font-size: 0.3em;
-    color: #fff;
+    color:  var(--color-blue-gray-25);
 }
 
 .ut-badge:not(body).is-medium {
@@ -63,7 +63,7 @@
 .dot {
     height: 5px;
     width: 5px;
-    background-color: #333;
+    background-color: var(--color-blue-gray-900);
     border-radius: 2.5px;
     display: inline-block;
 }
