@@ -155,4 +155,8 @@
     --color-orange-700: #c4320a;
     --color-orange-800: #9c2a10;
     --color-orange-900: #7e2410;
+    /* custom */
+    /* these colors are used in blurs.css */
+    --color-blur-light: #FFFFFF99;
+    --color-blur-dark: #34405499;
 }
