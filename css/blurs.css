@@ -1,0 +1,29 @@
+@import url(colors.css);
+
+:root {
+    /* light blurs */
+    --blur-sm-light-background: var(--color-blur-light);
+    --blur-sm-light-backdrop-filter: blur(8px);
+
+    --blur-md-light-background: var(--color-blur-light);
+    --blur-md-light-backdrop-filter: blur(16px);
+
+    --blur-lg-light-background: var(--color-blur-light);
+    --blur-lg-light-backdrop-filter: blur(24px);
+
+    --blur-xl-light-background: var(--color-blur-light);
+    --blur-xl-light-backdrop-filter: blur(40px);
+
+    /* dark blurs */
+    --blur-sm-dark-background: var(--color-blur-dark);
+    --blur-sm-dark-backdrop-filter: blur(8px);
+
+    --blur-md-dark-background: var(--color-blur-dark);
+    --blur-md-dark-backdrop-filter: blur(16px);
+
+    --blur-lg-dark-background: var(--color-blur-dark);
+    --blur-lg-dark-backdrop-filter: blur(24px);
+
+    --blur-xl-dark-background: var(--color-blur-dark);
+    --blur-xl-dark-backdrop-filter: blur(40px);
+}
