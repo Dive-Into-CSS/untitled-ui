@@ -1,47 +1,48 @@
-header {
-    /* The top transparent header base properties */
+/* header {
+    The top transparent header base properties 
     height: 5em;
 }
+*/
 
-nav {
+.top-nav {
     /* I just set the height in here */
     height: 3em;
     --purple: #53389E;
 }
 
-.logo {
+.nav-logo {
     padding: 1em;
     align-content: center;
     float: left;
     width: fit-content;
 }
 
-.nav-bar {
+.top-nav-bar {
     float: left;
 }
 
-.right-nav {
+.top-nav-right {
     float: right;
     padding-top: 2.5em;
     padding-right: 5em
 }
 
-ul {
+.top-nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.top-nav-li {
     float: left;
 }
 
-a {
+.top-nav-a {
     padding: 2em;
 }
 
-li a {
+.top-nav-li a {
     display: block;
     text-align: center;
     padding-left: 2em;
