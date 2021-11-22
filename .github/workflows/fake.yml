@@ -1,0 +1,14 @@
+name: Status check
+
+on:  
+  pull_request:
+    branches:
+      - main
+
+jobs:  
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: fake status check
+      run: echo "Hello, I'm a fake..."
