@@ -1,0 +1,15 @@
+@import url(colors.css);
+
+:root {
+    --shadow-xs: 0px 1px 2px var(--color-shadow-xs);
+    --shadow-sm: 0px 1px 3px var(--color-shadow-sm-first),
+        0px 1px 2px var(--color-shadow-sm-second);
+    --shadow-md: 0px 4px 8px -2px var(--color-shadow-md-first),
+        0px 2px 4px -2px var(--color-shadow-md-second);
+    --shadow-lg: 0px 12px 16px -4px var(--color-shadow-lg-first),
+        0px 4px 6px -2px var(--color-shadow-lg-second);
+    --shadow-xl: 0px 20px 24px -4px var(--color-shadow-xl-first),
+        0px 8px 8px -4px var(--color-shadow-xl-second);
+    --shadow-2xl: 0px 24px 48px -12px var(--color-shadow-2xl);
+    --shadow-3xl: 0px 32px 64px -12px var(--color-shadow-3xl);
+}
