@@ -155,4 +155,21 @@
     --color-orange-700: #c4320a;
     --color-orange-800: #9c2a10;
     --color-orange-900: #7e2410;
+    /* custom */
+
+    /* these colors are used in blurs.css */
+    --color-blur-light: #ffffff99;
+    --color-blur-dark: #34405499;
+    /* these colors are used in shadows.css */
+    --color-shadow-xs: #1018280d;
+    --color-shadow-sm-first: #1018281a;
+    --color-shadow-sm-second: #1018280f;
+    --color-shadow-md-first: #1018281a;
+    --color-shadow-md-second: #1018280f;
+    --color-shadow-lg-first: #1018281a;
+    --color-shadow-lg-second: #1018280d;
+    --color-shadow-xl-first: #1018281a;
+    --color-shadow-xl-second: #1018280a;
+    --color-shadow-2xl: #10182840;
+    --color-shadow-3xl: #10182833;
 }
