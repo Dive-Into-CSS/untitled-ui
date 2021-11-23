@@ -1,108 +1,85 @@
 @import '../../colors.css';
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 64px 0px 48px;
-    position: static;
-    width: 1440px;
-    height: 481px;
-    left: 0px;
-    top: 7240px;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
 }
 
-footer nav {
-    display: flex;
-    flex-direction: row;
+footer {
+    background-color: white;
+    color: var(--color-primary-700);
+    padding: 4em 7em;
 }
+hr {
+    border: solid 1px var(--color-gray-200)
+}
+
+
 nav {
     display: flex;
+   justify-content: space-between;
+   margin-bottom: 4em;
+}
+
+#footer-nav {
+    display: flex;
     justify-content: space-between;
+    padding: 4em 0;
 }
 
-.footer-menu-list {
-    width: 171.2px;
-    height: 240px;
+.footer-menu-list{
+    display: flex;
+    flex-direction: column;
+    width: 16.67%;
+    margin-right: 2em;
 }
 
-.footer-menu-list h2 {
-    font-family: Inter;
-    font-style: normal;
+.footer-menu-list:last-child{
+    margin-right: 0;
+}
+
+.footer-menu-list span {
+    display: block;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875em;
     color: var(--color-gray-900);
+    margin-bottom: 0.5em;
 }
 
 .footer-menu-list ul {
-    list-style: none;
-    padding: 0;
+   padding: 0;
 }
 
 .footer-menu-list ul li {
-    margin-bottom: 5px;
+    /* Auto Layout */
+    display: flex;
+    margin-bottom: 1em ;   
+    font-size: 1em; 
 }
 
 .footer-menu-list ul li a {
-    text-decoration: none;
     color: var(--color-primary-700);
+    text-decoration: none;
 }
-
-.app {
-    display: flex;
-    flex-direction: column;
-}
-
-.app h2 {
-    color: var(--color-gray-900);
-    font-family: Inter;
-    font-style: normal;
+.app span {
+    display: block;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.app i {
-    margin: 16px 0px;
-}
-
-hr {
-    color: var(--color-gray-200);
-    position: static;
-    width: 1216px;
-    height: 1px;
-    left: 32px;
-    top: 0px;
+    font-size: 0.875em;
+    color: var(--color-gray-900);
+    margin-bottom: 0.5em;
 }
 
 .container {
+    /* Auto Layout */
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    position: static;
-    width: 1216px;
-    height: 32px;
-    left: 32px;
-    top: 33px;
-    margin: 64px 0px;
-}
-
-.container .logo {
-    position: static;
-    width: 142px;
-    height: 32px;
-    left: 0px;
-    top: 0px;
+    margin-top: 2em;
 }
 
 .container strong {
     color: var(--color-gray-400);
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    text-align: right;
+    font-weight: 400;
 }
