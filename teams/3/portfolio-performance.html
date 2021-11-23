@@ -4,41 +4,50 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./page-1.css" />
         <title>Document</title>
+
+        <!--links-->
+
+        <link rel="stylesheet" href="../../css/normalize.css" />
+        <link rel="stylesheet" href="../../css/main.css" />
+        <link rel="stylesheet" href="../../css/navigation.css" />
+        <link rel="stylesheet" href="../../css/list.css" />
+
+
     </head>
     <body>
-        <header>
-            Header
+        <header class="flex justify-between">
             <nav>
-                <ul>
+                <ul class="flex">
                     <li>
                         <a href="#">
-                            <svg>svg</svg>
-                            <span>span</span>
+                            <img src="assets//logo.svg" />
+                            <span>Untitled UI</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">nav item</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#"
-                            >nav item <i><svg></svg></i>
+                        <a href="#">
+                            Products
+                            <!-- <i><svg></svg></i> -->
                         </a>
                     </li>
                     <li>
                         <a href="#"
-                            >nav item <i><svg></svg></i
-                        ></a>
+                            >Resources
+                            <!-- <i><svg></svg></i -->
+                        </a>
                     </li>
                     <li>
-                        <a href="#">nav item</a>
+                        <a href="#">Pricing</a>
                     </li>
                 </ul>
             </nav>
-            <div>
+            <div class="flex">
                 <button>Login</button>
-                <button>Sign Up</button>
+                <button class="btn-purple-rounded">Sign Up</button>
             </div>
         </header>
         <main>
@@ -82,30 +91,50 @@
                 </div>
             </section>
             <section class="features">
-                <h2>H2</h2>
-                <span>span</span>
-                <p>p</p>
+                <h2>features</h2>
+                <span>Unlock Yourself</span>
+                <p>
+                    Daily personalized fitness, sleep, and recovery data
+                    delivered to you in real time with Untitled. We’re changing
+                    how you move.
+                </p>
                 <div class="benefits">
-                    <ul class="feature-list">
+                    <ul class="grid grid-cols-2">
                         <li>
-                            <i><svg>svg</svg></i>
-                            <h3>h3</h3>
-                            <p>p</p>
+                            <img src="./assets/clock.svg" alt="clock" />
+                            <h3>Access to daily analytics</h3>
+                            <p>
+                                Optimize the way you recover, train, and sleep
+                                with daily reporting on mobile and desktop apps.
+                                Start training smarter, not harder.
+                            </p>
                         </li>
                         <li>
-                            <i><svg>svg</svg></i>
-                            <h3>h3</h3>
-                            <p>p</p>
+                            <img src="./assets//charge.svg" alt="charge" />
+                            <h3>Measure recovery</h3>
+                            <p>
+                                The most advanced sleep tracking technology
+                                available today. Measure and track your recovery
+                                to unlock your greatest potential.
+                            </p>
                         </li>
                         <li>
-                            <i><svg>svg</svg></i>
-                            <h3>h3</h3>
-                            <p>p</p>
+                            <img src="./assets//phone.svg" alt="phone" />
+                            <h3>Tech that evolves with you</h3>
+                            <p>
+                                Know where your strengths lie and where you can
+                                improve. Untitled provides the latest tech with
+                                a steady stream of new features.
+                            </p>
                         </li>
                         <li>
-                            <i><svg>svg</svg></i>
-                            <h3>h3</h3>
-                            <p>p</p>
+                            <img src="./assets//social.svg" alt="social" />
+                            <h3>Unrivalled community</h3>
+                            <p>
+                                Join teams in the app with friends, family, and
+                                like-minded fitness enthusiasts. Create custom
+                                teams based on activities and interests.
+                            </p>
                         </li>
                     </ul>
                     <div class="stats">

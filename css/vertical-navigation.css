@@ -17,11 +17,10 @@
 }
 
 .ut-top-v-navbar .nav-item {
-    font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5rem;
     letter-spacing: 0em;
     list-style-type: none;
     color: var(--color-gray-25);
@@ -68,7 +67,7 @@
     cursor: pointer;
 }
 
-.arrow {
+.ut-top-v-navbar .arrow {
     border: solid var(--color-gray-25);
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -77,27 +76,27 @@
     float: right;
 }
 
-.right {
+.ut-top-v-navbar .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
 
-.left {
+.ut-top-v-navbar .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
 
-.up {
+.ut-top-v-navbar .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
 
-.down {
+.ut-top-v-navbar .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
-.dot {
+.ut-top-v-navbar .dot {
     height: 25px;
     width: 25px;
     background-color: #bbb;
@@ -105,14 +104,14 @@
     display: inline-block;
 }
 
-.top-v-navbar-profile-row {
+.ut-top-v-navbar .top-v-navbar-profile-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: var(--color-gray-25);
 }
 
-.top-v-navbar-profile-row .top-v-navbar-profile-row-inner-div {
+.ut-top-v-navbar .top-v-navbar-profile-row-inner-div {
     display: flex;
     flex-direction: column;
 }
