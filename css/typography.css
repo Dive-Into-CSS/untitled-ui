@@ -3,7 +3,7 @@
 :root {
     --header-line-height: 1.2;
     --paragraph-line-height: 1.5;
-    --letter-spacing: 0.2rem;
+    --letter-spacing: -0.02rem;
     --font-family: 'Inter', sans-serif;
     --font-weight-reg: 400;
     --font-weight-medium: 500;
