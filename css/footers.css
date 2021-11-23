@@ -1,0 +1,43 @@
+@import url("colors.css");
+@import url("typography.css");
+
+.ut-footer {
+    font-family: Inter;
+    font-weight: 400;
+    padding: 4em 7em 2em 7em;
+}
+
+.ut-footer.is-dark{
+    background-color: var(--color-gray-800);
+    color: var(--color-gray-200);
+}
+
+
+.ut-footer .footer-link {
+    text-decoration: none;
+    color: var(--color-gray-200);
+    display: block;    
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.ut-footer .is-nav-title{
+    color: var(--color-gray-400);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.ut-footer .is-list {
+    padding: 0;
+}
+
+.ut-footer .is-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ut-footer .is-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
