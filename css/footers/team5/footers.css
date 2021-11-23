@@ -1,0 +1,128 @@
+@import '../../colors.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: var(--color-gray-800);
+    color: #ffffff;
+    padding: 4em 7em;
+}
+hr {
+    border: solid 1px var(--color-gray-600)
+}
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+.newsletter-footer-title {
+    display: block;
+}
+
+.newsletter-footer-title span {
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    /* White */
+    /* Inside Auto Layout */
+}
+
+.newsletter-footer-title p {
+    font-weight: 400;
+    font-size: 1em;
+    /* identical to box height, or 150% */
+    /* Gray/200 */
+    color: var(--color-gray-200);
+}
+
+.newsletter-footer-submit {
+    display: flex;
+}
+
+input {
+    width: 17.5em;
+    height: 2.75em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+    border: none;
+    font-size: 1em;
+    color: var(--color-gray-500);
+    padding-left: 0.5em;
+    font-weight: 400;
+}
+
+button {
+    background: var(--color-primary-600);
+    border: none;
+    border-radius: 0.5em;
+    height: 2.75em;
+    padding: 10px 18px;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+nav {
+    /* Auto Layout */
+    display: flex;
+   justify-content: space-between;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 0;
+}
+
+.footer-menu-list{
+    display: flex;
+    flex-direction: column;
+    width: 16.67%;
+    margin-right: 2em;
+}
+
+.footer-menu-list:last-child{
+    margin-right: 0;
+}
+
+.footer-menu-list span {
+    display: block;
+    font-weight: 600;
+    font-size: 0.875em;
+    color: var(--color-gray-400);
+}
+
+.footer-menu-list ul {
+   padding: 0;
+}
+
+.footer-menu-list ul li {
+    /* Auto Layout */
+    display: flex;
+    margin-bottom: 0.75em ;   
+    font-size: 1em; 
+}
+
+.footer-menu-list ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container2 {
+    /* Auto Layout */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.container2 strong {
+    color: var(--color-gray-400);
+    text-align: right;
+    font-weight: 400;
+}

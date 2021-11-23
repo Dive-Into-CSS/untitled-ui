@@ -1,0 +1,108 @@
+@import '../../colors.css';
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px 48px;
+    position: static;
+    width: 1440px;
+    height: 481px;
+    left: 0px;
+    top: 7240px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-list {
+    width: 171.2px;
+    height: 240px;
+}
+
+.footer-menu-list h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-gray-900);
+}
+
+.footer-menu-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu-list ul li {
+    margin-bottom: 5px;
+}
+
+.footer-menu-list ul li a {
+    text-decoration: none;
+    color: var(--color-primary-700);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.app h2 {
+    color: var(--color-gray-900);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.app i {
+    margin: 16px 0px;
+}
+
+hr {
+    color: var(--color-gray-200);
+    position: static;
+    width: 1216px;
+    height: 1px;
+    left: 32px;
+    top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1216px;
+    height: 32px;
+    left: 32px;
+    top: 33px;
+    margin: 64px 0px;
+}
+
+.container .logo {
+    position: static;
+    width: 142px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+
+.container strong {
+    color: var(--color-gray-400);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
