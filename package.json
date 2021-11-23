@@ -17,5 +17,9 @@
         "onchange": "^7.1.0",
         "parcel-bundler": "^1.12.4",
         "prettier": "^2.4.1"
+    },
+    "dependencies": {
+        "colors.css": "^3.0.0",
+        "typography.css": "^0.1.0"
     }
 }
