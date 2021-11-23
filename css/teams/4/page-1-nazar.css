@@ -1,6 +1,7 @@
 @import url("../../../css/colors.css");
 @import url("../../../css/normalize.css");
 @import url("../../../css/main.css");
+@import url("../../../css/list.css");
 
 .sliderSection {
     padding: 96px 112px;
@@ -28,4 +29,43 @@
     border: 0;
     cursor: pointer;
     color: white;
+}
+
+.sliderList {
+    display: flex;
+}
+
+.sliderListItem {
+    width: 384px;
+    height: 512px;
+    padding: 32px 24px 24px;
+    background-color: var(--color-primary-600);
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sliderLogo {
+
+}
+
+.sliderContent {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    backdrop-filter: blur(24px);
+    min-height: 258px;
+    padding: 32px 24px;
+}
+
+.sliderContentHeading {
+    margin-bottom: 16px;
+}
+
+.sliderContentDesc {
+    margin: 0;
+    margin-bottom: 32px;
+    min-height: 84px;
 }
