@@ -32,7 +32,7 @@ li {
 }
 
 .ut-checked-list-items > li {
-    background-image: url('../../img/checked.svg');
+    background-image: url('../img/checked.svg');
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
