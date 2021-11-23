@@ -168,7 +168,7 @@ nav {
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 48px 0px;
+    margin: 70px 0px;
 }
 
 .footer-menu-list {
@@ -258,7 +258,7 @@ nav {
     align-items: center;
     padding: 0px;
     position: static;
-    width: 1216px;
+    width: 1330px;
     height: 32px;
     left: 32px;
     top: 33px;
