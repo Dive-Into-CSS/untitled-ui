@@ -60,8 +60,15 @@
     padding: 32px 24px;
 }
 
+.sliderContentLink {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .sliderContentHeading {
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
 .sliderContentDesc {
