@@ -118,6 +118,7 @@ nav {
     /* Auto Layout */
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
 .container2 strong {
