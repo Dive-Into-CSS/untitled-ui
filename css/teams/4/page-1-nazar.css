@@ -1,0 +1,31 @@
+@import url("../../../css/colors.css");
+@import url("../../../css/normalize.css");
+@import url("../../../css/main.css");
+
+.sliderSection {
+    padding: 96px 112px;
+}
+
+.sliderHeading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.sliderHeadingText {
+    margin-bottom: 20px;
+}
+
+.sliderHeadingDesc {
+
+}
+
+.sliderHeadingBtn {
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    background-color: var(--color-primary-600);
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
