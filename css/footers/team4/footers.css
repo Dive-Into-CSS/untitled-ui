@@ -1,0 +1,101 @@
+@import '../../colors.css';
+
+body {
+    background-color: var(--color-gray-800);
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--color-gray-600);
+}
+
+.footer__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title p {
+    color: var(--color-gray-200);
+}
+
+.footer__header-actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    border-radius: 8px;
+    width: 127px;
+    height: 48px;
+    margin: 0 5px;
+}
+
+.button--secondary {
+    color: var(--color-gray-700);
+}
+
+.button--primary {
+    color: #ffffff;
+    background-color: var(--color-primary-600);
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.footer__logo__container {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.footer-menu-list span {
+    color: var(--color-gray-400);
+}
+
+.footer-menu-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-menu-list ul li {
+    margin-bottom: 10px;
+}
+
+.footer-menu-list ul li a {
+    color: var(--color-gray-200);
+    text-decoration: none;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-gray-600);
+    padding: 20px;
+}
+
+.footer__social span {
+    color: var(--color-gray-400);
+}
+
+.footer__social-icons i {
+    margin-right: 5px;
+}
