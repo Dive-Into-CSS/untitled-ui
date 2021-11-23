@@ -12,96 +12,120 @@
         <link rel="stylesheet" href="../../css/main.css" />
         <link rel="stylesheet" href="../../css/navigation.css" />
         <link rel="stylesheet" href="../../css/list.css" />
-
-
+        <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
         <header class="flex justify-between">
-            <nav>
-                <ul class="flex">
-                    <li>
-                        <a href="#">
-                            <img src="assets//logo.svg" />
-                            <span>Untitled UI</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Products
-                            <!-- <i><svg></svg></i> -->
-                        </a>
-                    </li>
-                    <li>
+            <nav class="ut-top-navbar w-full">
+                <ul class="top-navbar-list">
+                    <li class="nav-brand">
                         <a href="#"
-                            >Resources
-                            <!-- <i><svg></svg></i -->
-                        </a>
+                            ><img
+                                src="../../img/untitledui.svg"
+                                height="142"
+                                width="142"
+                                alt="logo"
+                        /></a>
                     </li>
-                    <li>
-                        <a href="#">Pricing</a>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item">
+                        <a href="#">Products <i>></i></a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#">Resources <i>></i></a>
+                    </li>
+                    <li class="nav-item"><a href="#">Pricing</a></li>
                 </ul>
+
+                <div>
+                    <button class="nav-item nav-item-login">Log in</button>
+                    <button class="nav-item nav-item-signup">Sign up</button>
+                </div>
             </nav>
-            <div class="flex">
-                <button>Login</button>
-                <button class="btn-purple-rounded">Sign Up</button>
-            </div>
         </header>
         <main>
             <section class="hero">
                 <div class="portfolio-performance">
-                    <span>New</span>
-                    <span>Personalized Coaching in App ></span>
-                    <h1>H1</h1>
-                    <p>p</p>
-                    <button>App store</button>
-                    <button>Google Play</button>
+                    <div
+                        class="
+                            badge
+                            flex
+                            justify-between
+                            items-center
+                            ut-text-sm-med
+                        "
+                    >
+                        <span class="badge-new">New</span>
+                        <span class="flex items-center">
+                            Personalized coaching in-app
+                            <img
+                                class="arrow"
+                                src="../../img/arrow.svg"
+                                alt="arrow icon"
+                            />
+                        </span>
+                    </div>
+                    <h1 class="ut-display-xl-semi-bold">
+                        Portfolio performance tracking made easy
+                    </h1>
+                    <p>
+                        Designed by marketers, for marketers. Untitled gives you
+                        the guidance, data and innovation you need to become a
+                        better marketer.
+                    </p>
+                    <a href="#">
+                        <img
+                            src=".../../img/app-store.png"
+                            alt="app store icon"
+                        />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="../../img/google-play.png"
+                            alt="google play icon"
+                        />
+                    </a>
                 </div>
-                <div class="web-analytics">
-                    <span>span</span>
-                    <img src="" alt="Image" />
+                <div class="flex justify-center">
+                    <!-- <span>span</span> -->
+                    <img
+                        src="../../img/iphone-12-mock-up.png"
+                        alt="iphone 12 mock up"
+                    />
                 </div>
             </section>
-            <section class="partners">
-                <h2>H2</h2>
-                <div class="companies">
+            <section class="partners text-center">
+                <h2>Official partner of these companies</h2>
+                <div class="companies flex justify-between">
                     <div>
-                        <svg>SVG</svg>
-                        <span>span</span>
+                        <img src="../../img/layers.svg" alt="layers icon" />
                     </div>
                     <div>
-                        <svg>SVG</svg>
-                        <span>span</span>
+                        <img src="../../img/sisyphus.svg" alt="sisyphus" />
                     </div>
                     <div>
-                        <svg>SVG</svg>
-                        <span>span</span>
+                        <img src="../../img/circooles.svg" alt="sisyphus" />
                     </div>
                     <div>
-                        <svg>SVG</svg>
-                        <span>span</span>
+                        <img src="../../img/catalog.svg" alt="sisyphus" />
                     </div>
                     <div>
-                        <svg>SVG</svg>
-                        <span>span</span>
+                        <img src="../../img/quotient.svg" alt="sisyphus" />
                     </div>
                 </div>
             </section>
             <section class="features">
-                <h2>features</h2>
-                <span>Unlock Yourself</span>
+                <h2>Features</h2>
+                <span class="unlock-yourself">Unlock Yourself</span>
                 <p>
                     Daily personalized fitness, sleep, and recovery data
                     delivered to you in real time with Untitled. We’re changing
                     how you move.
                 </p>
                 <div class="benefits">
-                    <ul class="grid grid-cols-2">
+                    <ul class="-ut-list-grid-cols-2">
                         <li>
-                            <img src="./assets/clock.svg" alt="clock" />
+                            <img src="../../img/clock.svg" alt="clock" />
                             <h3>Access to daily analytics</h3>
                             <p>
                                 Optimize the way you recover, train, and sleep
@@ -110,7 +134,7 @@
                             </p>
                         </li>
                         <li>
-                            <img src="./assets//charge.svg" alt="charge" />
+                            <img src="../../img//charge.svg" alt="charge" />
                             <h3>Measure recovery</h3>
                             <p>
                                 The most advanced sleep tracking technology
@@ -119,7 +143,7 @@
                             </p>
                         </li>
                         <li>
-                            <img src="./assets//phone.svg" alt="phone" />
+                            <img src="../../img/phone.svg" alt="phone" />
                             <h3>Tech that evolves with you</h3>
                             <p>
                                 Know where your strengths lie and where you can
@@ -128,7 +152,7 @@
                             </p>
                         </li>
                         <li>
-                            <img src="./assets//social.svg" alt="social" />
+                            <img src="../../img/social.svg" alt="social" />
                             <h3>Unrivalled community</h3>
                             <p>
                                 Join teams in the app with friends, family, and
@@ -137,118 +161,176 @@
                             </p>
                         </li>
                     </ul>
-                    <div class="stats">
-                        <img src="" alt="Image" />
-                        <img src="" alt="Image" />
+                    <div class="stats flex justify-center">
+                        <img
+                            src="../../img/iphone-12-mock-up-2.png"
+                            alt="Image"
+                        />
+                        <!-- <img src="" alt="Image" /> -->
                     </div>
                 </div>
             </section>
             <section class="trial">
                 <div class="trial-item-1">
-                    <h2>h2</h2>
-                    <p>p</p>
-                    <button>Apple storre</button>
-                    <button>Google play</button>
+                    <h2>Start your free trial</h2>
+                    <p>Personal performance tracking made easy.</p>
+                    <div>
+                        <img src="../../img/app-store.svg" />
+                        <img src="../../img/google-play.svg" />
+                    </div>
                 </div>
                 <div class="trial-item-2">
-                    <div>
-                        <img src="" alt="profile picture" />
-                        <p><strong>Olivia</strong> followed you!</p>
-                        <span>@Olivia</span>
+                    <div class="notification">
+                        <div class="flex">
+                            <img src="../../img/avatar2.png" />
+                            <p>
+                                <strong class="text-purple">Olivia</strong>
+                                followed you!
+                            </p>
+                        </div>
+
+                        <div class="block">@Olivia</div>
                     </div>
-                    <img src="" alt="Image" />
+                    <img src="../../img/iphone-12-mock-up-3.png" />
                 </div>
             </section>
             <section class="upgrade">
                 <div class="pricing-plans">
-                    <h2>H2</h2>
-                    <span>span</span>
-                    <p>p</p>
+                    <h2>Upgrade</h2>
+                    <span>Pricing plans that scale</span>
+                    <p>
+                        Simple, transparent pricing that grows with you. Try any
+                        plan free for 30 days.
+                    </p>
                 </div>
-                <div class="pricing-items">
-                    <div class="pricing-items-1">
-                        <span>Span for "Most popular and arrow"</span>
-                        <span>Span</span>
-                        <h3>h3</h3>
-                        <span>p</span>
-                        <ul>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                        </ul>
-                        <button>Get started</button>
-                    </div>
-                    <div class="pricing-items-2">
-                        <span>Span</span>
-                        <h3>h3</h3>
-                        <span>p</span>
-                        <ul>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                            <li>list</li>
-                        </ul>
-                        <button>Get started</button>
-                    </div>
+
+                <div class="pricing-items-1 text-center">
+                    <!-- <span>Span for "Most popular and arrow"</span> -->
+                    <span class="price-badge">$10/mth</span>
+                    <h3>Basic plan</h3>
+                    <span>Billed annually.</span>
+                    <ul class="text-start">
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Access to all basic features
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Basic reporting and analytics
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Up to 10 individual users
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            20GB individual data each user
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Basic chat and email support
+                        </li>
+                    </ul>
+                    <button class="btn-primary">Get started</button>
+                </div>
+                <div class="pricing-items-1 text-center">
+                    <span class="price-badge">$20/mth</span>
+                    <h3>Business plan</h3>
+                    <span>Billed annually.</span>
+                    <ul class="text-start">
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            200+ integrations
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Advanced reporting
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Up to 20 individual users
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            40GB individual data each user
+                        </li>
+                        <li>
+                            <img src="../../img/checked.svg" />
+                            Priority chat and email support
+                        </li>
+                    </ul>
+                    <button class="btn-primary">Get started</button>
                 </div>
             </section>
-            <section class="subscription">
+            <section class="subscription flex">
                 <div class="email">
-                    <h2>H2</h2>
-                    <p>p</p>
+                    <h2>Be the first to know when we launch</h2>
                     <input type="text" placeholder="Enter your email" />
-                    <button>Subscribe</button>
-                    <p>p<a href="#">link</a></p>
+                    <button class="btn-primary">Subscribe</button>
+                    <p>
+                        We care about your data in our <u>privacy policy</u>
+                        <a href="#">link</a>
+                    </p>
                 </div>
                 <div class="stats-image">
-                    <img src="" alt="Image" />
+                    <img src="../../img/iphone-12-mock-up-4.png" alt="Image" />
                 </div>
             </section>
         </main>
         <footer>
-            <div class="view-demo">
-                <span>Span</span>
-                <p>p</p>
-                <button><svg></svg>View demo</button>
-                <button>Get started</button>
+            <div class="view-demo flex flex-col items-center">
+                <span>No long-term contracts. No catches. Simple.</span>
+                <p>Start your 30-day free trial. Cancel anytime.</p>
+                <div class="flex">
+                    <button class="btn-white">
+                        <img src="../../img/play.svg" />
+                        View demo
+                    </button>
+                    <button>Get started</button>
+                </div>
             </div>
             <div class="footer-1">
                 <div class="footer-1-left">
                     <div>
-                        <svg>svg</svg>
-                        <span>span</span>
+                        <a href="#" class="flex items-center">
+                            <img src="../../img/logo.svg" />
+                            <span>Untitled UI</span>
+                        </a>
                     </div>
-                    <p>p</p>
+                    <div>
+                        <p>
+                            Design amazing digital experiences that create more
+                            happy in the world.
+                        </p>
+                    </div>
+
                     <nav>
-                        <ul class="footer-nav">
+                        <ul class="footer-nav flex">
                             <li>
-                                <a href="">link</a>
+                                <a href="">Overview</a>
                             </li>
                             <li>
-                                <a href="">link</a>
+                                <a href="">Features</a>
                             </li>
                             <li>
-                                <a href="">link</a>
+                                <a href="">Pricing</a>
                             </li>
                             <li>
-                                <a href="">link</a>
+                                <a href="">Careers</a>
                             </li>
                             <li>
-                                <a href="">link</a>
+                                <a href="">Help</a>
                             </li>
                             <li>
-                                <a href="">link</a>
+                                <a href="">Privacy</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="download">
                     <span>span</span>
-                    <button>App store</button>
-                    <button>Google Play</button>
+                    <img src="../../img/app-store.svg" />
+                    <img src="../../img/google-play.svg" />
                 </div>
             </div>
             <div class="footer-footer">
