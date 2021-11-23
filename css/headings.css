@@ -1,14 +1,9 @@
-/* Google Fonts Inter Font Family (Regular 400, Medium 500, Semi Bold 600, and Bold 700 @import */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 /* Variables */
 
 :root { 
     --header-line-height: 1.2;
     --paragraph-line-height: 1.5;
-    --letter-spacing: 0.2em;
-    --font-family: 'Inter', sans-serif;
+    --letter-spacing: -0.2em;
     --font-weight-reg: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
@@ -20,32 +15,28 @@
 
 /* Display 2xl */
 
-.display2xl-reg {
-    font-family: var(--font-family);
+.ut-display-2xl-reg {
     font-size: 4.5rem;
     line-height: 5.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-reg);
 }
 
-.display2xl-med {
-    font-family: var(--font-family);
+.ut-display-2xl-med {
     font-size: 4.5rem;
     line-height: 5.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-medium);
 }
 
-.display2xl-semi-bold {
-    font-family: var(--font-family);
+.ut-display-2xl-semi-bold {
     font-size: 4.5rem;
     line-height: 5.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-semi-bold);
 }
 
-.display2xl-bold {
-    font-family: var(--font-family);
+.ut-display-2xl-bold {
     font-size: 4.5rem;
     line-height: 5.625rem;
     letter-spacing: var(--letter-spacing);
@@ -54,32 +45,28 @@
 
 /* Display XL */
 
-.displayxl-reg {
-    font-family: var(--font-family);
+.ut-display-xl-reg {
     font-size: 3.75rem;
     line-height: 4.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-bold);
 }
 
-.displayxl-med {
-    font-family: var(--font-family);
+.ut-display-xl-med {
     font-size: 3.75rem;
     line-height: 4.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-medium);
 }
 
-.displayxl-semi-bold {
-    font-family: var(--font-family);
+.ut-display-xl-semi-bold {
     font-size: 3.75rem;
     line-height: 4.625rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-semi-bold);
 }
 
-.displayxl-bold {
-    font-family: var(--font-family);
+.ut-display-xl-bold {
     font-size: 3.75rem;
     line-height: 4.625rem;
     letter-spacing: var(--letter-spacing);
@@ -88,16 +75,14 @@
 
 /* Display lg */
 
-.display-lg-reg {
-        font-family: var(--font-family);
+.ut-display-lg-reg {
         font-size: 3rem;
         line-height: 3.75rem;
         letter-spacing: var(--letter-spacing);
         font-weight: var(--font-weight-reg);
 }
 
-.display-lg-med {
-    font-family: var(--font-family);
+.ut-display-lg-med {
     font-size: 3rem;
     line-height: 3.75rem;
     letter-spacing: var(--letter-spacing);
@@ -105,16 +90,14 @@
 }
 
 
-.display-lg-semi-bold {
-    font-family: var(--font-family);
+.ut-display-lg-semi-bold {
     font-size: 3rem;
     line-height: 3.75rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-semi-bold);
 }
 
-.display-lg-bold {
-    font-family: var(--font-family);
+.ut-display-lg-bold {
     font-size: 3rem;
     line-height: 3.75rem;
     letter-spacing: var(--letter-spacing);
@@ -123,32 +106,28 @@
 
 /* Display md */
 
-.display-md-reg {
-    font-family: var(--font-family);
+.ut-display-md-reg {
     font-size: 2.25rem;
     line-height: 2.75rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-reg);
 }
 
-.display-md-medium {
-    font-family: var(--font-family);
+.ut-display-md-medium {
     font-size: 2.25rem;
     line-height: 2.75rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-medium);
 }
 
-.display-md-semi-bold {
-    font-family: var(--font-family);
+.ut-display-md-semi-bold {
     font-size: 2.25rem;
     line-height: 2.75rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-semi-bold);
 }
 
-.display-md-bold {
-    font-family: var(--font-family);
+.ut-display-md-bold {
     font-size: 2.25rem;
     line-height: 2.75rem;
     letter-spacing: var(--letter-spacing);
@@ -157,32 +136,28 @@
 
 /* Display SM */ 
 
-.display-sm-reg {
-    font-family: var(--font-family);
+.ut-display-sm-reg {
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-reg);
 }
 
-.display-sm-med {
-    font-family: var(--font-family);
+.ut-display-sm-med {
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-medium);
 }
 
-.display-sm-semi-bold {
-    font-family: var(--font-family);
+.ut-display-sm-semi-bold {
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: var(--letter-spacing);
     font-weight: var(--font-weight-semi-bold);
 }
 
-.display-sm-bold {
-    font-family: var(--font-family);
+.ut-display-sm-bold {
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: var(--letter-spacing);
@@ -191,29 +166,25 @@
 
 /* Display XS */
 
-.display-xs-reg {
-    font-family: var(--font-family);
+.ut-display-xs-reg {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: var(--font-weight-reg);
 }
 
-.display-xs-med {
-    font-family: var(--font-family);
+.ut-display-xs-med {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: var(--font-weight-medium);
 }
 
-.display-xs-semi-bold {
-    font-family: var(--font-family);
+.ut-display-xs-semi-bold {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: var(--font-weight-semi-bold);
 }
 
-.display-xs-bold {
-    font-family: var(--font-family);
+.ut-display-xs-bold {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: var(--font-weight-bold);
@@ -221,29 +192,25 @@
 
 /* Text XL */
 
-.text-xl-reg {
-    font-family: var(--font-family);
+.ut-text-xl-reg {
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-reg);
 }
 
-.text-xl-med {
-    font-family: var(--font-family);
+.ut-text-xl-med {
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-weight: var(--font-weight-medium);
 }
 
-.text-xl-semi-bold {
-    font-family: var(--font-family);
+.ut-text-xl-semi-bold {
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-semi-bold);
 }
 
-.text-xl-bold {
-    font-family: var(--font-family);
+.ut-text-xl-bold {
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-weight: var(--font-weight-bold);
@@ -251,29 +218,25 @@
 
 /* Text lg */
 
-.text-lg-reg {
-        font-family: var(--font-family);
+.ut-text-lg-reg {
         font-size: 1.125rem;
         line-height: 1.75rem;
         font-weight: var(--font-weight-reg);
 }
 
-.text-lg-med {
-    font-family: var(--font-family);
+.ut-text-lg-med {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: var(--font-weight-medium);
 }
 
-.text-lg-semi-bold {
-    font-family: var(--font-family);
+.ut-text-lg-semi-bold {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: var(--font-weight-semi-bold);
 }
 
-.text-lg-bold {
-    font-family: var(--font-family);
+.ut-text-lg-bold {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: var(--font-weight-bold);
@@ -281,29 +244,25 @@
 
 /* Text MD */
 
-.text-md-reg{
-    font-family: var(--font-family);
+.ut-text-md-reg{
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: var(--font-weight-reg); 
 }
 
-.text-md-med{
-    font-family: var(--font-family);
+.ut-text-md-med{
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: var(--font-weight-medium); 
 }
 
-.text-md-semi-bold{
-    font-family: var(--font-family);
+.ut-text-md-semi-bold{
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: var(--font-weight-semi-bold); 
 }
 
-.text-md-bold{
-    font-family: var(--font-family);
+.ut-text-md-bold{
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: var(--font-weight-bold); 
@@ -311,29 +270,25 @@
 
 /* Text Small */
 
-.text-small-reg {
-    font-family: var(--font-family);
+.ut-text-sm-reg {
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: var(--font-weight-reg); 
 }
 
-.text-small-med {
-    font-family: var(--font-family);
+.ut-text-sm-med {
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: var(--font-weight-medium); 
 }
 
-.text-small-semi-bold {
-    font-family: var(--font-family);
+.ut-text-sm-semi-bold {
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: var(--font-weight-semi-bold); 
 }
 
-.text-small-bold {
-    font-family: var(--font-family);
+.ut-text-sm-bold {
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: var(--font-weight-bold); 
@@ -341,29 +296,25 @@
 
 /*Text XS */
 
-.text-xs-reg {
-    font-family: var(--font-family);
+.ut-text-xs-reg {
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: var(--font-weight-reg); 
 }
 
-.text-xs-med {
-    font-family: var(--font-family);
+.ut-text-xs-med {
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: var(--font-weight-medium); 
 }
 
-.text-xs-semi-bold {
-    font-family: var(--font-family);
+.ut-text-xs-semi-bold {
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: var(--font-weight-semi-bold); 
 }
 
-.text-xs-bold {
-    font-family: var(--font-family);
+.ut-text-xs-bold {
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: var(--font-weight-bold); 
