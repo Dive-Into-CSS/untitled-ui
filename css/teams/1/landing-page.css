@@ -313,3 +313,24 @@ h1,h2,h3,h4,h5,h6,p{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
 }
+
+/* section faqs */
+#faqs{
+   padding: 96px 8rem;
+}
+
+#faqs > h2,p{
+    text-align: center;
+}
+
+#faqs > p{
+    margin-top: 20px;
+    margin-bottom: 64px;
+    color: #667085;
+}
+
+#faqs .faq-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
