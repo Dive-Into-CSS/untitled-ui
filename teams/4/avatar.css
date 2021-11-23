@@ -1,21 +1,27 @@
-.avatar-list {
+@import url("../../css/colors.css");
+
+:root {
+	--color-white: #ffffff;
+}
+
+.ut-avatar-list {
 	display: flex;
 }
-.avatar-list div {
+.ut-avatar-list div {
 	margin: 0rem 1rem;
 }
-.avatar-indicator::after {
+.ut-avatar-indicator::after {
 	position: absolute;
 	content: " ";
 	width: 15%;
 	height: 15%;
 	right: 5%;
 	bottom: 5%;
-	background: #12b76a;
-	border: 1.5px solid #ffffff;
+	background: var(--color-success-500);
+	border: 1.5px solid var(--color-white);
 	border-radius: 50%;
 }
-.avatar {
+.ut-avatar {
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -26,38 +32,38 @@
 	background-size: contain;
 	border-radius: 200px;
 }
-.avatar-xs {
+.ut-avatar-xs {
 	width: 24px;
 	height: 24px;
 }
-.avatar-sm {
+.ut-avatar-sm {
 	width: 32px;
 	height: 32px;
 }
-.avatar-md {
+.ut-avatar-md {
 	width: 40px;
 	height: 40px;
 }
-.avatar-lg {
+.ut-avatar-lg {
 	width: 48px;
 	height: 48px;
 }
-.avatar-xl {
+.ut-avatar-xl {
 	width: 56px;
 	height: 56px;
 }
-.avatar-2xl {
+.ut-avatar-2xl {
 	width: 64px;
 	height: 64px;
 }
-.avatar_image {
+.ut-avatar_image {
 	height: 220px;
 	width: 160px;
 	left: 16px;
 	top: 16px;
 	border-radius: 0px;
 }
-.avatar-group {
+.ut-avatar-group {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -67,34 +73,34 @@
 	position: relative;
 }
 
-.avatar-group-xs .avatar:first-child {
+.ut-avatar-group-xs .ut-avatar:first-child {
 	left: 0px;
 }
 
-.avatar-group-xs .avatar {
+.ut-avatar-group-xs .ut-avatar {
 	position: relative;
 	left: calc(var(--n) * -5px);
 }
-.avatar-group-xs .avatar {
+.ut-avatar-group-xs .ut-avatar {
 	width: 24px;
 	height: 24px;
-	border: 1.5px solid #ffffff;
+	border: 1.5px solid var(--color-white);
 }
-.avatar-group-sm .avatar {
+.ut-avatar-group-sm .ut-avatar {
 	width: 32px;
 	height: 32px;
-	border: 1.5px solid #ffffff;
+	border: 1.5px solid var(--color-white);
 }
-.avatar-group-sm .avatar {
+.ut-avatar-group-sm .ut-avatar {
 	position: relative;
 	left: calc(var(--n) * -8px);
 }
-.avatar-group-md .avatar {
+.ut-avatar-group-md .ut-avatar {
 	width: 40px;
 	height: 40px;
-	border: 1.5px solid #ffffff;
+	border: 1.5px solid var(--color-white);
 }
-.avatar-group-md .avatar {
+.ut-avatar-group-md .ut-avatar {
 	position: relative;
 	left: calc(var(--n) * -10px);
 }
