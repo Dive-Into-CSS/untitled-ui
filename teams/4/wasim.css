@@ -152,12 +152,19 @@
 
 .postsSection {
 	margin-top: 96px;
+	background-color: var(--color-gray-50);
+	padding: 0;
+}
+
+.postsSection > .container {
+	padding: 64px 8rem;
 }
 
 .posts__header__wrapper {
 	display: flex;
 	justify-content: space-between;
 }
+
 
 .posts__title {
 	margin-top: 12px;
@@ -326,6 +333,9 @@
 		display: flex;
 		gap: 3rem;
 		flex-flow: wrap;
+	}
+	.postsSection > .container {
+		padding: 64px 16px;
 	}
 	.post:first-of-type {
 		margin-top: 3rem;
