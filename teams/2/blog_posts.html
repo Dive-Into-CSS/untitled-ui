@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./../../css/teams/n/icons.css" />
     <link rel="stylesheet" href="./../../css/teams/n/badge.css" />
     <link rel="stylesheet" href="./../../css/links.css" />
+    <link rel="stylesheet" href="./../../../css/list.css" />
     <link rel="stylesheet" href="./../../css/navigation.css" />
 
     <title>BLOG POST</title>
@@ -29,10 +30,10 @@
                 </li>
                 <li class="nav-item"><a href="#">Home</a></li>
                 <li class="nav-item">
-                    <a href="#">Products <i>></i></a>
+                    <a href="#">Products <i></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Resources <i>></i></a>
+                    <a href="#">Resources <i></i></a>
                 </li>
                 <li class="nav-item"><a href="#">Pricing</a></li>
             </ul>
@@ -43,49 +44,43 @@
             </div>
         </nav>
 
-
-
-
         <section class="first_section">
-            <div>
-                <div class="content">
-                    <div>
-                        <h1>Customer service software for customer-first teams</h1>
-                        <p>The best customer service software for customer-first teams. Industry-leading email and live
-                            chat support.</p>
-                    </div>
+            <div class="content">
+                <div>
+                    <h1 id="title">Customer service software for customer-first teams</h1>
+                    <p>The best customer service software for customer-first teams. Industry-leading email and live
+                        chat support.</p>
+                </div>
 
-                    <div class="action">
-                        <button class="btn-link-grey" id="demo">Demo</button>
-                        <button class="btn-link">Sign Up</button>
-                    </div>
+                <div class="action">
+                    <button class="btn-link-grey" id="demo">Demo</button>
+                    <button class="btn-link">Sign Up</button>
                 </div>
             </div>
             <img src="/teams/2/assets/img/header-img-with-line.png" alt="header-img-with-line">
         </section>
 
-        <section>
+        <section class="social-proof-section">
             <p class="flex-paragraph">Join 4,000+ companies already growing</p>
             <div class="flex-container">
                 <span class="img-span">
                     <img src="/teams/2/assets/img/layers-logo.svg" alt="img 1" />
-
                 </span>
+
                 <span class="img-span">
                     <img src="/teams/2/assets/img/Sysiphus-logo.svg" alt="img 2" />
-
                 </span>
+
                 <span class="img-span">
                     <img src="/teams/2/assets/img/circooles-logo.svg" alt="img 3" />
-
                 </span>
+
                 <span class="img-span">
                     <img src="/teams/2/assets/img/catalog-logo.svg" alt="img 4" />
-
                 </span>
+
                 <span class="img-span">
                     <img src="/teams/2/assets/img/quotient-logo.svg" alt="img 5" />
-
                 </span>
             </div>
         </section>
@@ -98,18 +93,20 @@
                 <p>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users.
                     Trusted by over 4,000 startups.</p>
             </header>
+
             <div id="blocks-grid">
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 class="i-h3">Share team inboxes
+                        <i class="ut-icon-success"></i>
+                        <h3 class="block-title">Share team inboxes
                         </h3>
                         <p class="block-paragraph">Whether you have a team of 2 or 200, our shared team inboxes keep
                             everyone on the same page and in the loop.
                         </p>
-                        <ul>
-                            <li class="li-1">li: i + span</li>
-                            <li class="li-2">li: i + span</li>
-                            <li class="li-1">li: i + span</li>
+                        <ul class="ut-checked-list-items">
+                            <li> Leverage automation to move fast</li>
+                            <li class="li-2">Always give customers a human to chat to</li>
+                            <li class="li-1">Automate customer support and close leads faster</li>
                         </ul>
                     </div>
                 </div>
@@ -117,134 +114,162 @@
                 <img src="/teams/2/assets/img/deliver-card.svg" alt="deliver-card">
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 class="i-h3">i + H3</h3>
-                        <p class="block-paragraph">p</p>
-                        <ul>
-                            <li class="li-1">li: i + span</li>
-                            <li class="li-2">li: i + span</li>
-                            <li class="li-1">li: i + span</li>
+                        <h3 class="block-title">Deliver instant answers</h3>
+                        <p class="block-paragraph">An all-in-one customer service platform that helps you balance
+                            everything your customers need to be happy.</p>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">Keep your customers in the loop with live chat</li>
+                            <li class="li-2">Embed help articles right on your website</li>
+                            <li class="li-1">Customers never have to leave the page to find an answer</li>
                         </ul>
                     </div>
                 </div>
                 <div class="block-grid">
                     <div class="block-content">
-                        <h3 class="i-h3">i + H3</h3>
-                        <p class="block-paragraph">p</p>
-                        <ul>
-                            <li class="li-1">li: i + span</li>
-                            <li class="li-2">li: i + span</li>
-                            <li class="li-1">li: i + span</li>
+                        <h3 class="i-h3">Share team inboxes</h3>
+                        <p class="block-paragraph">Whether you have a team of 2 or 200, our shared team inboxes keep
+                            everyone on the same page and in the loop.</p>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">Filter, export, and drilldown on the data quickly</li>
+                            <li class="li-2">Save, schedule, and automate reports to your inbox</li>
+                            <li class="li-1">Connect the tools you already use with 100+ integrations</li>
                         </ul>
                     </div>
                 </div>
                 <img src="/teams/2/assets/img/share-card.svg" alt="share-card">
             </div>
         </section>
+
+        <hr class="breaker">
+
         <section class="flexbox1">
-            <header class="blocks-header">
-                Header<br />
+            <header class="blocks-header-2">
                 <div class="blocks-header-div">
-                    <h2>h2</h2>
-                    <span>Span</span>
-                    <p>p</p>
+                    <span>Integrations</span>
+                    <h2>Get more value from your tools</h2>
+                    <p>Connect your tools, connect your teams. With over 100 apps already available in our directory,
+                        your team’s favourite tools are just a click away.</p>
                 </div>
             </header>
 
             <div class="flex-2">
-                <div class="flex-2-div">img, span, p</div>
-                <div class="flex-2-div">img, span, p</div>
-                <div class="flex-2-div">img, span, p</div>
-                <div class="flex-2-div">img, span, p</div>
-                <div class="flex-2-div">img, span, p</div>
-                <div class="flex-2-div">img, span, p</div>
+                <div class="flex-2-div"><img src="../../img/notion.svg" alt="notion"> <br>
+                    <span>Notion Integration</span>
+                    <p>Work faster and smarter by integrating directly with Notion, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/slack.svg" alt="slack"> <br>
+                    <span>Slack Integration</span>
+                    <p>Work faster and smarter by integrating directly with Slack, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/google-drive.svg"> <br>
+                    <span>Google Drive Integration</span>
+                    <p>Work faster and smarter by integrating directly with Google Drive, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/intercom.svg" alt="intercom"> <br>
+                    <span>Intercom
+                        Integration</span>
+                    <p>Work faster and smarter by integrating directly with Intercom, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/jira.svg" alt="jira"> <br>
+                    <span>Jira Integration</span>
+                    <p>Work faster and smarter by integrating directly with Jira, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/dropbox.svg" alt="dropbox"> <br>
+                    <span>Dropbox Integration</span>
+                    <p>Work faster and smarter by integrating directly with Dropbox, right in the app.</p>
+                </div>
             </div>
         </section>
         <br />
         <section>
-            <header class="blocks-header">
-                Header<br />
+            <header class="blocks-header pb-5">
                 <div class="blocks-header-div">
-                    <h2>h2</h2>
-                    <span>Span</span>
-                    <p>p</p>
+                    <span>Features</span>
+                    <h1>Cutting-edge features for advanced analytics</h1>
+                    <p c>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more
+                        users. Trusted by over 4,000 startups.</p>
                 </div>
             </header>
-            <div class="big-image">img</div>
+            <img class="dashboard-img" src="/teams/2/assets/img/screen-mockup.svg" alt="screen-mockup" />
         </section>
 
         <section>
-            <div id="thunder-img">IMG</div>
-            <h2 class="stats-header">H2</h2>
-            <p class="stats-description">p</p>
+
+            <div class="unleash-section">
+                <img src="/teams/2/assets/img/lightning.svg" alt="lightning">
+                <h2 class="stats-header">Unleash the full power of data</h2>
+                <p class="stats-description">Everything you need to convert, engage, and retain more users.</p>
+            </div>
+            
             <div id="promo-stats">
                 <div class="promo-stat">
-                    <p>div</p>
-                    <span class="span-strong">SPAN+strong</span> <br />
-                    <span class="stats-subscr">Another span</span>
+                    <span class="span-strong">40+</span> <br />
+                    <span class="stats-subscr">Integrations</span>
                 </div>
                 <div class="promo-stat">
-                    <p>div</p>
-                    <span class="span-strong">SPAN + strong</span> <br />
-                    <span class="stats-subscr">Another span</span>
+                    <span class="span-strong">600%</span> <br />
+                    <span class="stats-subscr">Return on Investment</span>
                 </div>
                 <div class="promo-stat">
-                    <p>div</p>
-                    <span class="span-strong">SPAN + strong</span> <br />
-                    <span class="stats-subscr">Another span</span>
+                    <span class="span-strong">4k+</span> <br />
+                    <span class="stats-subscr">Global customers</span>
                 </div>
             </div>
             <footer id="trial-block">
                 <div class="trial-div">
-                    <h3 class="trial-header">H3</h3>
-                    <p class="trial-parapgraph">p</p>
+                    <h3 class="trial-header">Start your 30-day free trial</h3>
+                    <p class="trial-parapgraph">Join over 4,000+ startups already growing with Untitled.</p>
                 </div>
                 <div class="trial-div">
-                    <button class="row-button-1">Button</button>
-                    <button class="row-button-2">Button</button>
+                    <button class="row-button-1">Learn More</button>
+                    <button class="row-button-2">Get Started</button>
                 </div>
             </footer>
         </section>
         <br />
         <section class="grid1">
-            <div class="logo1">img</div>
+            <img src="/teams/2/assets/img/Sysiphus-logo.svg" alt="sysiphus-logo">
             <div class="rectangle2">
-                <h5 class="logo-subscr">p</h5>
+                <h5 class="logo-subscr">Love the simplicity of the service and the prompt customer support. We can’t
+                    imagine working without it.</h5>
             </div>
-            <div class="logo2">img, span, span</div>
+            <div class="logo2"><img src="/teams/2/assets/img/avatar.svg" alt="avatar">
+                <p>Candice Wu</p>
+                <span>CX Manager, Sisyphus</span>
+            </div>
         </section>
         <section>
             <div class="blocks-grid">
                 <div class="block-grid">
                     <div class="block-content">
-                        <h2 class="i-h2">i + H2</h2>
-                        <p class="block-paragraph">p</p>
-                        <ul>
-                            <li class="li-1">li: i + span</li>
-                            <li class="li-2">li: i + span</li>
-                            <li class="li-1">li: i + span</li>
+                        <h2 class="i-h2">Join 4,000+ startups growing with Untitled</h2>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">30-day free trial</li>
+                            <li class="li-2">Peronalized onboarding</li>
+                            <li class="li-1">Access to all features</li>
                         </ul>
 
                         <div>
-                            <button class="row-button-1">Button</button>
-                            <button class="row-button-2">Button</button>
+                            <button class="row-button-1">Learn More</button>
+                            <button class="row-button-2">Get Started</button>
                         </div>
                     </div>
                 </div>
-                <div class="block-grid block-img">IMG</div>
+                <img src="/teams/2/assets/img/screen-mockup2.svg" alt="screen-mockup2">
             </div>
         </section>
         <section class="grid2">
             <div>
-                <span>span</span>
-                <p>p</p>
+                <span>Sign up for our newsletter</span>
+                <p>Be the first to know about releases and industry news and insights.</p>
             </div>
             <div class="rectangle3">
                 <form>
-                    Form<br />
-                    <input placeholder="input_text" />
-
-                    <p>p</p>
-                    <button>Button</button>
+                    <br />
+                    <input placeholder="Enter Your Email" />
+                    <br>
+                    <span>We care about your data in our privacy policy</span>
+                    <button>Subscribe</button>
                 </form>
             </div>
         </section>
