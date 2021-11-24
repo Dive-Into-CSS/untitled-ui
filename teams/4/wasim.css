@@ -229,8 +229,7 @@ html {
 }
 
 .posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   column-gap: 2rem;
   margin-top: 4rem;
 }
@@ -506,8 +505,7 @@ footer .container {
 }
 
 .footer__info__link-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
   column-gap: 100px;
 }
 
@@ -766,8 +764,8 @@ ul li:not(:first-of-type):not(.company__logo) {
 
   .footer__info__link-container {
     margin-top: 48px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+	flex-flow: wrap;
     row-gap: 2rem;
   }
 
