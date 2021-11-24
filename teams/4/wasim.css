@@ -65,8 +65,12 @@
 
 .features__image {
 	margin-top: 64px;
+	height: 512px;
 	width: 1280px;
-	object-fit: cover;
+	background: url(./assets/featuresImage.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0 0;
 }
 
 .features__content {
@@ -104,8 +108,9 @@
 	font-size: 20px;
 	color: var(--color-gray-900);
 	font-weight: 500;
-	line-height: 20px;
+	line-height: 18px;
 	text-align: center;
+	overflow: hidden;
 }
 
 .feature__description {
@@ -141,6 +146,9 @@
 	object-fit: cover;
 }
 
+.aside__image--mobile {
+	display: none;
+}
 
 .postsSection {
 	margin-top: 96px;
@@ -149,10 +157,6 @@
 .posts__header__wrapper {
 	display: flex;
 	justify-content: space-between;
-}
-
-.posts__header {
-	padding: 1rem;
 }
 
 .posts__title {
@@ -183,8 +187,13 @@
 	cursor: pointer;
 }
 
+
 .button.button--primary:hover {
 	background-color: var(--color-primary-500);
+}
+
+.button.button--primary.mobile {
+	display: none;
 }
 
 .posts__title--md {
@@ -239,7 +248,7 @@
 	display: flex;
 }
 .avatar__wrapper {
-	margin-left: 12px;
+	margin-left: 12px;	
 }
 .post__footer__avatar {
 	object-fit: cover;
@@ -259,23 +268,60 @@
 	color: var(--color-gray-500);
 }
 
-.bUsers {
-	background: lightblue;
-	padding: 1.5rem;
-	height: 200px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
-.bUsers__title {
-	padding: 5px;
-	background: red;
-	display: inline-block;
-}
-.bUsers__image {
-	width: 100%;
-	height: 100%;
-	color: white;
-	background: darkblue;
+@media(max-width: 450px) {
+	.container {
+		padding: 0px 16px;
+	}
+	.features__header__title {
+		font-size: 30px;
+		width: 343px;
+		line-height: 38px;
+	}
+	.features__header__title--md {
+		text-align: center;
+		width: 343px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.features__image {
+		margin-top: 49px;
+		height: 400px;
+		width: 312px;
+		background: url(./assets/featuresImageMobile.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 0 0;
+	}
+	.aside__image {
+		display: none;
+	}
+	.aside__image--mobile {
+		display: inline-block;
+	}
+	.features__content {
+		display: flex;
+		flex-direction: column;
+		margin-top: 48px;
+		row-gap: 40px;
+	}
+	.feature__title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.button.button--primary {
+		display: none;
+	}
+	.button.button--primary.mobile{
+		display: block;
+		width: 100%;
+	}
+	.posts {
+		display: flex;
+		gap: 3rem;
+		flex-flow: wrap;
+	}
+	.post:first-of-type {
+		margin-top: 3rem;
+	}
 }
