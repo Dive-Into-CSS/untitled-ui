@@ -307,6 +307,7 @@ html {
   margin: 96px 0px;
 }
 
+
 .stats__wrapper {
   display: flex;
   justify-content: space-between;
@@ -340,18 +341,46 @@ html {
 }
 
 .companies {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 4rem;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  flex-flow: wrap;
 }
 
 .company__logo {
+  width: 194px;
   height: 48px;
-  object-fit: contain;
 }
 
-.company__logo__mobile {
-  display: none;
+.company__logo:nth-of-type(1) {
+  background: url(./assets/layers.png) no-repeat;
+  background-size: contain;
+}
+
+.company__logo:nth-of-type(2) {
+  background: url(./assets/sisyphus.png) no-repeat;
+  background-size: contain;
+}
+
+.company__logo:nth-of-type(3) {
+  background: url(./assets/circooles.png) no-repeat;
+  background-size: contain;
+}
+
+.company__logo:nth-of-type(4) {
+  background: url(./assets/catalog.png) no-repeat;
+  background-size: contain;
+}
+
+.company__logo:nth-of-type(5) {
+  background: url(./assets/quotient.png) no-repeat;
+  background-size: contain;
+}
+
+.company__logo:nth-of-type(6) {
+  background: url(./assets/hourglass.png) no-repeat;
+  background-size: contain;
 }
 
 .contact {
@@ -487,13 +516,13 @@ li {
   list-style: none;
 }
 
-ul li:first-of-type:not(.company) {
+ul li:first-of-type:not(.company__logo) {
   color: var(--color-gray-400);
   font-size: 14px;
   font-weight: 600;
 }
 
-ul li:not(:first-of-type):not(.company) {
+ul li:not(:first-of-type):not(.company__logo) {
   color: var(--color-gray-200);
   font-size: 1rem;
   margin-top: 14px;
@@ -583,7 +612,7 @@ ul li:not(:first-of-type):not(.company) {
     display: flex;
     gap: 3rem;
     flex-flow: wrap;
-	margin-top: 3rem;
+    margin-top: 3rem;
   }
 
   .postsSection>.container {
@@ -625,12 +654,6 @@ ul li:not(:first-of-type):not(.company) {
     row-gap: 12px;
   }
 
-  .companies {
-    margin-top: 48px;
-	grid-column-gap: 1rem;
-	grid-row-gap: 1rem;
-  }
-
   .contact .container {
     padding: 64px 1rem;
   }
@@ -670,12 +693,47 @@ ul li:not(:first-of-type):not(.company) {
     margin-top: 1rem;
   }
 
-  .company__logo {
-    display: none;
+  .companies {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    row-gap: 1rem;
+    column-gap: 4rem;
   }
 
-  .company__logo__mobile {
-    display: inline-block;
+  .company__logo {
+    width: 128px;
+    height: 34px;
+  }
+
+  .company__logo:nth-of-type(1) {
+    background: url(./assets/layers_mobile.png) no-repeat;
+    background-size: contain;
+  }
+
+  .company__logo:nth-of-type(2) {
+    background: url(./assets/sisyphus_mobile.png) no-repeat;
+    background-size: contain;
+  }
+
+  .company__logo:nth-of-type(3) {
+    background: url(./assets/circooles_mobile.png) no-repeat;
+    background-size: contain;
+  }
+
+  .company__logo:nth-of-type(4) {
+    background: url(./assets/catalog_mobile.png) no-repeat;
+    background-size: contain;
+  }
+
+  .company__logo:nth-of-type(5) {
+    background: url(./assets/quotient_mobile.png) no-repeat;
+    background-size: contain;
+  }
+
+  .company__logo:nth-of-type(6) {
+    background: url(./assets/hourglass_mobile.png) no-repeat;
+    background-size: contain;
   }
 
   footer .container {
