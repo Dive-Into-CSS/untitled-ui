@@ -13,14 +13,11 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
+  <link rel="apple-touch-icon" href="https://uploads-ssl.webflow.com/610cd7653a09e982e0e10c54/610cd811e67dc778cdeebea8_untitled-ui-favicon.png">
+  <link href="https://uploads-ssl.webflow.com/610cd7653a09e982e0e10c54/610cd811e67dc778cdeebea8_untitled-ui-favicon.png" rel="shortcut icon" type="image/x-icon"/>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/typography.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/list.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -28,70 +25,98 @@
 <body>
 
   <main class="ut-main">
-    <article class="ut-team">
-      <header>
-        <span class="ut-display-sm-semi-bold ut-team-name"> 1</span>
-      </header>
-      <div class="ut-team-pages">
-        <ul class="ut-checked-list-items">
-          <li class="ut-text-md-reg"><a href="./teams/1/Contacts.html"> Contacts </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/1/LandingPage.html"> Landing page </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/1/Dashboard.html"> Dashboard </a></li>
-        </ul>
+    <header class="ut-header-section">
+        <span class="ut-text-md-semi-bold ut-main-category">The project </span>
+        <h1 class="ut-main-title ut-display-lg-semi-bold"> Dive into CSS </h1>
+      <p class="ut-text-xl-reg ut-main-about">
+        Teams created 3 different layouts applying all the knowledge adquired in class. This pages are fully based in the Untitled UI Design System.
+      </p>
+      <div class="ut-main-actions">
+        <a href="https://github.com/Dive-Into-CSS/untitled-ui" class="ut-open-design ut-open-design-secondary-grey" target="_blank">
+          <img src="/img/github.svg" width="16" height="24" alt="Figma icon" class="ut-main-github-icon">
+          See it on Github
+        </a>
+        <a href="https://www.figma.com/file/LwCUS3gDsHwpErp7iv5mEB/Untitled-UI-%E2%80%93-PRO-version-(v2.4)?node-id=2210%3A441096" class="ut-open-design" target="_blank">
+          Untitled UI
+        </a>
       </div>
-    </article>
 
-    <article class="ut-team">
-      <header>
-        <span class="ut-display-sm-semi-bold ut-team-name"> 2</span>
-      </header>
-      <div class="ut-team-pages">
-        <ul class="ut-checked-list-items">
-          <li class="ut-text-md-reg"><a href="./teams/2/blog-posts.html"> Blog Post </a></li>
-          <!--<li class="ut-text-md-reg"><a href="./teams/2/informational-pages.html"> Informational Pages </a></li>-->
-          <li class="ut-text-md-reg"><a href="./teams/2/dashboard.html"> Dashboard </a></li>
-        </ul>
-      </div>
-    </article>
+    </header>
+    <section class="ut-teams-section">
+      <span class="ut-text-md-semi-bold ut-main-category">Team pages </span>
+      <h2 class="ut-display-md-semi-bold">Team pages</h2>
+      <p class="ut-text-xl-reg ut-teams-about">
+        Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.
+      </p>
+      <div class="ut-teams">
+        <article class="ut-team">
+          <header>
+            <span class="ut-display-lg-semi-bold ut-team-name"> 1</span>
+          </header>
+          <div class="ut-team-pages">
+            <ul class="ut-checked-list-items">
+              <li class="ut-text-md-reg"><a href="./teams/1/Contacts.html"> Contacts </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/1/LandingPage.html"> Landing page </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/1/Dashboard.html"> Dashboard </a></li>
+            </ul>
+          </div>
+        </article>
 
-    <article class="ut-team">
-      <header>
-        <span class="ut-display-sm-semi-bold ut-team-name">  3</span>
-      </header>
-      <div class="ut-team-pages">
-        <ul class="ut-checked-list-items">
-          <li class="ut-text-md-reg"><a href="./teams/3/portfolio-performance.html"> Portfolio Performance  </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/3/settings.html"> Settings </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/3/teams.html"> Teams </a></li>
-        </ul>
-      </div>
-    </article>
+        <article class="ut-team">
+          <header>
+            <span class="ut-display-lg-semi-bold ut-team-name"> 2</span>
+          </header>
+          <div class="ut-team-pages">
+            <ul class="ut-checked-list-items">
+              <li class="ut-text-md-reg"><a href="./teams/2/blog-posts.html"> Blog Post </a></li>
+              <!--<li class="ut-text-md-reg"><a href="./teams/2/informational-pages.html"> Informational Pages </a></li>-->
+              <li class="ut-text-md-reg"><a href="./teams/2/dashboard.html"> Dashboard </a></li>
+            </ul>
+          </div>
+        </article>
 
-    <article class="ut-team">
-      <header>
-        <span class="ut-display-sm-semi-bold ut-team-name"> 4 </span>
-      </header>
-      <div class="ut-team-pages">
-        <ul class="ut-checked-list-items">
-          <li class="ut-text-md-reg"><a href="#"> Portfolio Performance  </a></li>
-          <li class="ut-text-md-reg"><a href="#"> Settings </a></li>
-          <li class="ut-text-md-reg"><a href="#"> Teams </a></li>
-        </ul>
-      </div>
-    </article>
+        <article class="ut-team">
+          <header>
+            <span class="ut-display-lg-semi-bold ut-team-name">  3</span>
+          </header>
+          <div class="ut-team-pages">
+            <ul class="ut-checked-list-items">
+              <li class="ut-text-md-reg"><a href="./teams/3/portfolio-performance.html"> Portfolio Performance  </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/3/settings.html"> Settings </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/3/teams.html"> Teams </a></li>
+            </ul>
+          </div>
+        </article>
 
-    <article class="ut-team">
-      <header>
-        <span class="ut-display-sm-semi-bold ut-team-name"> 5 </span>
-      </header>
-      <div class="ut-team-pages">
-        <ul class="ut-checked-list-items">
-          <li class="ut-text-md-reg"><a href="./teams/5/blog-posts.html"> Blog Post  </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/5/dashboards.html"> Dashboard </a></li>
-          <li class="ut-text-md-reg"><a href="./teams/5/settings.html"> Settings </a></li>
-        </ul>
+        <article class="ut-team">
+          <header>
+            <span class="ut-display-lg-semi-bold ut-team-name"> 4 </span>
+          </header>
+          <div class="ut-team-pages">
+            <ul class="ut-checked-list-items">
+              <li class="ut-text-md-reg"><a href="#"> Portfolio Performance  </a></li>
+              <li class="ut-text-md-reg"><a href="#"> Settings </a></li>
+              <li class="ut-text-md-reg"><a href="#"> Teams </a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="ut-team">
+          <header>
+            <span class="ut-display-lg-semi-bold ut-team-name"> 5 </span>
+          </header>
+          <div class="ut-team-pages">
+            <ul class="ut-checked-list-items">
+              <li class="ut-text-md-reg"><a href="./teams/5/blog-posts.html"> Blog Post  </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/5/dashboards.html"> Dashboard </a></li>
+              <li class="ut-text-md-reg"><a href="./teams/5/settings.html"> Settings </a></li>
+            </ul>
+          </div>
+        </article>
       </div>
-    </article>
+    </section>
+
+
 
   </main>
 
