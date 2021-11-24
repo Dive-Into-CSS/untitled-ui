@@ -1,0 +1,413 @@
+/* Disregard these styles. This is ony for example purposes */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    /* padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem; */
+    color: #667085;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+/* All the necessary styles for the list is here */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-indent: 0;
+    list-style-type: none;
+}
+
+input {
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    width: 360px;
+    height: 36px;
+    outline: none;
+    padding: 12px 14px 12px 16px;
+}
+
+section {
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.btn-primary {
+    background-color: #7f56d9;
+    border: 1px solid #7f56d9;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    color: #fff;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.block {
+    display: block;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.-ut-list-horizontal {
+    display: flex;
+}
+
+.-ut-list-grid-cols-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.-ut-list-grid-cols-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.-ut-list-items-mr-2 li {
+    margin-right: 2rem;
+}
+
+.hero {
+    height: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.portfolio-performance {
+    padding: 200px 0px;
+    width: 650px;
+}
+
+.portfolio-performance h1 {
+    color: var(--color-gray-900);
+}
+
+.portfolio-performance p {
+    color: var(--color-gray-500);
+    margin-bottom: 48px;
+}
+
+.badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 10px 4px 4px;
+    background-color: #f9f5ff;
+    mix-blend-mode: multiply;
+    border-radius: 16px;
+    width: 260px;
+    height: 32px;
+    color: var(--color-primary-700);
+}
+
+.badge-new {
+    padding: 2px 10px;
+    margin-right: 8px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.analytics {
+    background-image: url('../../img/blob.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.analytics > img {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.partners {
+    color: var(--color-gray-500);
+    background-color: var(--color-gray-50);
+}
+
+.features h2 {
+    color: var(--color-primary-700);
+}
+
+.features > span {
+    color: var(--color-gray-900);
+}
+
+.features > p {
+    color: var(--color-gray-500);
+    width: 768px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 64px;
+    grid-column-gap: 32px;
+}
+
+.benefits img {
+    margin-bottom: 20px;
+}
+
+.benefits li > span {
+    color: var(--color-gray-900);
+}
+
+.benefits li > p {
+    color: var(--color-gray-500);
+}
+
+.stats {
+    /* background-image: url('../../img/statistics-dashboard.png');
+    background-position: 100px 0px;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    z-index: -2;
+    top: -85px;
+    left: 40px;
+}
+
+.trial {
+    box-sizing: border-box;
+    height: 600px;
+    background: var(--color-primary-800);
+    border-radius: 24px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1),
+        0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 160px 0px; */
+    color: #fff;
+    margin: 30px 80px;
+}
+
+.trial-item-1 {
+    margin: 0 auto;
+}
+
+.trial-item-1 p {
+    color: var(--color-primary-200);
+}
+
+.trial-item-2 {
+    background-image: url('../../img/iphone-12-mock-up-3.png');
+    background-repeat: no-repeat;
+    background-position: 230px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.download {
+    margin-top: 40px;
+}
+
+.notification-center {
+    margin-top: 100px;
+}
+
+.notification {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    backdrop-filter: blur(16px);
+    border-radius: 8px;
+    width: 320px;
+    height: 72px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.notification img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.notification p {
+    color: var(--color-gray-700);
+    margin: 0px;
+}
+
+.notification p > span {
+    color: var(--color-primary-700);
+}
+
+.alt-tag {
+    color: var(--color-gray-500);
+}
+
+.upgrade {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    height: 702px;
+}
+
+.upgrade h2 {
+    color: var(--color-primary-700);
+}
+
+.pricing-plans span {
+    color: var(--color-gray-900);
+}
+
+.pricing-plans p {
+    color: var(--color-gray-500);
+}
+
+.price-badge {
+    color: var(--color-gray-900);
+}
+
+.pricing-items-1 {
+    background: #ffffff;
+    border: 1px solid #e4e7ec;
+    box-sizing: border-box;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1),
+        0px 4px 6px -2px rgba(16, 24, 40, 0.05);
+    border-radius: 16px;
+    padding: 20px 20px;
+    margin: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 510px;
+    width: 336px;
+    position: relative;
+}
+
+.pricing-items-1 button {
+    width: 272px;
+    height: 48px;
+}
+
+.pricing-items-1 h3 {
+    color: var(--color-gray-900);
+    margin: 0;
+}
+
+.most-popular-badge {
+    position: absolute;
+    top: -40px;
+    right: 0px;
+    color: var(--color-primary-500);
+}
+
+.most-popular-badge p {
+    position: absolute;
+    margin: 0%;
+    top: -10px;
+    right: -110px;
+}
+
+.email h2 {
+    color: var(--color-gray-900);
+}
+
+.email input {
+    width: 360px;
+    height: 48px;
+}
+
+.email button {
+    width: 360px;
+    height: 118px;
+}
+
+footer {
+    background-color: #53389e;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #344054;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.btn-light-purple {
+    background-color: #d6c7f7;
+}
+
+.footer-nav li {
+    margin-right: 20px;
+}
