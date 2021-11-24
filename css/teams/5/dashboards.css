@@ -12,6 +12,14 @@ body {
     justify-content: space-between;
 }
 
+.top-v-navbar-list .nav-item {
+    margin: 10px;
+}
+
+.ut-top-v-navbar a img {
+    border-top: 1px solid black;
+}
+
 main {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -23,6 +31,10 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.text-wrapper span {
+    color: var(--color-gray-500);
 }
 
 #transaction-history header {
