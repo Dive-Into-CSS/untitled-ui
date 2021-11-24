@@ -10,6 +10,10 @@
   font-family: Inter;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 .container {
   padding: 0 8rem;
 }
@@ -304,7 +308,7 @@
 
 .stats__wrapper {
   display: flex;
-  column-gap: 100px;
+  justify-content: space-between;
 }
 
 .stats__header {
