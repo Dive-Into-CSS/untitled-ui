@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/css/blog_posts.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./../../css/colors.css" />
@@ -17,32 +16,34 @@
     <link rel="stylesheet" href="./../../css/links.css" />
     <link rel="stylesheet" href="./../../css/list.css" />
     <link rel="stylesheet" href="./../../css/navigation.css" />
+    <link rel="stylesheet" href="assets/css/blog_posts.css" />
 
     <title>BLOG POST</title>
 </head>
 
 <body>
-    <header id="blogpost-header">
-        <nav class="ut-top-navbar">
-            <ul class="top-navbar-list">
-                <li class="nav-brand">
-                    <a href="#"><img src="../../img/untitledui.svg" height="142" width="142" alt="logo" /></a>
-                </li>
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item">
-                    <a href="#">Products <i></i></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Resources <i></i></a>
-                </li>
-                <li class="nav-item"><a href="#">Pricing</a></li>
-            </ul>
+    <nav class="ut-top-navbar">
+        <ul class="top-navbar-list">
+            <li class="nav-brand">
+                <a href="#"><img src="../../img/untitledui.svg" height="142" width="142" alt="logo" /></a>
+            </li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item">
+                <a href="#">Products <i></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Resources <i></i></a>
+            </li>
+            <li class="nav-item"><a href="#">Pricing</a></li>
+        </ul>
 
-            <div>
-                <button class="nav-item nav-item-login">Log in</button>
-                <button class="nav-item nav-item-signup">Sign up</button>
-            </div>
-        </nav>
+        <div>
+            <button class="nav-item nav-item-login">Log in</button>
+            <button class="nav-item nav-item-signup">Sign up</button>
+        </div>
+    </nav>
+    <header id="blogpost-header">
+
 
         <section class="first_section">
             <div class="content">
@@ -114,6 +115,7 @@
                 <img src="/teams/2/assets/img/deliver-card.svg" alt="deliver-card">
                 <div class="block-grid">
                     <div class="block-content">
+                        <i class="ut-icon-lightning"></i>
                         <h3 class="block-title">Deliver instant answers</h3>
                         <p class="block-paragraph">An all-in-one customer service platform that helps you balance
                             everything your customers need to be happy.</p>
@@ -126,6 +128,7 @@
                 </div>
                 <div class="block-grid">
                     <div class="block-content">
+                        <i class="ut-icon-success"></i>
                         <h3 class="i-h3">Share team inboxes</h3>
                         <p class="block-paragraph">Whether you have a team of 2 or 200, our shared team inboxes keep
                             everyone on the same page and in the loop.</p>
@@ -201,12 +204,13 @@
                 <p class="stats-description">Everything you need to convert, engage, and retain more users.</p>
             </div>
 
+            <!-- TODO NOT FINISH -->
             <div id="promo-stats">
                 <div class="promo-stat">
                     <span class="span-strong">40+</span> <br />
                     <span class="stats-subscr">Integrations</span>
                 </div>
-                <div class="promo-stat">
+                <div class="promo-stat middle">
                     <span class="span-strong">600%</span> <br />
                     <span class="stats-subscr">Return on Investment</span>
                 </div>
@@ -215,6 +219,7 @@
                     <span class="stats-subscr">Global customers</span>
                 </div>
             </div>
+
             <footer id="trial-block">
                 <div class="trial-div">
                     <h3 class="trial-header">Start your 30-day free trial</h3>
@@ -227,8 +232,9 @@
             </footer>
         </section>
         <br />
+
         <section class="grid1">
-            <img src="/teams/2/assets/img/Sysiphus-logo.svg" alt="sysiphus-logo">
+            <img class="img-logo" src="/teams/2/assets/img/Sysiphus-logo.svg" alt="sysiphus-logo">
             <div class="rectangle2">
                 <h5 class="logo-subscr">Love the simplicity of the service and the prompt customer support. We can’t
                     imagine working without it.</h5>
@@ -238,6 +244,7 @@
                 <span>CX Manager, Sisyphus</span>
             </div>
         </section>
+
         <section>
             <div class="blocks-grid">
                 <div class="block-grid">
@@ -258,18 +265,19 @@
                 <img src="/teams/2/assets/img/screen-mockup2.svg" alt="screen-mockup2">
             </div>
         </section>
-        <section class="grid2">
-            <div>
+
+        <section>
+            <div class="blocks-grid">
                 <span>Sign up for our newsletter</span>
                 <p>Be the first to know about releases and industry news and insights.</p>
-            </div>
-            <div class="rectangle3">
-                <form>
-                    <br />
+
+                <form class="newsletter">
                     <input placeholder="Enter Your Email" />
+
+                    <button>Subscribe</button>
                     <br>
                     <span>We care about your data in our privacy policy</span>
-                    <button>Subscribe</button>
+
                 </form>
             </div>
         </section>
