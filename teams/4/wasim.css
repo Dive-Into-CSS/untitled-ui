@@ -10,22 +10,16 @@
   font-family: Inter;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 .container {
   padding: 0 8rem;
 }
 
 .features {
   margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .features__header {
@@ -38,32 +32,32 @@ html {
 .features__header__title--sm {
   padding: 4px 12px;
   color: var(--color-primary-700);
-  font-size: 14px;
-  line-height: 20px;
+  /* font-size: 14px; */
+  /* line-height: 20px; */
   text-align: center;
   background-color: var(--color-primary-50);
   border-radius: 16px;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 .features__header__title {
   padding: 0.5rem;
-  font-size: 36px;
+  /* font-size: 36px; */
   color: var(--color-gray-900);
-  font-weight: 600;
-  line-height: 44px;
+  /* font-weight: 600; */
+  /* line-height: 44px; */
   text-align: center;
   letter-spacing: -0.02em;
 }
 
 .features__header__title--md {
   margin-top: 20px;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: var(--color-gray-500);
   text-align: center;
-  line-height: 30px;
+  /* line-height: 30px; */
   width: 768px;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 .features__image {
@@ -109,20 +103,20 @@ html {
 
 
 .feature__title {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: var(--color-gray-900);
-  font-weight: 500;
-  line-height: 18px;
+  /* font-weight: 500; */
+  /* line-height: 18px; */
   text-align: center;
   overflow: hidden;
 }
 
 .feature__description {
   margin-top: 8px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: var(--color-gray-500);
-  line-height: 24px;
-  font-weight: normal;
+  /* line-height: 24px; */
+  /* font-weight: normal; */
   text-align: center;
   max-width: 373.33px;
 }
@@ -135,9 +129,9 @@ html {
 }
 
 .feature-users__title {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 24px;
+  /* font-size: 1rem; */
+  /* font-weight: 500; */
+  /* line-height: 24px; */
   text-align: center;
   color: var(--color-gray-500)
 }
@@ -172,17 +166,17 @@ html {
 
 .posts__title {
   margin-top: 12px;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 44px;
-  letter-spacing: -0.02em;
+  /* font-size: 36px; */
+  /* font-weight: 600; */
+  /* line-height: 44px; */
+  /* letter-spacing: -0.02em; */
   color: var(--color-gray-900);
 }
 
 .posts__title--sm {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 24px;
+  /* font-size: 1rem; */
+  /* font-weight: 600; */
+  /* line-height: 24px; */
   color: var(--color-primary-700);
 }
 
@@ -222,9 +216,9 @@ html {
 
 .posts__title--md {
   margin-top: 1rem;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 30px;
+  /* font-size: 20px; */
+  /* font-weight: normal; */
+  /* line-height: 30px; */
   color: var(--color-gray-500);
 }
 
@@ -240,9 +234,9 @@ html {
 }
 
 .post__caption {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
+  /* font-size: 14px; */
+  /* font-weight: 600; */
+  /* line-height: 20px; */
   color: var(--color-primary-700);
   margin-top: 2rem;
 }
@@ -254,10 +248,10 @@ html {
 }
 
 .post__title {
-  font-size: 24px;
-  font-weight: 600;
+  /* font-size: 24px; */
+  /* font-weight: 600; */
   color: var(--color-gray-900);
-  line-height: 32px;
+  /* line-height: 32px; */
 }
 
 .post__content {
@@ -290,15 +284,15 @@ html {
 }
 
 .post__footer__title {
-  font-size: 14px;
-  font-weight: 500;
+  /* font-size: 14px; */
+  /* font-weight: 500; */
   color: var(--color-gray-900);
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 .post__footer__date {
-  font-size: 14px;
-  font-weight: normal;
+  /* font-size: 14px; */
+  /* font-weight: normal; */
   color: var(--color-gray-500);
 }
 
@@ -317,19 +311,19 @@ html {
 }
 
 .stats__title {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  /* font-size: 36px; */
+  /* line-height: 44px; */
+  /* font-weight: 600; */
+  /* letter-spacing: -0.02em; */
   color: var(--color-gray-900);
 }
 
 .stats__title--md {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: normal;
+  /* font-size: 20px; */
+  /* line-height: 30px; */
+  /* font-weight: normal; */
   color: var(--color-gray-500);
-  line-height: 30px;
+  /* line-height: 30px; */
   margin-top: 20px;
 }
 
@@ -396,17 +390,17 @@ html {
 }
 
 .contact__title {
-  font-size: 36px;
-  font-weight: 600;
+  /* font-size: 36px; */
+  /* font-weight: 600; */
   color: var(--color-gray-900);
-  line-height: 44px;
+  /* line-height: 44px; */
 }
 
 .contact__title--md {
-  font-size: 20px;
-  font-weight: normal;
+  /* font-size: 20px; */
+  /* font-weight: normal; */
   color: var(--color-gray-500);
-  line-height: 30px;
+  /* line-height: 30px; */
   margin-top: 20px;
 }
 
@@ -421,8 +415,8 @@ html {
 }
 
 .contact__actions__privacy {
-  font-size: 14px;
-  font-weight: normal;
+  /* font-size: 14px; */
+  /* font-weight: normal; */
   color: var(--color-gray-500);
   margin-top: 8px;
 }
@@ -456,18 +450,13 @@ footer .container {
   display: none;
 }
 
-.footer__title {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 38px;
-}
 
 .footer__stats {
   margin-top: 1rem;
-  font-size: 20px;
-  line-height: 30px;
+  /* font-size: 20px; */
+  /* line-height: 30px; */
   color: var(--color-gray-200);
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 .footer__line-break {
@@ -483,18 +472,12 @@ footer .container {
 }
 
 .footer__logo {
-  width: 32px;
-  height: 32px;
   object-fit: cover;
 }
 
 .footer__logo__wrapper {
   display: flex;
   align-items: center;
-}
-
-.footer__logo__title {
-  margin-left: 10px;
 }
 
 .footer__description {
@@ -516,15 +499,11 @@ li {
 
 ul li:first-of-type:not(.company__logo) {
   color: var(--color-gray-400);
-  font-size: 14px;
-  font-weight: 600;
 }
 
 ul li:not(:first-of-type):not(.company__logo) {
   color: var(--color-gray-200);
-  font-size: 1rem;
   margin-top: 14px;
-  font-weight: normal;
 }
 
 .footer__social {
@@ -542,10 +521,9 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .footer__socialCopyright {
   color: var(--color-gray-400);
-  font-weight: normal;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 480px) {
   .container {
     padding: 0px 16px;
   }
