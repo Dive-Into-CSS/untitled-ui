@@ -18,185 +18,339 @@
         <link rel="stylesheet" href="../../css/normalize.css" />
         <link rel="stylesheet" href="../../css/main.css" />
 
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="../../css/teams/1/Dashboard.css" />
 
         <meta name="theme-color" content="#fafafa" />
     </head>
 
     <body>
-        <!-- Add your site or application content here -->
-
         <!-- ############ HEADER ############ -->
-        <header>
-            <div class="left">
-                <nav>
-                    <ul>
-                        <li><a href="">li a</a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href="#">s</a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </nav>
-                <nav class="nav-bottom">
-                    <ul>
-                        <li><a href="">li</a></li>
-                        <li><a href="">li</a></li>
-                    </ul>
-                </nav>
+        <header class="ut-dashboard-navbar">
+            <nav>
+                <ul class="top-v-navbar-list">
+                    <li class="nav-item"><a href="">logo</a></li>
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="top-v-navbar-list">
+                    <li class="nav-item"><i>icon</i></li>
+                    <li class="nav-item"><i>icon</i></li>
+                </ul>
                 <hr />
-                <i><a href="">icon a</a></i>
-            </div>
+                <div class="top-v-navbar-list-profile">
+                    <i class="dot"></i>
+                </div>
+            </nav>
         </header>
         <!-- ############ MAIN ############ -->
-        <main>
-            main
-            <div class="middle">
+        <main class="ut-dashboard-background">
+            <div class="ut-dashboard-content">
                 <!-- ############ SECTION 1 ############ -->
-                <section>
+                <section class="main-content-top flex-space-between">
+                    <h1>Customers</h1>
                     <div>
-                        <h1 style="display: inline">H1</h1>
-                        <div style="float: right">
-                            <button>button</button>
-                            <button>button</button>
-                        </div>
+                        <button class="import"><i>icon </i>Import</button>
+                        <button class="add-customer"><i>icon </i>customer</button>
                     </div>
                 </section>
                 <!-- ############ SECTION 2 ############ -->
-                <section>
-                    <div style="display: flex">
-                        <div id="leftThing">
-                            <h2>H2</h2>
-                            <button>3 dots</button>
+                <section class="flex-space-between">
+                    <div>
+                        <div class="flex-space-between">
+                            <strong class="strong-headers">Active now</strong>
+                            <i>icon</i>
+                        </div>
+                        <div>
+                            <hr />
                             <img
-                                style="height: 80%; width: 100%"
-                                src="#"
-                                alt="#"
+                                src="../../img/team1-activity-gauge.png"
+                                alt="Activity gauge"
                             />
                         </div>
+                    </div>
 
-                        <div id="rightThing">
-                            <h2>H2</h2>
-                            <button>3 dots</button>
+                    <div>
+                        <div class="flex-space-between">
+                            <strong class="strong-headers"
+                                >Total customers</strong
+                            >
+                            <i>icon</i>
+                        </div>
+                        <div>
+                            <hr />
                             <img
-                                style="height: 80%; width: 100%"
-                                src="#"
-                                alt="#"
+                                src="../../img/team1-chart-data.png"
+                                alt="Chart data"
                             />
                         </div>
                     </div>
                 </section>
+                <hr />
                 <!-- ############ SECTION 3 ############ -->
-                <section>
-                    <div>
+                <section class="main-content-middle">
+                    <div class="flex-space-between">
                         <div>
-                            <button>button</button>
-                            <button>button</button>
-                            <button>button</button>
+                            <button>All time <i>icon</i></button>
+                            <button>US, AU... <i>icon</i></button>
+                            <button><i>icon</i> More filters</button>
                         </div>
-                        <div style="display: inline; float: right">
-                            <input type="text" placeholder="input type=text" />
+                        <div>
+                            <input type="text" placeholder="Search" />
                         </div>
                     </div>
-                    <div style="text-align: center">
+                    <div>
                         <!-- ############ TABLE ############ -->
-                        <table style="width: 90%">
-                            <thead>
-                                <tr>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                    <th>th</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>icon span</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>
-                                        <ul>
-                                            <li style="list-style-type: none">
-                                                img
-                                            </li>
-                                        </ul>
-                                    </td>
-                                    <td>range</td>
-                                    <td><button></button><button></button></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox" /></td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                    <td>td</td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="2">button</td>
-                                    <td colspan="4"><span>span</span></td>
-                                    <td colspan="2">button</td>
-                                </tr>
-                            </tfoot>
+                        <table class="table-dashboard">
+                            <tr>
+                                <th>Icon</th>
+                                <th>Company</th>
+                                <th>Status</th>
+                                <th>About</th>
+                                <th>Users</th>
+                                <th>License use</th>
+                                <th class="empty"></th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td class="flex">
+                                    <i>Icon</i>
+                                    <div>
+                                        <div><span>something</span></div>
+                                        <div><span>another</span></div>
+                                    </div>
+                                </td>
+                                <td>other data</td>
+                                <td>
+                                    <div><span>something</span></div>
+                                    <div><span>another</span></div>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>smashing!</td>
+                                <td class="edit-buttons">
+                                    <button class="delete">Delete</button>
+                                    <button class="edit">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td class="flex">
+                                    <i>Icon</i>
+                                    <div>
+                                        <div><span>something</span></div>
+                                        <div><span>another</span></div>
+                                    </div>
+                                </td>
+                                <td>other data</td>
+                                <td>
+                                    <div><span>something</span></div>
+                                    <div><span>another</span></div>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>smashing!</td>
+                                <td class="edit-buttons">
+                                    <button class="delete">Delete</button>
+                                    <button class="edit">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td class="flex">
+                                    <i>Icon</i>
+                                    <div>
+                                        <div><span>something</span></div>
+                                        <div><span>another</span></div>
+                                    </div>
+                                </td>
+                                <td>other data</td>
+                                <td>
+                                    <div><span>something</span></div>
+                                    <div><span>another</span></div>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>smashing!</td>
+                                <td class="edit-buttons">
+                                    <button class="delete">Delete</button>
+                                    <button class="edit">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td class="flex">
+                                    <i>Icon</i>
+                                    <div>
+                                        <div><span>something</span></div>
+                                        <div><span>another</span></div>
+                                    </div>
+                                </td>
+                                <td>other data</td>
+                                <td>
+                                    <div><span>something</span></div>
+                                    <div><span>another</span></div>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>smashing!</td>
+                                <td class="edit-buttons">
+                                    <button class="delete">Delete</button>
+                                    <button class="edit">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td class="flex">
+                                    <i>Icon</i>
+                                    <div>
+                                        <div><span>something</span></div>
+                                        <div><span>another</span></div>
+                                    </div>
+                                </td>
+                                <td>other data</td>
+                                <td>
+                                    <div><span>something</span></div>
+                                    <div><span>another</span></div>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>smashing!</td>
+                                <td class="edit-buttons">
+                                    <button class="delete">Delete</button>
+                                    <button class="edit">Edit</button>
+                                </td>
+                            </tr>
                         </table>
                     </div>
                 </section>
             </div>
         </main>
-        <!-- ############ FOOTER ############ -->
-        <footer>footer</footer>
 
         <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
         <script src="../../js/plugins.js"></script>
