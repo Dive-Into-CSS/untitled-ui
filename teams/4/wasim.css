@@ -473,8 +473,6 @@ ul li:not(:first-of-type):not(.company__logo) {
   .features__header__title--md {
     text-align: center;
     width: 90vw;
-    font-size: 18px;
-    line-height: 28px;
   }
 
   .features__image {
@@ -500,11 +498,6 @@ ul li:not(:first-of-type):not(.company__logo) {
     flex-direction: column;
     margin-top: 48px;
     row-gap: 40px;
-  }
-
-  .feature__title {
-    font-size: 18px;
-    line-height: 28px;
   }
 
   .ut-button.primary {
@@ -548,14 +541,7 @@ ul li:not(:first-of-type):not(.company__logo) {
     max-width: 100%;
   }
 
-  .stats__title {
-    font-size: 30px;
-    line-height: 38px;
-  }
-
   .stats__title--md {
-    font-size: 18px;
-    line-height: 28px;
     margin-top: 16px;
   }
 
@@ -575,14 +561,8 @@ ul li:not(:first-of-type):not(.company__logo) {
     flex-direction: column;
   }
 
-  .contact__title {
-    font-size: 30px;
-    line-height: 38px;
-  }
 
   .contact__title--md {
-    font-size: 18px;
-    line-height: 28px;
     margin-top: 16px;
   }
 
@@ -661,15 +641,6 @@ ul li:not(:first-of-type):not(.company__logo) {
     flex-direction: column;
     row-gap: 12px;
     margin: 32px 0px;
-  }
-
-  .footer__title {
-    font-size: 24px;
-  }
-
-  .footer__stats {
-    font-size: 1rem;
-    line-height: 24px;
   }
 
   .footer__info {
