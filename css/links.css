@@ -1,3 +1,5 @@
+@import url(./colors.css);
+
 span,
 .link {
     color: var(--color-primary-200);
@@ -31,7 +33,7 @@ span,
 }
 
 .btn-link span {
-    color: white;
+    color: var(--color-gray-25);
 }
 
 .chart-tab-link {
@@ -46,9 +48,6 @@ span,
     background-color: var(--color-primary-50);
 }
 
-/*  TODO: Maksym team 3 */
-
-/*  TODO: Judy team 4 */
 .btn-blog {
     color: #5b3ec4;
     text-decoration: none;
@@ -95,7 +94,7 @@ span,
 }
 
 .colortext {
-    color: black;
+    color: var(--color-gray-900);
 }
 
 .btn-link-send {
@@ -110,7 +109,7 @@ span,
 }
 
 .color-text {
-    color: #344054;
+    color: var(--color-gray-700);
 }
 
 .btn-link-viewproject {
@@ -121,16 +120,15 @@ span,
     justify-content: center;
     text-decoration: none;
     padding: 12px;
-    background-color: white;
-    border: 1px solid #d0d5dd;
+    background-color: var(--color-gray-25);
+    border: 1px solid var(--color-gray-300);
     box-sizing: border-box;
 }
 
 .colortext {
-    color: #344054 !important;
+    color: var(--color-gray-700) !important;
 }
 
-/* TODO: Karim team 5 */
 
 .btn-link {
     display: flex;
@@ -168,7 +166,7 @@ span,
     text-decoration: none;
     padding: 12px;
     background-color: var(--color-primary-50);
-    border: 1px solid #d0d5dd;
+    border: 1px solid var(--color-gray-300);
     box-sizing: border-box;
     border-radius: 8px 0px 0px 8px;
 }
@@ -184,8 +182,8 @@ span,
     justify-content: center;
     text-decoration: none;
     padding: 12px;
-    background-color: white;
-    border: 1px solid #d0d5dd;
+    background-color: var(--color-gray-25);
+    border: 1px solid var(--color-gray-300);
     box-sizing: border-box;
     border-radius: 0px 8px 8px 0px;
 }
@@ -201,8 +199,8 @@ span,
     justify-content: center;
     text-decoration: none;
     padding: 12px;
-    background-color: white;
-    border: 1px solid #d0d5dd;
+    background-color: var(--color-gray-25);
+    border: 1px solid var(--color-gray-300);
     box-sizing: border-box;
     border-radius: 1px;
 }
@@ -223,7 +221,7 @@ span,
 }
 
 .link-page-number-unclicked {
-    background-color: white;
+    background-color: var(--color-gray-25);
     color: var(--color-gray-500);
     width: 9px;
     height: 20px;
