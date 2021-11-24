@@ -530,7 +530,7 @@ ul li:not(:first-of-type):not(.company) {
 
   .features__header__title--md {
     text-align: center;
-    width: 343px;
+    width: 304px;
     font-size: 18px;
     line-height: 28px;
   }
@@ -625,6 +625,7 @@ ul li:not(:first-of-type):not(.company) {
 
   .companies {
     margin-top: 48px;
+	grid-column-gap: 1rem;
 	grid-row-gap: 1rem;
   }
 
