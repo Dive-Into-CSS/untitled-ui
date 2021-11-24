@@ -11,7 +11,7 @@
 }
 
 html {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -592,6 +592,10 @@ ul li:not(:first-of-type):not(.company) {
     margin-top: 3rem;
   }
 
+  .analytics {
+    margin: 64px 0px;
+  }
+
   .stats__wrapper {
     display: flex;
     flex-direction: column;
@@ -621,6 +625,7 @@ ul li:not(:first-of-type):not(.company) {
 
   .companies {
     margin-top: 48px;
+	grid-row-gap: 1rem;
   }
 
   .contact .container {
