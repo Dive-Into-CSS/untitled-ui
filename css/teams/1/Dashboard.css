@@ -13,33 +13,25 @@
 
 .ut-top-v-navbar .top-v-navbar-list {
     padding: 0;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .ut-top-v-navbar .top-v-navbar-list-profile {
-    margin: 1rem;
+    margin: 16px;
 }
 
 .ut-top-v-navbar .nav-item {
-    font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0em;
+    line-height: 24px;
+    letter-spacing: 0px;
     list-style-type: none;
     color: var(--color-gray-25);
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .ut-top-v-navbar .nav-item:hover {
     background-color: var(--color-primary-800);
-}
-
-.ut-top-v-navbar .nav-brand {
-    list-style-type: none;
-    margin-top: -2rem;
-    margin-bottom: -2rem;
 }
 
 .ut-top-v-navbar .nav-item a {
@@ -65,15 +57,15 @@
     flex-direction: column;
     background-color: white;
     border-top-left-radius: 25px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .ut-main-content .main-content-top button {
         border: none;
-        padding: 0.5rem;
+        padding: 8px;
         border-radius: 10px;
-        margin-top: 1rem;
+        margin-top: 16px;
         border: 1px solid var(--color-gray-300);
 }
 
@@ -88,10 +80,10 @@
 
 .ut-main-content .main-content-middle button {
     border: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-radius: 10px;
-    margin-top: 1rem;
+    margin-top: 16px;
     border: 1px solid var(--color-gray-300);
     background-color: var(--color-primary-50);
 }
@@ -115,21 +107,6 @@
     align-items: center;
 }
 
-.ut-main-content .flex-vertical {
-    display: flex;
-    flex-direction: column;
-}
-
-/* .ut-main-content .top-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.ut-main-content .mid-section {
-    display: flex;
-    justify-content: space-between;
-} */
-
 /* ########### TABLE STYLING ########### */
 
 .ut-main-content .table-dashboard {
@@ -138,7 +115,7 @@
 .ut-main-content .table-dashboard th,
 .ut-main-content .table-dashboard td {
     text-align: left;
-    padding: 0.25em;
+    padding: 4px;
 }
 
 .ut-main-content .table-dashboard td.edit-buttons {
@@ -147,18 +124,8 @@
 .ut-main-content .table-dashboard button {
     border-radius: 3px;
     border: none;
-    margin: 0 0.25em;
+    margin: 0 4px;
     transition: all 0.3s;
-}
-
-/* .ut-main-content .table-dashboard button:hover {
-    box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
-    opacity: 0.9;
-} */
-
-button:hover {
-    box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
-    opacity: 0.9;
 }
 
 .ut-main-content .table-dashboard button.edit {
@@ -168,9 +135,14 @@ button:hover {
     background: #f69;
 }
 
+button:hover {
+    box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
+    opacity: 0.9;
+}
+
 .ut-main-content .table-dashboard .dot {
-    height: 2rem;
-    width: 2rem;
+    height: 32px;
+    width: 32px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -182,7 +154,7 @@ button:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0.5em 0;
+        margin: 8px 0;
         border: 1px solid rgba(3, 3, 3, 0.2);
     }
     .ut-main-content .table-dashboard td,
@@ -190,9 +162,9 @@ button:hover {
         flex: 1 1 150px;
         border: 0.5px solid rgba(3, 3, 3, 0.2);
     }
-    .ut-main-content .table-dashboard td.edit-buttons,
+    /* .ut-main-content .table-dashboard td.edit-buttons,
     .ut-main-content .table-dashboard td.empty {
-        /*flex: 1 0 90%;
-        text-align: center;*/
-    }
+        flex: 1 0 90%;
+        text-align: center;
+    } */
 }
