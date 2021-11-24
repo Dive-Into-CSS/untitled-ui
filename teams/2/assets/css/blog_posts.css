@@ -1,4 +1,4 @@
-.ut-top-navbar { 
+.ut-top-navbar {
     position: fixed;
     top: 0;
     background-color: #f5f5f5;
@@ -43,9 +43,13 @@ header {
     border: 0;
 }
 
-.first_section .action .btn-link-grey {
+.btn-link-grey {
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc !important;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .social-proof-section {
@@ -53,7 +57,7 @@ header {
     padding-bottom: 100px;
 }
 
-.btn-link-grey::before {
+.first_section .action .btn-link-grey::before {
     content: '';
     display: inline-block;
     background-image: url(./../../../../img/play.svg);
@@ -65,6 +69,17 @@ header {
 
 .btn-link {
     color: white;
+    border: 0;
+}
+
+.trial-btns { 
+    display: flex;
+}
+
+.trial-btns button {
+    margin-right: 10px;
+    border: 0;
+    padding: 10px 30px;
 }
 
 .flex-paragraph {
@@ -113,7 +128,7 @@ h1 {
 }
 
 .flex-container {
-    margin-top: 30px;
+    margin-top: 30px
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -138,7 +153,6 @@ h1 {
 }
 .rectangle2 {
     width: 900px;
-    
     justify-content: center;
     margin-left: 50px;
 }
@@ -204,8 +218,6 @@ h1 {
     width: 100px;
     height: 100px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
     
 }
 
@@ -252,9 +264,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    
 }
-
 
 .img-logo {
     margin: auto;
@@ -265,7 +275,7 @@ h1 {
 .logo-subscr {
     font-family: 'Inter';
     font-size: 48px;
-    font-style:  normal;
+    font-weight: var(--font-weight-reg);
     text-align: center;
 }
 
@@ -378,20 +388,23 @@ h1 {
     margin: auto;
 }
 
-.promo-stat.middle { 
+.promo-stat.middle {
     border-left: 1px solid var(--color-gray-200);
     border-right: 1px solid var(--color-gray-200);
 }
 
-.promo-stat .stats-subscr { 
+.promo-stat .stats-subscr {
     color: black;
 }
 
 #trial-block {
-    margin: 30px;
-    height: 200px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background-color: var(--color-primary-50);
+    margin: 100px  10%;
+    padding: 50px;
+    border-radius: 16px;
 }
 
 #footer-blog {
@@ -408,7 +421,7 @@ h1 {
     display: flex;
 }
 
-.blocks-grid .newsletter{
+.blocks-grid .newsletter {
     display: flex;
     align-items: flex-end;
     flex-direction: column;

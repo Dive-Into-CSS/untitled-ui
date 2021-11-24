@@ -110,6 +110,7 @@ span {
 .btn-link-unclicked-credit span {
     color: var(--color-gray-500);
 }
+
 .btn-link-unclicked-business {
     display: flex;
     width: 100px;
