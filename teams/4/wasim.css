@@ -232,6 +232,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
+  margin-top: 4rem;
 }
 
 .post__image {
@@ -582,6 +583,7 @@ ul li:not(:first-of-type):not(.company) {
     display: flex;
     gap: 3rem;
     flex-flow: wrap;
+	margin-top: 3rem;
   }
 
   .postsSection>.container {
