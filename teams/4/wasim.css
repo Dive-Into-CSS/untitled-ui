@@ -131,7 +131,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .feature-users__title {
@@ -530,7 +530,7 @@ ul li:not(:first-of-type):not(.company) {
 
   .features__header__title--md {
     text-align: center;
-    width: 304px;
+    width: 90vw;
     font-size: 18px;
     line-height: 28px;
   }
