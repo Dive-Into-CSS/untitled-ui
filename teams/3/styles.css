@@ -377,6 +377,14 @@ button {
     right: -110px;
 }
 
+.subscription {
+    display: flex;
+}
+
+.email span {
+    display: block;
+}
+
 .email h2 {
     color: var(--color-gray-900);
 }
@@ -386,9 +394,20 @@ button {
     height: 48px;
 }
 
+.email-subscribe {
+    display: flex;
+}
+
 .email button {
+    width: 118px;
+    height: 48px;
+}
+
+.email input {
+    box-sizing: border-box;
     width: 360px;
-    height: 118px;
+    height: 48px;
+    padding: 12px 14px 12px 16px;
 }
 
 footer {
