@@ -1,0 +1,326 @@
+section {
+      background-color: #F9FAFB;
+}
+
+.ut-tab{
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 800px;
+}
+
+.ut-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 362px
+}
+
+.ut-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-primary-700);
+    width: 81px;
+    height: 800px;
+}
+
+.ut-icon-position{
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.ut-bottom {
+    margin-bottom: 20px;
+}
+
+.ut-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-primary-800);
+    width: 281px;
+    align-items: start;
+    padding: 1%;
+}
+
+.ut-second.primary{
+    width:259px;
+}
+
+.ut-primary-div{
+    margin: 0px 0px 0px 3px;
+    position : relative;
+    left: 0px;
+    width: 260px;
+}
+
+.ut-primary-div.title {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* White */
+color: #FFFFFF;
+}
+
+.ut-nav-contain{
+    padding: 5px;
+    width: 180px;
+    left:0;
+    border-radius: 6px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.ut-nav-contain.with-color{
+ background-color: var(--color-primary-700);
+}
+
+
+.icon-size {
+    width: 40px;
+    height: 40px;
+}
+
+
+.icon-size.withoutcolor {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-size.withoutcolor.larger {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.ut-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    margin-top:8px;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #F4EBFF;
+}
+
+.ut-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+
+
+.ut-row.pos {
+     margin-top: 15%;
+     margin-left: 85%;
+     justify-content: space-around;
+}
+
+
+.ut-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.ut-col.pos {
+  margin-top: 15%;
+  margin-left: 3%;
+}
+
+.ut-name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+/* White */
+    color: #FFFFFF;
+}
+
+.ut-email {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+/* identical to box height, or 143% */
+
+/* Primary/200 */
+    color: #E9D7FE;
+}
+
+.ut-tabcontent{
+  float: left;
+  padding: 0px 12px;
+  border: none;
+  width: 59.5%;
+  margin-left: 9.5%;
+
+}
+
+.ut-position {
+    position : absolute;
+    top: 18%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ut-header-name {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height, or 127% */
+
+/* Gray/900 */
+color: #101828;
+}
+
+.ut-header-email {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Gray/500 */
+color: #667085;
+}
+
+.ut-button-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 99px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 0.3px;
+    margin-right: 4px;
+    background-color: #FFFFFF;
+    color:  #344054;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ut-profile-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.ut-button-right {
+    width: 109px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color:#7F56D9;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ut-container {
+    width: 1014px;
+}
+
+.ut-container.up {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 380px;
+  left: 400px;
+  height: 435px;
+  border: solid;
+}
+
+
+.ut-container.down {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 880px;
+  left: 400px;
+  height: 797px;  
+  border: solid;
+}
+
+.ut-left { 
+    position: relative;
+    width: 30%; 
+    background-color: #F9FAFB;
+    padding: 5px;
+}
+
+.ut-right { 
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.ut-left-bar-h2{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* Gray/700 */
+color: #344054
+}
+
+
+.ut-left-bar-p{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* Gray/500 */
+color: #667085
+}
+
+.ut-form-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+/* identical to box height, or 143% */
+
+/* Gray/700 */
+   color: #344054;
+}
+
+
+.ut-col-form {
+    display: flex;
+    flex-direction: column;
+    width: 654px;
+
+}
