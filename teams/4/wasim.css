@@ -32,32 +32,22 @@
 .features__header__title--sm {
   padding: 4px 12px;
   color: var(--color-primary-700);
-  /* font-size: 14px; */
-  /* line-height: 20px; */
   text-align: center;
   background-color: var(--color-primary-50);
   border-radius: 16px;
-  /* font-weight: normal; */
 }
 
 .features__header__title {
   padding: 0.5rem;
-  /* font-size: 36px; */
   color: var(--color-gray-900);
-  /* font-weight: 600; */
-  /* line-height: 44px; */
   text-align: center;
-  letter-spacing: -0.02em;
 }
 
 .features__header__title--md {
   margin-top: 20px;
-  /* font-size: 20px; */
   color: var(--color-gray-500);
   text-align: center;
-  /* line-height: 30px; */
-  width: 768px;
-  /* font-weight: normal; */
+  max-width: 768px;
 }
 
 .features__image {
@@ -103,20 +93,13 @@
 
 
 .feature__title {
-  /* font-size: 20px; */
   color: var(--color-gray-900);
-  /* font-weight: 500; */
-  /* line-height: 18px; */
   text-align: center;
-  overflow: hidden;
 }
 
 .feature__description {
   margin-top: 8px;
-  /* font-size: 1rem; */
   color: var(--color-gray-500);
-  /* line-height: 24px; */
-  /* font-weight: normal; */
   text-align: center;
   max-width: 373.33px;
 }
@@ -129,23 +112,16 @@
 }
 
 .feature-users__title {
-  /* font-size: 1rem; */
-  /* font-weight: 500; */
-  /* line-height: 24px; */
   text-align: center;
   color: var(--color-gray-500)
 }
 
 .feature-users__figure {
   margin-top: 2rem;
-}
-
-.feature-users__figure img {
-  object-fit: cover;
-}
-
-.aside__image--mobile {
-  display: none;
+  background: url(./assets/featuresLogo.png) no-repeat;
+   background-size: contain;
+   height: 40px;
+   width: 1164px;
 }
 
 .postsSection {
@@ -166,17 +142,10 @@
 
 .posts__title {
   margin-top: 12px;
-  /* font-size: 36px; */
-  /* font-weight: 600; */
-  /* line-height: 44px; */
-  /* letter-spacing: -0.02em; */
   color: var(--color-gray-900);
 }
 
 .posts__title--sm {
-  /* font-size: 1rem; */
-  /* font-weight: 600; */
-  /* line-height: 24px; */
   color: var(--color-primary-700);
 }
 
@@ -216,9 +185,6 @@
 
 .posts__title--md {
   margin-top: 1rem;
-  /* font-size: 20px; */
-  /* font-weight: normal; */
-  /* line-height: 30px; */
   color: var(--color-gray-500);
 }
 
@@ -234,9 +200,6 @@
 }
 
 .post__caption {
-  /* font-size: 14px; */
-  /* font-weight: 600; */
-  /* line-height: 20px; */
   color: var(--color-primary-700);
   margin-top: 2rem;
 }
@@ -248,10 +211,7 @@
 }
 
 .post__title {
-  /* font-size: 24px; */
-  /* font-weight: 600; */
   color: var(--color-gray-900);
-  /* line-height: 32px; */
 }
 
 .post__content {
@@ -284,15 +244,10 @@
 }
 
 .post__footer__title {
-  /* font-size: 14px; */
-  /* font-weight: 500; */
   color: var(--color-gray-900);
-  /* line-height: 20px; */
 }
 
 .post__footer__date {
-  /* font-size: 14px; */
-  /* font-weight: normal; */
   color: var(--color-gray-500);
 }
 
@@ -311,19 +266,11 @@
 }
 
 .stats__title {
-  /* font-size: 36px; */
-  /* line-height: 44px; */
-  /* font-weight: 600; */
-  /* letter-spacing: -0.02em; */
   color: var(--color-gray-900);
 }
 
 .stats__title--md {
-  /* font-size: 20px; */
-  /* line-height: 30px; */
-  /* font-weight: normal; */
   color: var(--color-gray-500);
-  /* line-height: 30px; */
   margin-top: 20px;
 }
 
@@ -390,17 +337,11 @@
 }
 
 .contact__title {
-  /* font-size: 36px; */
-  /* font-weight: 600; */
   color: var(--color-gray-900);
-  /* line-height: 44px; */
 }
 
 .contact__title--md {
-  /* font-size: 20px; */
-  /* font-weight: normal; */
   color: var(--color-gray-500);
-  /* line-height: 30px; */
   margin-top: 20px;
 }
 
@@ -415,8 +356,6 @@
 }
 
 .contact__actions__privacy {
-  /* font-size: 14px; */
-  /* font-weight: normal; */
   color: var(--color-gray-500);
   margin-top: 8px;
 }
@@ -453,10 +392,7 @@ footer .container {
 
 .footer__stats {
   margin-top: 1rem;
-  /* font-size: 20px; */
-  /* line-height: 30px; */
   color: var(--color-gray-200);
-  /* font-weight: normal; */
 }
 
 .footer__line-break {
@@ -551,12 +487,12 @@ ul li:not(:first-of-type):not(.company__logo) {
     background-position: 0 0;
   }
 
-  .aside__image {
-    display: none;
-  }
-
-  .aside__image--mobile {
-    display: inline-block;
+  .feature-users__figure {
+	margin-top: 2rem;
+	background: url(./assets/featuresLogoMobile.png) no-repeat;
+	background-size: contain;
+	width: 343px;
+    height: 224px;
   }
 
   .features__content {
