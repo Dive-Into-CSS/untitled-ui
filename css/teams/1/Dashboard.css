@@ -1,0 +1,163 @@
+.ut-dashboard-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-700);
+    height: 100%;
+    position: fixed;
+    width: 5%;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.ut-dashboard-navbar .top-v-navbar-list {
+    padding: 0;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.ut-dashboard-navbar .top-v-navbar-list-profile {
+    margin: 16px;
+}
+
+.ut-dashboard-navbar .nav-item {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    list-style-type: none;
+    color: var(--color-gray-25);
+    margin-bottom: 8px;
+}
+
+.ut-dashboard-navbar .nav-item:hover {
+    background-color: var(--color-primary-800);
+}
+
+.ut-dashboard-navbar .nav-item a {
+    text-decoration: none;
+}
+
+.ut-dashboard-navbar .dot {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ut-dashboard-background {
+    background-color: var(--color-primary-700);
+    margin-left: 5%;
+    padding-top: 8px;
+}
+
+.ut-dashboard-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-left-radius: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.ut-dashboard-content .main-content-top button {
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 16px;
+        border: 1px solid var(--color-gray-300);
+}
+
+.ut-dashboard-content .main-content-top button.import {
+    background-color: var(--color-primary-25);
+}
+
+.ut-dashboard-content .main-content-top button.add-customer {
+    background-color: var(--color-primary-700);
+    color: var(--color-primary-25)
+}
+
+.ut-dashboard-content .main-content-middle button {
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--color-gray-300);
+    background-color: var(--color-primary-50);
+}
+
+.ut-dashboard-content .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ut-dashboard-content .strong-headers {
+    margin-bottom: 16px;
+}
+
+.ut-dashboard-content .chart-table {
+    display: flex;
+    justify-content: center;
+}
+
+.ut-dashboard-content .flex {
+    display: flex;
+    align-items: center;
+}
+
+/* ########### TABLE STYLING ########### */
+
+.ut-dashboard-content .table-dashboard {
+    width: 100%;
+}
+.ut-dashboard-content .table-dashboard th,
+.ut-dashboard-content .table-dashboard td {
+    text-align: left;
+    padding: 4px;
+}
+
+.ut-dashboard-content .table-dashboard td.edit-buttons {
+    text-align: right;
+}
+
+.ut-dashboard-content .table-dashboard button {
+    border-radius: 3px;
+    border: none;
+    margin: 0 4px;
+    transition: all 0.3s;
+}
+
+.ut-dashboard-content .table-dashboard button.edit {
+    background: #6f9;
+}
+.ut-dashboard-content .table-dashboard button.delete {
+    background: #f69;
+}
+
+button:hover {
+    box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
+    opacity: 0.9;
+}
+
+.ut-dashboard-content .table-dashboard .dot {
+    height: 32px;
+    width: 32px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -10px;
+}
+
+@media screen and (max-width: 800px) {
+    .ut-dashboard-content .table-dashboard tr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 8px 0;
+        border: 1px solid rgba(3, 3, 3, 0.2);
+    }
+    .ut-dashboard-content .table-dashboard td,
+    .ut-dashboard-content .table-dashboard th {
+        flex: 1 1 150px;
+        border: 0.5px solid rgba(3, 3, 3, 0.2);
+    }
+}
