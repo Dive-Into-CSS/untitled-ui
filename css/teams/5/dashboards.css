@@ -9,11 +9,32 @@ body {
 .ut-top-v-navbar {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 960px;
     justify-content: space-between;
+    align-items: center;
+    padding: 32px 10px;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-wrapper hr {
+    width: 100%;
+}
+
+.top-v-navbar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-v-navbar-list .nav-item {
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 main {
