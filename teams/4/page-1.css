@@ -1,4 +1,8 @@
 @import url("../../css/colors.css");
+@import url("../../css/colors.css");
+@import url("../../css/normalize.css");
+@import url("../../css/main.css");
+@import url("../../css/list.css");
 
 :root {
   --color-white: #ffffff;
@@ -853,4 +857,105 @@ ul li:not(:first-of-type):not(.company__logo) {
     flex-flow: column-reverse;
     row-gap: 24px;
   }
+}
+
+/* Nazar */
+
+.sliderSection {
+  padding: 96px 112px;
+}
+
+.sliderHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.sliderHeadingText {
+  margin-bottom: 20px;
+}
+
+.sliderHeadingDesc {
+
+}
+
+.sliderHeadingBtn {
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  background-color: var(--color-primary-600);
+  border: 0;
+  cursor: pointer;
+  color: white;
+}
+
+.sliderList {
+  display: flex;
+}
+
+.sliderListItem {
+  width: 384px;
+  height: 512px;
+  padding: 32px 24px 24px;
+  background-color: var(--color-primary-600);
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.sliderLogo {
+
+}
+
+.sliderContent {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+  min-height: 258px;
+  padding: 32px 24px;
+}
+
+.sliderContentLink {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sliderContentHeading {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.sliderContentDesc {
+  margin: 0;
+  margin-bottom: 32px;
+  min-height: 84px;
+}
+
+.slick-prev,
+.slick-next  {
+  position: absolute;
+  z-index: 1;
+  bottom: -32px;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  font-size: 0;
+  backdrop-filter: var(--blur-sm-light-backdrop-filter);
+}
+
+.slick-prev {
+  left: 0;
+  background: url(./assets/prev-slider-btn.svg) center center no-repeat;
+}
+
+.slick-next {
+  left: 88px;
+  background: url(.assets/next-slider-btn.svg) center center no-repeat;
 }
