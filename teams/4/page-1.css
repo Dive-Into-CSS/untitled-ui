@@ -79,10 +79,9 @@
   margin-top: 2rem;
 }
 
-.ctaRight {
-  height: 640px;
-  background: url('./assets/cta-bg.png');
-  background-size: cover;
+.ctaRight img,.uspsRight img{
+  width: 100%;
+  height: 100%;
 }
 
 .ctaComp {
@@ -142,11 +141,11 @@
   padding-right: 4rem;
 }
 
-.uspsRight {
+/* .uspsRight {
   background: url('./assets/usps-bg.png');
   background-size: cover;
   height: 600px;
-}
+} */
 
 .uspsList {
   padding: 0px;
@@ -852,5 +851,29 @@ ul li:not(:first-of-type):not(.company__logo) {
     flex-direction: column;
     flex-flow: column-reverse;
     row-gap: 24px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .ctaSection{
+    grid-template-columns: 100%;
+  }
+  .ctaComp{
+    grid-column: 1/2;
+  }
+  .compList{
+    grid-template-columns: 50% 50%;
+  }
+  .compListItem img{
+    width: 100%;
+    max-width: 145px;
+  }
+  .uspsSection{
+    grid-template-columns: 100%;
+  }
+  .uspsHeader{
+    grid-column: 1/2;
+  }
+  header{
+    display: none;
   }
 }

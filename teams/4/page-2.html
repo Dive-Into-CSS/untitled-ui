@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="page-2.css" />
+        <link rel="stylesheet" href="../../css/typography.css">
+        <link rel="stylesheet" href="../../css/main.css" />
+        <link rel="stylesheet" href="../../css/normalize.css" />
     </head>
 
     <body>
@@ -316,7 +319,7 @@
                 <h1>h1</h1>
                 <div>
                     <span>
-                        <i>Icon</i>
+
                     </span>
                     <input type="text" placeholder="Search" />
                 </div>
@@ -324,188 +327,227 @@
                 <span></span>
             </header>
             <hr />
-            <section class="plan__section">
-                <div class="plans__wrapper">
-                    <h3>h2</h3>
-                    <p></p>
-                </div>
-                <div class="plans__wrapper">
-                    <article class="plan">
-                        article
-                        <div class="plan__logo">
-                            <span>span<i>icon</i></span>
-                        </div>
-                        <div lclass="plan__content">
-                            <header class="plan__header">
-                                <h3></h3>
-                                <span>span</span>
-                                <span><i>icon</i></span>
-                            </header>
-                            <p class="plan__content">p</p>
-                        </div>
-                    </article>
-                    <article class="plan">
-                        article
-                        <div class="plan__logo">
-                            <span>span<i>icon</i></span>
-                        </div>
-                        <div lclass="plan__content">
-                            <header class="plan__header">
-                                <h3></h3>
-                                <span>span</span>
-                                <span><i>icon</i></span>
-                            </header>
-                            <p class="plan__content">p</p>
-                        </div>
-                    </article>
-                    <article class="plan">
-                        article
-                        <div class="plan__logo">
-                            <span>span<i>icon</i></span>
-                        </div>
-                        <div lclass="plan__content">
-                            <header class="plan__header">
-                                <h3></h3>
-                                <span>span</span>
-                                <span><i>icon</i></span>
-                            </header>
-                            <p class="plan__content">p</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            <section class="billing__section">
-                <header class="billing__header">
-                    <h2>h2</h2>
-                    <span>span</span>
-                    <button>
-                        <span>Span<i>Icon</i></span> Download all
+            <section class="plan split-section">
+              <div class="plan-left sec-left">
+                  <h3 class="left-header ut-text-sm-med">Current Plan</h3>
+                  <p class="left-content ut-text-sm-reg">
+                      We’ll credit your account if you need to
+                      downgrade during the billing cycle.
+                  </p>
+              </div>
+              <ul class="plan-right sec-right">
+                <li class="plan-list-item plan-active">
+                  <div class="plan-logo">
+                    <span class="icon basic-plan-icon"></span>
+                  </div>
+                  <div class="plan-content ut-text-sm-reg">
+                      <header class="plan-header">
+                          <span class="plan-name"><span class="ut-text-sm-bold">Basic plan</span> $10/month</span>
+                          <span class="icon checked-box-icon"></span>
+                      </header>
+                      <p class="plan-desc">Includes up to 10 users, 20GB indiviual data and access to all features.</p>
+                  </div>
+                </li>
+                <li class="plan-list-item">
+                  <div class="plan-logo">
+                    <span class="icon buss-plan-icon"></span>
+                  </div>
+                  <div class="plan-content ut-text-sm-reg">
+                      <header class="plan-header">
+                         <span class="plan-name"><span class="ut-text-sm-bold">Business plan</span> $20/month</span>
+                          <span class="icon unchecked-box-icon"></span>
+                      </header>
+                      <p class="plan-desc">Includes up to 20 users, 40GB indiviual data and access to all features.</p>
+                  </div>
+                </li>
+                <li class="plan-list-item">
+                  <div class="plan-logo">
+                    <span class="icon ent-plan-icon"></span>
+                  </div>
+                  <div class="plan-content ut-text-sm-reg">
+                      <header class="plan-header">
+                         <span class="plan-name"><span class="ut-text-sm-bold">Enterprise plan</span> $40/month</span>
+                          <span class="icon unchecked-box-icon"></span>
+                      </header>
+                      <p class="plan-desc">Unlimited users, unlimited individual data and access to all features.</p>
+                  </div>
+                </li>
+              </ul>
+          </section>
+            <section class="billing">
+                <header class="billing-header">
+                  <div class="head-left">
+                    <h2 class="ut-text-lg-bold">Billing and invoicing</h2>
+                    <span class="ut-text-sm-reg">Pick an account plan that fits your workflow.</span>
+                  </div>
+                    <button class="download-btn ut-button secondary">
+                        <span class="icon download-icon"></span> Download all
                     </button>
                 </header>
                 <hr />
-                <div class="billing__info">
-                    <h3>h3</h3>
-                    <span>span</span>
+                <div class="split-section">
+                  <div class="plan-left sec-left">
+                    <h3 class="left-header ut-text-sm-med">Billing History</h3>
+                    <p class="left-content ut-text-sm-reg">
+                      Please reach out to our friendly team via billing@untitled.com with questions.
+                    </p>
+                  </div>
+                  <div class="table-wrapper sec-right">
+                    <table class="billing-history" cellspacing="0" cellpadding="0">
+                      <thead>
+                          <tr>
+                              <td>
+                                  <input type="checkbox" />
+                                  <span>Invoice</span>
+                                  <span class="icon down-arrow-icon"></span>
+                              </td>
+                              <td>Status</td>
+                              <td>Amount</td>
+                              <td>Plan</td>
+                              <td></td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <input type="checkbox" />
+                                  <span class="ut-text-sm-bold">Dec 2022</span>
+                              </td>
+                              <td>
+                                <div class="paid-badge">
+                                  <span class="green-check-icon icon"></span>
+                                  <span>Paid</span>
+                                </div>
+                              </td>
+                              <td>
+                                  <span>USD$10.00</span>
+                              </td>
+                              <td>Basic Plan</td>
+                              <td>
+                                  <a href="#">Download</a>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <input type="checkbox" />
+                                <span class="ut-text-sm-bold">Nov 2022</span>
+                            </td>
+                            <td>
+                              <div class="paid-badge">
+                                <span class="green-check-icon icon"></span>
+                                <span>Paid</span>
+                              </div>
+                            </td>
+                            <td>
+                                <span>USD$10.00</span>
+                            </td>
+                            <td>Basic Plan</td>
+                            <td>
+                                <a href="#">Download</a>
+                            </td>
+                        </tr>
+                          <tr>
+                              <td>
+                                  <input type="checkbox" />
+                                  <span class="ut-text-sm-bold">Oct 2022</span>
+                              </td>
+                              <td>
+                                  <div class="paid-badge">
+                                  <span class="green-check-icon icon"></span>
+                                  <span>Paid</span>
+                                </div>
+                              </td>
+                              <td>
+                                  <span>USD $10.00</span>
+                              </td>
+                              <td>Basic Plan</td>
+                              <td>
+                                  <a href="#">Download</a>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <input type="checkbox" />
+                                <span class="ut-text-sm-bold">Sep 2022</span>
+                            </td>
+                            <td>
+                              <div class="paid-badge">
+                                <span class="green-check-icon icon"></span>
+                                <span>Paid</span>
+                              </div>
+                            </td>
+                            <td>
+                                <span>USD$10.00</span>
+                            </td>
+                            <td>Basic Plan</td>
+                            <td>
+                                <a href="#">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td>
+                              <input type="checkbox" />
+                              <span class="ut-text-sm-bold">Aug 2022</span>
+                          </td>
+                          <td>
+                            <div class="paid-badge">
+                              <span class="green-check-icon icon"></span>
+                              <span>Paid</span>
+                            </div>
+                          </td>
+                          <td>
+                              <span>USD$10.00</span>
+                          </td>
+                          <td>Basic Plan</td>
+                          <td>
+                              <a href="#">Download</a>
+                          </td>
+                      </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" />
+                                <span class="ut-text-sm-bold">Jul 2022</span>
+                            </td>
+                            <td>
+                                <div class="paid-badge">
+                                <span class="green-check-icon icon"></span>
+                                <span>Paid</span>
+                              </div>
+                            </td>
+                            <td>
+                                <span>USD $10.00</span>
+                            </td>
+                            <td>Basic Plan</td>
+                            <td>
+                                <a href="#">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td>
+                              <input type="checkbox" />
+                              <span class="ut-text-sm-bold">Jun 2022</span>
+                          </td>
+                          <td>
+                              <div class="paid-badge">
+                              <span class="green-check-icon icon"></span>
+                              <span>Paid</span>
+                            </div>
+                          </td>
+                          <td>
+                              <span>USD $10.00</span>
+                          </td>
+                          <td>Basic Plan</td>
+                          <td>
+                              <a href="#">Download</a>
+                          </td>
+                      </tr>
+
+                      </tbody>
+                  </table>
+                  </div>
+
                 </div>
-                <table class="billing__history">
-                    <thead>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>span</span>
-                                <span><i>Icon</i></span>
-                            </td>
-                            <td>Status</td>
-                            <td>Amount</td>
-                            <td>Plan</td>
-                            <td></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" />
-                                <span>Dec 2022</span>
-                            </td>
-                            <td>
-                                <span><i>Icon</i></span>
-                                <span>Paid</span>
-                            </td>
-                            <td>
-                                <span>span</span>
-                            </td>
-                            <td>span</td>
-                            <td>
-                                <a href="#">Link</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+
             </section>
         </main>
     </body>
