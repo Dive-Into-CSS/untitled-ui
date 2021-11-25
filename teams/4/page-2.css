@@ -40,9 +40,10 @@ ul, ol {
 	color: var(--color-primary-600);
 }
 
-ul .collapsed__nav {
+.collapsed__nav > ul {
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
 }
 
 .settings__nav {
@@ -64,6 +65,7 @@ ul .collapsed__nav {
 
 .ut-icon-grp-2 {
 	margin-top: auto;
+	padding-bottom: 24px;
 }
 
 .ut-icon-grp-2 li:not(:last-of-type) {
