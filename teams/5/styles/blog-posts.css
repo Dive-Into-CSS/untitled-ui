@@ -1,9 +1,15 @@
+
+
 #hero-header {
     display : flex;
     flex-direction: column;
     align-items: center;
-    height : 994px;
     background-color: var(--color-primary-800);
+    padding-top: 6em;
+}
+
+.ut-top-navbar {
+    border: none;
 }
 
 .ut-hero-header-text-position {
@@ -12,42 +18,22 @@
     flex-direction: column;
     align-items: center;
 }
-
-.ut-title-span {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    /* Primary/200 */
-    color:  var(--color-primary-800);
+.ut-hero-header-text-position span {
+    color: var(--color-primary-200);
+}
+.ut-text-md-med {
+    display: block;
+    color:  var(--color-primary-200);
 }
 
 .title-h1 {
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 600;
-   font-size: 72px;
-   line-height: 90px;
-   /* or 125% */
-   text-align: center;
-   letter-spacing: -0.02em;
-    /* White */
    color: #FFFFFF; 
+   letter-spacing: -0.2rem;
+   margin: 12px;
 }
 
 .title-p {
-   font-family: Inter;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 30px;
-   /* identical to box height, or 150% */
-   text-align: center;
-   /* Primary/200 */
-   color: var(--color-primary-800);
+   color: var(--color-primary-200);
 }
 
 .ut-button_container {
@@ -74,6 +60,7 @@
    align-items: center;
    width: 1280px;
    height: 456px;
+   margin-top: -4em;
 }
 
 .direction {
@@ -170,26 +157,29 @@ line-height: 30px;
 color: #667085
 }
 
-.social-proof-title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+#social-proof {
+    padding: 7em 6em;
+    border: solid 1px var(--color-gray-200) ;
+}
+
+.ut-text-md-med {
   color: var(--color-gray-500);
 }
 
-.features-title{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-/* identical to box height, or 150% */
+#features-1{
+padding: 7em 6em;
+display: flex;
+justify-content: space-between;
+}
 
-/* Gray/900 */
-    color: #101828
+.features-title{
+    color: var(--color-gray-900);
+    display: block;
+    margin-top: 2em;
+}
+
+.direction_col p {
+    color: var(--color-gray-500);
 }
 
 .ut-action_container {
@@ -212,8 +202,8 @@ color: #667085
   position: static;
   width: 736px;
   height: 310px;
-left: 0px;
-top: 25px;
+    left: 0px;
+    top: 25px;
 }
 
 .ut-action-container-inner-text{
@@ -324,7 +314,7 @@ color: #6941C6;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #fff;
     width: 143px;
     height: 60px;
@@ -344,7 +334,7 @@ color: #6941C6;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #7F56D9;
+    background-color: var(--color-primary-600);
     color: #fff;
     width: 143px;
     height: 60px;
