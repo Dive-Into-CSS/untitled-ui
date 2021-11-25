@@ -110,9 +110,13 @@ ul, ol {
 	margin-top: 16px;
 }
 
-.settings__nav li:nth-of-type(5) {
+.settings__nav li.active {
 	background: var(--color-primary-700);
-	padding: 8px 12px;
+	height: 40px;
+	display: flex;
+	margin-left: -10px;
+	align-items: center;
+	padding-left: 10px;
 	border-radius: 6px;
 }
 
