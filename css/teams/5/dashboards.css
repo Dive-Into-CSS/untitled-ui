@@ -90,9 +90,23 @@ table tbody button {
     padding-left: 0;
 }
 
+#side-panel header img {
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.email {
+    display: block;
+}
+
 .cards header {
     display: flex;
     flex-direction: row;
+}
+
+.cards button {
+    border: 0;
+    background: transparent;
 }
 
 .budgets header {
@@ -100,12 +114,47 @@ table tbody button {
     flex-direction: row;
 }
 
+.budgets button {
+    border: 0;
+    background: transparent;
+    position: relative;
+    top: 15px;
+}
+
 .budgets ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.wrapper {
+.budgets ul li {
     display: flex;
     flex-direction: row;
+    padding: 10px;
+    background-color: var(--color-blue-25);
+    margin-bottom: 10px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.budgets ul li img {
+    margin-right: 20px;
+}
+
+.budgets ul li .wrapper {
+    width: 100%;
+}
+
+.budgets ul li .wrapper progress {
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text span {
+    display: block;
 }
