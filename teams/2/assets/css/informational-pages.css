@@ -9,34 +9,6 @@ body {
   font-family: helvetica;
 }
 
-main,
-nav,
-footer,
-header,
-section,
-#action,
-#middle-content {
-  border: 3px #5e5e5e;
-  border-style: dashed;
-  margin: 10px;
-  padding: 10px;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  margin-right: 10px;
-}
-
-nav {
-  background-color: rgb(176, 176, 176);
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10%;
-}
 
 main {
   padding: 10px 10%;
