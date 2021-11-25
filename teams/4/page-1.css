@@ -894,15 +894,18 @@ ul li:not(:first-of-type):not(.company__logo) {
 }
 
 .sliderListItem {
-  width: 384px;
-  height: 512px;
+  width: 384px !important;
+  height: 512px !important;
   padding: 32px 24px 24px;
   background-color: var(--color-primary-600);
   margin-right: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
 
+.sliderListItem:last-child {
+  margin-right: 0 !important;
 }
 
 .sliderLogo {
@@ -939,7 +942,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 .slick-next  {
   position: absolute;
   z-index: 1;
-  bottom: -32px;
+  bottom: -88px;
   width: 56px;
   height: 56px;
   border-radius: 28px;
@@ -952,10 +955,10 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .slick-prev {
   left: 0;
-  background: url(./assets/prev-slider-btn.svg) center center no-repeat;
+  background: url(./assets/home/prev-slider-btn.svg) center center no-repeat;
 }
 
 .slick-next {
   left: 88px;
-  background: url(.assets/next-slider-btn.svg) center center no-repeat;
+  background: url(./assets/home/next-slider-btn.svg) center center no-repeat;
 }
