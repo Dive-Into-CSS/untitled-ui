@@ -128,7 +128,7 @@ h1 {
 }
 
 .flex-container {
-    margin-top: 30px
+    margin-top: 30px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -215,7 +215,7 @@ h1 {
     margin-top: 100px;
 }
 .logo2 {
-    width: 100px;
+    
     height: 100px;
     text-align: center;
     
@@ -274,7 +274,7 @@ h1 {
 
 .logo-subscr {
     font-family: 'Inter';
-    font-size: 48px;
+    font-size: 30px;
     font-weight: var(--font-weight-reg);
     text-align: center;
 }
@@ -311,10 +311,21 @@ h1 {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 30px;
+    flex-direction: row;
+    display: flex;
 }
+
+.blocks-grid {
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+
 .block-grid {
     height: 560px;
     text-align: left;
+    
 }
 .block-img {
     background-color: darkorchid;
@@ -344,7 +355,7 @@ h1 {
 }
 
 .breaker {
-    margin: 100px 10%;
+    margin: 10px 5%;
 }
 
 .ut-icon-success::before {
@@ -425,4 +436,32 @@ h1 {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+
+}
+
+
+.blocks-grid .newsletter div {
+    display: flex;
+}
+
+.newsletter input {
+    padding: 12px;
+    border-radius: 10px;
+    border-color: #D0D5DD;
+    
+}
+
+.span-text {
+    font-size: 36px;
+    color: black ;
+}
+
+.p-text {
+    color: #667085;
+    font-size: 20px;
+}
+
+.span-text-2 {
+    font-size: 14px;
+    color: #667085;
 }
