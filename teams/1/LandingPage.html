@@ -1,352 +1,488 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Landing Page</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
+<head>
+  <meta charset="utf-8" />
+  <title>Landing Page</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="manifest" href="../../site.webmanifest" />
-        <link rel="apple-touch-icon" href="../../icon.png" />
-        <!-- Place favicon.ico in the root directory -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-        <link rel="stylesheet" href="../../css/normalize.css" />
-        <link rel="stylesheet" href="../../css/main.css" />
-        <link rel="stylesheet" href="../../css/navigation.css" />
-        <link rel="stylesheet" href="../../css/teams/1/landing-page.css" />
+  <link rel="manifest" href="../../site.webmanifest" />
+  <link rel="apple-touch-icon" href="../../icon.png" />
+  <!-- Place favicon.ico in the root directory -->
 
-        <meta name="theme-color" content="#fafafa" />
-    </head>
+  <link rel="stylesheet" href="../../css/normalize.css" />
+  <link rel="stylesheet" href="../../css/main.css" />
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/list.css">
+  <link rel="stylesheet" href="../../css/teams/1/landing-page.css">
 
-    <body>
-        <!-- Add your site or application content here -->
-        <header class="container" id="d">
-            <nav class="ut-top-navbar">
-                <ul class="top-navbar-list">
-                    <li class="nav-brand">
-                        <a href="#"
-                            ><img
-                                src="../../img/untitledui.svg"
-                                height="142"
-                                width="142"
-                                alt="logo"
-                        /></a>
-                    </li>
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item">
-                        <a href="#">Products <i>></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Resources <i>></i></a>
-                    </li>
-                    <li class="nav-item"><a href="#">Prcing</a></li>
-                </ul>
+  <meta name="theme-color" content="#fafafa" />
+</head>
 
-                <div>
-                    <button class="nav-item nav-item-login">Log in</button>
-                    <button class="nav-item nav-item-signup">Sign up</button>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <header>
-                <h1>
-                    Grow your users. <br />
-                    Smarter
-                </h1>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Deserunt asperiores earum suscipit iste delectus sequi
-                    incidunt soluta quod cupiditate nobis.
-                </p>
+<body>
+  <!-- Add your site or application content here -->
+  <header>
+    <nav class="ut-top-navbar">
+      <ul class="top-navbar-list">
+        <li class="nav-brand"><a href="#"><img src="../../img/untitledui.svg" height="142" width="142" alt="logo"></a>
+        </li>
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">Products <i>></i></a></li>
+        <li class="nav-item"><a href="#">Resources <i>></i></a></li>
+        <li class="nav-item"><a href="#">Prcing</a></li>
+      </ul>
 
-                <!-- not sure to use form  -->
-                <!--I wouldnt use a form, as it is just a single input, not really a form-->
-                <span>
-                    <input
-                        type="text"
-                        name="email"
-                        required
-                        placeholder="Enter your email"
-                    />
-                    <label
-                        >Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Doloribus, reprehenderit.</label
-                    >
-                </span>
+      <div>
+        <button class="nav-item nav-item-login">Log in</button>
+        <button class="nav-item nav-item-signup">Sign up</button>
+      </div>
+    </nav>
+  </header>
+  <main class="">
+    <header class="main-header container">
+      <div class="main-header-top">
+        <h1 class="ut-display-2xl-semi-bold">
+          Grow your users. <br />
+          <span>Smarter.</span>
+        </h1>
 
-                <input type="submit" value="Get Started" />
+        <p class="ut-text-xl-reg">
+          Powerful, self-serve product and growth analytics to help you convert, engage,<br> and retain more users.
+          Trusted
+          by over 4,000 startups.
+        </p>
 
-                <div>
-                    <span>Users over time</span>
-                    <!-- <img/> -->
-                    <!-- <img> -->
-                </div>
-            </header>
+        <!-- not sure to use form  -->
+        <!--I wouldnt use a form, as it is just a single input, not really a form-->
+        <div class="header-subscribe">
+          <div class="header-subscribe-left">
+            <input class="ut-text-md-reg" type="text" name="email" required placeholder="Enter your email" />
+            <br>
+            <span class="ut-text-sm-reg">We care about your data in our <a class="privacy-policy">privacy
+                policy</a></span>
+          </div>
+          <div>
+            <input class="header-submit ut-text-md-med" type="submit" value="Get Started" />
 
-            <!-- Users over time -->
-            <hr />
-            <section id="features_overview">
-                <!-- 3 copies -->
-                <article>
-                    <i></i>
-                    <!-- to be discussed -->
-                    <strong>Show team inboxes</strong>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus nesciunt numquam quaerat voluptatum, rem
-                        voluptatem dolore perspiciatis dolor perferendis animi
-                        nihil provident assumenda deleniti optio ab culpa
-                        praesentium odit placeat?
-                    </p>
-                </article>
-            </section>
+          </div>
+        </div>
+      </div>
 
-            <hr />
+      <img class="header-img" src="../../img/team-1/Mockup.png" alt="">
+    </header>
 
-            <section id="integrations">
-                <span>Integrations</span>
-                <h2>get more values from your tools</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Dignissimos, numquam laudantium! Corrupti vero nihil
-                    perspiciatis neque laboriosam, tempora eligendi quae.
-                </p>
+    <!-- Users over time -->
 
-                <!-- 6copies -->
-                <article>
-                    <i></i>
-                    <h3>Notion Integration</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Maxime, cumque nostrum repudiandae ab accusamus
-                        provident nulla libero autem quas ullam?
-                    </p>
-                    <a>View integration <i></i></a>
-                </article>
-            </section>
+    <section class="features-overview">
+      <!-- 3 copies -->
+      <article class="single-feature">
+        <i class="feature-message"></i>
+        <span>
+          <strong class="ut-text-xl-med">Show team inboxes</strong>
 
-            <hr />
+        </span>
+        <p class="ut-text-md-normal">
+          Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
+        </p>
+      </article>
+      <article class="single-feature">
+        <i class="feature-light"></i>
+        <span>
+          <strong class="ut-text-xl-med">Deliver instant answers</strong>
+        </span>
 
-            <section id="data">
-                <h2>Unleash your full power of data</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur autem omnis alias dolorem sapiente fugiat dolore
-                    neque libero quod laudantium.
-                </p>
-                <div>
-                    <!-- duplicate 3 times -->
-                    <div>
-                        <strong>40+</strong>
-                        <span>Integrations</span>
-                    </div>
-                </div>
-            </section>
-            <hr />
+        <p class="ut-text-md-normal">
+          An all-in-one customer service platform that helps you balance everything your customers need to be happy.
+        </p>
+      </article>
+      <article class="single-feature">
+        <i class="feature-report"></i>
+        <span>
+          <strong class="ut-text-xl-med">Manage your team with reports</strong>
+        </span>
+        <p class="ut-text-md-normal">
+          Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in
+          a couple clicks.
+        </p>
+      </article>
+    </section>
 
-            <section id="features_detail">
-                <span>Features</span>
-                <h2>Cutting-edge features for advanced analytics</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus ab quidem commodi velit, animi aliquam! Tenetur in
-                    autem non. Vitae?
-                </p>
 
-                <figure>
-                    <img src="" alt="#" />
-                    <img src="#" alt="#" />
-                </figure>
-                <article>
-                    <i></i>
-                    <!-- to be discussed -->
-                    <strong>Show team inboxes</strong>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus nesciunt numquam quaerat voluptatum, rem
-                        voluptatem dolore perspiciatis dolor perferendis animi
-                        nihil provident assumenda deleniti optio ab culpa
-                        praesentium odit placeat?
-                    </p>
-                    <a href="">Learn more<i></i></a>
-                </article>
-            </section>
 
-            <section id="pricing">
-                <span>Pricing</span>
-                <h2>Plans that fit your scale</h2>
-                <p>
-                    Simple, transparent pricing that grows with you. Try and
-                    plan free for 30 days.
-                </p>
-                <div>
-                    <!-- copy of this -->
-                    <div>
-                        <div>
-                            <h3>Basic plan</h3>
-                            <p>Our most popular plan for small features</p>
-                            <span
-                                ><strong><sup>$</sup>10</strong>per month</span
-                            >
-                        </div>
-                        <div>
-                            <h4>FEATURES</h4>
-                            <p>
-                                Everything in our
-                                <strong>free plan</strong> plus...
-                            </p>
-                            <ul>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                                <li><i></i>dummy content</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="">Get started</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <section class="integrations">
 
-            <hr />
+      <h2 class="ut-text-sm-med purple-badge">Integrations</h2>
+      <h3 class="ut-display-md-semi-bold">Get more value from your tools</h3>
+      <p class="ut-text-xl-reg">
+        Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s
+        favourite tools are just a click away.
+      </p>
 
-            <section>
-                <article id="faq">
-                    <h2>Frequently asked questions</h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Temporibus, nisi.
-                    </p>
-                    <!-- collapsibles: needed 6 times -->
-                    <div class="faq-card">
-                        <div class="faq-card-question-1">
-                            <p>
-                                <strong
-                                    >Is there a free trial available?</strong
-                                >
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolores ullam impedit harum
-                                repellendus at quos fugiat id eaque ipsum minus!
-                            </p>
-                            <button>hey</button>
-                        </div>
-                    </div>
+      <div class="integrations-container">
+        <article class="single-integration">
+          <img src="../../img/team-1/notion.svg" alt="notion logo">
+          <h4 class="ut-text-xl-med">Slack integration</h4>
+          <p class="ut-text-md-reg">
+            Work faster and smarter by integrating directly with Slack, right in the app.
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+        <article class="single-integration">
+          <img src="../../img/team-1/slack.svg" alt="slack logo">
+          <h4 class="ut-text-xl-med">Google Drive integration</h4>
+          <p class="ut-text-md-reg">
+            Work faster and smarter by integrating directly with Google Drive, right in the app.
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+        <article class="single-integration">
+          <img src="../../img/team-1/g-drive.svg" alt="google drive logo">
+          <h4 class="ut-text-xl-med">Intercom integration</h4>
+          <p class="ut-text-md-reg">
+            Work faster and smarter by integrating directly with Intercom, right in the app.
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+        <article class="single-integration">
+          <img src="../../img/team-1/intercom.png" alt="intercom logo">
+          <h4 class="ut-text-xl-med">Jira integration</h4>
+          <p class="ut-text-md-reg">
+            Work faster and smarter by integrating directly with Jira, right in the app.
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+        <article class="single-integration">
+          <img src="../../img/team-1/jira.png" alt="jira logo">
+          <h4 class="ut-text-xl-med">Notion Integration</h4>
+          <p class="ut-text-md-reg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime, cumque nostrum repudiandae ab accusamus
+            provident nulla libero autem quas ullam?
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+        <article class="single-integration">
+          <img src="../../img/team-1/dropbox.png" alt="dropbox logo">
+          <h4 class="ut-text-xl-med">Dropbox integration</h4>
+          <p class="ut-text-md-reg">
+            Work faster and smarter by integrating directly with Dropbox, right in the app.
+          </p>
+          <a class="ut-text-md-med">View integration <i></i></a>
+        </article>
+      </div>
+    </section>
 
-                    <div class="faq-more-questions">
-                        <div class="users-pic-faq">
-                            <img src="" alt="" />
-                            <img src="" alt="" />
-                            <img src="" alt="" />
-                        </div>
-                        <p><strong>Still have questions?</strong></p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Dolore, tempora.
-                        </p>
-                        <a href="">Get in touch</a>
-                    </div>
 
-                    <article class="trusted-companies-container">
-                        <span>Trusted by 4,000+ companies</span>
-                        <ul>
-                            <li><img src="#" alt="#" /></li>
-                            <li><img src="#" alt="#" /></li>
-                            <li><img src="#" alt="#" /></li>
-                            <li><img src="#" alt="#" /></li>
-                            <li><img src="#" alt="#" /></li>
-                        </ul>
-                    </article>
-                </article>
-            </section>
+    <section class="figures">
+      <h3 class="ut-display-md-semi-bold">Unleash your full power of data</h3>
+      <p class="ut-text-xl-reg">
+        Everything you need to convert, engage, and retain more users.
+      </p>
+      <div class="figures-figures">
+        <!-- duplicate 3 times -->
+        <div class="single-figure">
+          <span class="ut-display-xl-semi-bold"><strong>40+</strong></span><br>
+          <span class="ut-text-lg-med">Integrations</span>
+        </div>
+        <div class="single-figure">
+          <span class="ut-display-xl-semi-bold"><strong>600%</strong></span><br>
+          <span class="ut-text-lg-med">Return on investment</span>
+        </div>
+        <div class="single-figure">
+          <span class="ut-display-xl-semi-bold"><strong>4k+</strong></span><br>
+          <span class="ut-text-lg-med">Global customers</span>
+        </div>
+      </div>
+    </section>
 
-            <section class="free-trial">
-                <h2>Start your free trial</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quasi, quibusdam.
-                </p>
-                <a href="">Learn more</a>
-                <a href="">Get started</a>
-            </section>
-        </main>
 
-        <footer>
+    <section class="features-detail">
+      <h2 class="ut-text-sm-med purple-badge">Features</h2>
+      <h3 class="ut-display-md-semi-bold">Cutting-edge features for advanced analytics</h3>
+      <p class="ut-text-xl-reg">
+        Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by
+        over 4,000 startups.
+      </p>
+
+      <figure>
+        <img class="features-detail-img" src="../../img/team-1/features-detail-img.png" alt="#" />
+      </figure>
+      <div class="features-container">
+        <article class="single-feature">
+          <i class="feature-message"></i>
+          <span>
+            <strong class="ut-text-xl-med">Share team inboxes</strong>
+          </span>
+          <p class="ut-text-md-normal">
+            Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
+          </p>
+          <a class="ut-text-md-med">Learn more<i></i></a>
+        </article>
+        <article class="single-feature">
+          <i class="feature-light"></i>
+          <span>
+            <strong class="ut-text-xl-med">Share team inboxes</strong>
+          </span>
+          <p class="ut-text-md-normal">
+            An all-in-one customer service platform that helps you balance everything your customers need to be happy.
+          </p>
+          <a class="ut-text-md-med">Learn more<i></i></a>
+        </article>
+        <article class="single-feature">
+          <i class="feature-report"></i>
+          <span>
+            <strong class="ut-text-xl-med">Share team inboxes</strong>
+          </span>
+          <p class="ut-text-md-normal">
+            Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data
+            in a couple clicks.
+          </p>
+          <a class="ut-text-md-med">Learn more<i></i></a>
+        </article>
+      </div>
+
+    </section>
+    <hr class="divider">
+
+    <section class="pricing">
+      <div class="pricing-intro">
+        <h2 class="ut-text-sm-med purple-badge">Pricing</h2>
+        <h3 class="ut-display-md-semi-bold">Plans that fit your scale</h3>
+        <p class="ut-text-xl-reg">
+          Simple, transparent pricing that grows with you. Try and
+          plan free for 30 days.
+        </p>
+      </div>
+
+      <div class="pricing-plans">
+        <!-- copy of this -->
+        <div class="pricing-card">
+          <div class="pricing-header">
             <div>
-                <!-- repeated -->
-                <nav>
-                    <div class="footer-menu-col-1">
-                        <ul>
-                            <li><span>Products</span></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li>
-                                <a href=""
-                                    >Content<span class="new-tag">New</span></a
-                                >
-                            </li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-menu-col-2">
-                        <ul>
-                            <li><span>Products</span></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">Content</a></li>
-                        </ul>
-                    </div>
-                </nav>
+              <h4 class="ut-display-xs-semi-bold">Basic plan</h4>
+              <p class="ut-text-md-reg">Our most popular plan for small features</p>
             </div>
 
-            <hr />
+            <span class="ut-text-md-med price"><strong class="ut-display-xl-semi-bold"><sup
+                  class="ut-display-md-semi-bold">$</sup>10</strong>per
+              month</span>
+          </div>
+          <div class="pricing-body">
+            <h4 class="ut-text-md-semi-bold">FEATURES</h4>
+            <p class="ut-text-md-reg">
+              Everything in our
+              <strong class="ut-text-md-semi-bold">free plan</strong> plus...
+            </p>
+            <div class="pricing-features">
+              <ul class="ut-checked-list-items">
+                <li class="ut-text-md-reg">Access to all basic features</li>
+                <li class="ut-text-md-reg">Basic reporting and analytics</li>
+                <li class="ut-text-md-reg">Up to 10 individual users</li>
+                <li class="ut-text-md-reg">20GB individual data each user</li>
+                <li class="ut-text-md-reg">Basic chat and email support</li>
+              </ul>
+              <ul class="ut-checked-list-items">
+                <li class="ut-text-md-reg">Access to all basic features</li>
+                <li class="ut-text-md-reg">Basic reporting and analytics</li>
+                <li class="ut-text-md-reg">Up to 10 individual users</li>
+                <li class="ut-text-md-reg">20GB individual data each user</li>
+                <li class="ut-text-md-reg">Basic chat and email support</li>
+              </ul>
+            </div>
+          </div>
 
-            <div class="logo">
-                <img src="#" alt="logo" />
+          <a><button>Get started</button></a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div>
+              <h4 class="ut-display-xs-semi-bold">Basic plan</h4>
+              <p class="ut-text-md-reg">Our most popular plan for small features</p>
             </div>
 
-            <strong>&copy; Untitled UI. All right reserved.</strong>
-        </footer>
+            <span class="ut-text-md-med price"><strong class="ut-display-xl-semi-bold"><sup
+                  class="ut-display-md-semi-bold">$</sup>10</strong>per
+              month</span>
+          </div>
+          <div class="pricing-body">
+            <h4 class="ut-text-md-semi-bold">FEATURES</h4>
+            <p class="ut-text-md-reg">
+              Everything in our
+              <strong class="ut-text-md-semi-bold">free plan</strong> plus...
+            </p>
+            <div class="pricing-features">
+              <ul class="ut-checked-list-items">
+                <li class="ut-text-md-reg">Access to all basic features</li>
+                <li class="ut-text-md-reg">Basic reporting and analytics</li>
+                <li class="ut-text-md-reg">Up to 10 individual users</li>
+                <li class="ut-text-md-reg">20GB individual data each user</li>
+                <li class="ut-text-md-reg">Basic chat and email support</li>
+              </ul>
+              <ul class="ut-checked-list-items">
+                <li class="ut-text-md-reg">Access to all basic features</li>
+                <li class="ut-text-md-reg">Basic reporting and analytics</li>
+                <li class="ut-text-md-reg">Up to 10 individual users</li>
+                <li class="ut-text-md-reg">20GB individual data each user</li>
+                <li class="ut-text-md-reg">Basic chat and email support</li>
+              </ul>
+            </div>
+          </div>
 
-        <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
-        <script src="../../js/plugins.js"></script>
-        <script src="../../js/main.js"></script>
+          <a><button>Get started</button></a>
+        </div>
+      </div>
+    </section>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga = function () {
-                ga.q.push(arguments);
-            };
-            ga.q = [];
-            ga.l = +new Date();
-            ga('create', 'UA-XXXXX-Y', 'auto');
-            ga('set', 'anonymizeIp', true);
-            ga('set', 'transport', 'beacon');
-            ga('send', 'pageview');
-        </script>
-        <script
-            src="https://www.google-analytics.com/analytics.js"
-            async
-        ></script>
-    </body>
+    <hr />
+
+    <section class="faqs">
+
+      <h2 class="ut-display-md-semi-bold">Frequently asked questions</h2>
+      <p calss="ut-text-xl-reg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Temporibus, nisi.
+      </p>
+      <!-- collapsibles: needed 6 times -->
+      <div class="faq-card">
+        <span class="ut-text-lg-med">Is there a free trial available?</span>
+        <span>icon</span>
+      </div>
+      <p class="ut-text-md-reg" style="text-align: left;margin-bottom:0;">Yes, you can try us for free for 30 days.
+        If you want, we’ll
+        provide you with a free,
+        personalized 30-minute
+        onboarding call to get you up and running as soon as possible.</p>
+
+      <hr>
+      <div class="faq-card">
+        <span class="ut-text-lg-med">Is there a free trial available?</span>
+        <span>icon</span>
+      </div>
+
+      <hr>
+
+      <div class="faq-card">
+        <span class="ut-text-lg-med">Is there a free trial available?</span>
+        <span>icon</span>
+      </div>
+
+      <hr>
+      <div class="faq-card">
+        <span class="ut-text-lg-med">Is there a free trial available?</span>
+        <span>icon</span>
+      </div>
+
+      <hr>
+      <div class="faq-card">
+        <span class="ut-text-lg-med">Is there a free trial available?</span>
+        <span>icon</span>
+      </div>
+
+      <hr>
+
+
+      <div class="faq-more-questions">
+        <img src="" alt="">
+        <p class="ut-text-xl-med  faq-more-questions-header"><strong>Still have questions?</strong></p>
+        <p class="ut-text-lg-reg faq-more-questions-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Dolore, tempora.
+        </p>
+        <a href=""><button class="ut-text-md-med">Get in Touch</button></a>
+      </div>
+
+    </section>
+
+    <aside class="trusted-companies">
+      <span class="ut-text-xl-reg">Trusted by 4,000+ companies</span>
+      <ul>
+        <li><img src="#" alt="#" /></li>
+        <li><img src="#" alt="#" /></li>
+        <li><img src="#" alt="#" /></li>
+        <li><img src="#" alt="#" /></li>
+        <li><img src="#" alt="#" /></li>
+      </ul>
+    </aside>
+
+
+
+    <section class="free-trial">
+      <div class="free-trial-content">
+        <h2 class="ut-display-md-semi-bold">Start your free trial</h2>
+        <p class="ut-text-xl-reg">
+          Join over 4,000+ startups already growing with Untitled.
+        </p>
+        <a href=""><button class="ut-text-md-med learn-more">Learn more</button></a>
+        <a href=""><button class="ut-text-md-med get-started">Get started</button></a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <!-- repeated -->
+      <nav>
+        <div class="footer-menu-col-1">
+          <ul>
+            <li><span>Products</span></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li>
+              <a href="">Content<span class="new-tag">New</span></a>
+            </li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-menu-col-2">
+          <ul>
+            <li><span>Products</span></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Content</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <hr />
+
+    <div class="logo">
+      <img src="#" alt="logo" />
+    </div>
+
+    <strong>&copy; Untitled UI. All right reserved.</strong>
+  </footer>
+
+  <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../../js/plugins.js"></script>
+  <script src="../../js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments);
+    };
+    ga.q = [];
+    ga.l = +new Date();
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview');
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
