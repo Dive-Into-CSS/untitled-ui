@@ -76,3 +76,28 @@
     margin-bottom: 32px;
     min-height: 84px;
 }
+
+.slick-prev,
+.slick-next  {
+    position: absolute;
+    z-index: 1;
+    bottom: -32px;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    font-size: 0;
+    backdrop-filter: var(--blur-sm-light-backdrop-filter);
+}
+
+.slick-prev {
+    left: 0;
+    background: url(../../../../FinalProjectModule3/home/prev-slider-btn.svg) center center no-repeat;
+}
+
+.slick-next {
+    left: 88px;
+    background: url(../../../../FinalProjectModule3/home/next-slider-btn.svg) center center no-repeat;
+}
