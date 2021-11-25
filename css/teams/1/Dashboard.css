@@ -6,7 +6,7 @@
     justify-content: space-between;
     position: fixed;
     height: 100%;
-    width: 5%;
+    width: 80px;
     background-color: var(--color-primary-700);
 }
 
@@ -14,10 +14,102 @@ button {
     cursor: pointer;
 }
 
-.ut-dashboard-navbar .dashboard-navbar-logo {
-    margin-top: 16px;
-    text-align: center;
+/*################# ICONS ###############*/
+.ut-dashboard-navbar .nav-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    content: url("../../../img/team1/team1-dashboard-logo.svg");
 }
+.ut-dashboard-navbar .nav-home-icon {
+    content: url("../../../img/team1/team1-dashboard-home.svg");
+}
+.ut-dashboard-navbar .nav-bar-chart-icon {
+    content: url("../../../img/team1/team1-dashboard-bar-chart-2.svg");
+}
+.ut-dashboard-navbar .nav-3-layers-icon {
+    content: url("../../../img/team1/team1-dashboard-3-layers.svg");
+}
+.ut-dashboard-navbar .nav-check-square-icon {
+    content: url("../../../img/team1/team1-dashboard-check-square.svg");
+}
+.ut-dashboard-navbar .nav-flag-icon {
+    content: url("../../../img/team1/team1-dashboard-flag.svg");
+}
+.ut-dashboard-navbar .nav-users-icon {
+    content: url("../../../img/team1/team1-dashboard-users.svg");
+}
+.ut-dashboard-navbar .nav-life-buoy-icon {
+    content: url("../../../img/team1/team1-dashboard-life-buoy.svg");
+}
+.ut-dashboard-navbar .nav-settings-icon {
+    content: url("../../../img/team1/team1-dashboard-settings.svg");
+}
+.ut-dashboard-content .dashboard-graphs .three-dots-icon {
+    content: url("../../../img/team1/team1-dashboard-three-dots.svg");
+}
+.ut-dashboard-content .dashboard-top .upload-icon {
+    content: url("../../../img/team1/team1-dashboard-upload.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-content .dashboard-top .plus-icon {
+    content: url("../../../img/team1/team1-dashboard-plus.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .table-filtering .cross-icon {
+    content: url("../../../img/team1/team1-dashboard-x.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .table-filtering .filter-lines-icon {
+    content: url("../../../img/team1/team1-dashboard-filters-lines.svg");
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.ut-dashboard-table-container .ut-table-dashboard .checkbox-icon {
+    content: url("../../../img/team1/team1-dashboard-checkbox-th.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .arrow-down-icon {
+    content: url("../../../img/team1/team1-dashboard-arrow-down.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-1-icon {
+    content: url("../../../img/team1/company-logos/company-logo1.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-2-icon {
+    content: url("../../../img/team1/company-logos/company-logo2.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-3-icon {
+    content: url("../../../img/team1/company-logos/company-logo3.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-4-icon {
+    content: url("../../../img/team1/company-logos/company-logo4.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-5-icon {
+    content: url("../../../img/team1/company-logos/company-logo5.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-6-icon {
+    content: url("../../../img/team1/company-logos/company-logo6.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .company-7-icon {
+    content: url("../../../img/team1/company-logos/company-logo7.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .trash-icon {
+    content: url("../../../img/team1/team1-dashboard-trash-2.svg");
+    vertical-align: middle;
+}
+.ut-dashboard-table-container .ut-table-dashboard .edit-icon {
+    content: url("../../../img/team1/team1-dashboard-edit.svg");
+    vertical-align: middle;
+}
+
 
 .ut-dashboard-navbar .dashboard-navbar-list {
     padding: 0;
@@ -27,7 +119,7 @@ button {
     text-align: center;
 }
 
-.ut-dashboard-navbar .dashboard-navbar-list-profile::before {
+.ut-dashboard-navbar .dashboard-navbar-list-profile-icon::before {
     border-top: 1px solid var(--color-gray-100);
     padding-top: 40px;
     margin: 24px 16px;
@@ -52,7 +144,7 @@ button {
 
 .ut-dashboard-background {
     background-color: var(--color-primary-700);
-    margin-left: 5%;
+    margin-left: 80px;
     padding-top: 8px;
 }
 
@@ -86,10 +178,14 @@ button {
 }
 
 .ut-dashboard-content .dashboard-top button.add-customer {
-    background-color: var(--color-primary-700);
+    background-color: var(--color-primary-600);
     color: var(--color-primary-25);
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.ut-dashboard-content .dashboard-top button.add-customer:hover {
+    background-color: var(--color-primary-700);
 }
 
 .ut-dashboard-content .dashboard-graphs {
@@ -97,7 +193,8 @@ button {
     justify-content: space-between;
 }
 
-.ut-dashboard-content .dashboard-graphs img {
+.ut-dashboard-content .dashboard-graphs i {
+    margin-top: 4px;
     float: right;
 }
 
@@ -115,11 +212,22 @@ button {
     background-color: var(--color-primary-50);
 }
 
+.ut-dashboard-table-container button.filter:hover {
+    background-color: var(--color-primary-100);
+}
+
 .ut-dashboard-table-container button.more-filters {
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
     border: 1px solid var(--color-gray-300);
     background-color: white;
+}
+
+.ut-dashboard-content .dashboard-top button.import:hover,
+.ut-dashboard-table-container button.more-filters:hover,
+.ut-dashboard-table-container .pagination button.previous:hover,
+.ut-dashboard-table-container .pagination button.next:hover {
+    background-color: var(--color-gray-50);
 }
 
 .ut-dashboard-table-container .table-filtering {
@@ -209,17 +317,41 @@ button {
     text-align: right;
 }
 
-.ut-dashboard-table-container .ut-table-dashboard .edit-links a {
+.ut-dashboard-table-container .ut-table-dashboard .edit-links i {
     margin-left: 16px;
 }
 
 .ut-dashboard-table-container .ut-table-dashboard .dot {
     height: 32px;
     width: 32px;
-    background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     margin-left: -10px;
+    border: 2px solid white;
+}
+
+.ut-table-dashboard .light-brown {
+    background-color: #D1BAA9;
+}
+
+.ut-table-dashboard .light-purple {
+    background-color: #DBC0DD;
+}
+
+.ut-table-dashboard .mud-brown {
+    background-color: #D4B5AD;
+}
+
+.ut-table-dashboard .brown {
+    background-color: #BEA887;
+}
+
+.ut-table-dashboard .blue-purple {
+    background-color: #CCC0DD;
+}
+
+.ut-table-dashboard .white-purple {
+    background-color: #d2b4ff;
 }
 
 .ut-dashboard-table-container .ut-table-dashboard .range-outer {
@@ -350,20 +482,19 @@ button {
         width: 100%;
         height: 8%;
         background-color: white;
-        border: 1px solid var(--color-gray-100);
+        border: 1px solid var(--color-gray-200);
     }
 
     .ut-dashboard-navbar .dashboard-navbar-logo {
         margin-left: 16px;
         margin-bottom: 16px;
-        text-align: center;
     }
 
     .ut-dashboard-navbar .dashboard-navbar-list {
         display: none;
     }
 
-    .ut-dashboard-navbar .dashboard-navbar-list-profile {
+    .ut-dashboard-navbar .dashboard-navbar-list-profile-icon {
         content: url("../../../img/team1/team1-dashboard-mobile-logo.svg");
         border-top: 1px solid var(--color-gray-100);
         padding: 40px;
