@@ -325,7 +325,11 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* section faqs */
 .faqs{
-   padding: 96px 8rem;
+   padding: 96px 48px;
+}
+
+.faqs-top{
+    padding: 0 5rem;
 }
 
 .faqs h2{
@@ -336,7 +340,7 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
 }
 
-.faqs > p{
+.faqs div:first-child > p{
     margin-top: 20px;
     margin-bottom: 64px;
     color: var(--color-gray-500);
@@ -354,6 +358,7 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
     background: var(--color-gray-50);
     border-radius: 16px;
+    margin-top: 64px;
 }
 
 
@@ -394,17 +399,20 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
 .trusted-companies ul li{
     display: inline;
-    margin-right: 60px;
+    margin: 0 20px;
 }
 
-.trusted-companies ul li:last-child{
-    margin-right: 0;
+.trusted-companies img{
+    max-width: 146px;
 }
+
+
 
 /* section free trial */
 
@@ -436,7 +444,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .free-trial-content .learn-more{
-    color: var(--color-blur-dark);
+    color: var(--color-gray-700);
     background: white;
     margin-right: 12px;
 
@@ -471,6 +479,17 @@ h1,h2,h3,h4,h5,h6,p{
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.minus-circle{
+    content: url(../../../img/team-1/minus-circle.png);
+}
+
+
+.plus-circle{
+    content: url(../../../img/team-1/plus-circle.png);
+
+
 }
 
 .purple-badge{
