@@ -16,10 +16,6 @@ body {
     margin: 10px;
 }
 
-.ut-top-v-navbar a img {
-    border-top: 1px solid black;
-}
-
 main {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -33,14 +29,28 @@ main {
     justify-content: space-between;
 }
 
-.text-wrapper span {
+.text-wrapper > span {
     color: var(--color-gray-500);
+}
+
+.balance span {
+    color: var(--color-gray-900);
+}
+
+.buttons button {
+    color: var(--color-gray-700);
+    background-color: #ffffff;
+    border: 1px solid var(--color-gray-300);
 }
 
 #transaction-history header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#transaction-history header h2 {
+    color: var(--color-gray-900);
 }
 
 table {
@@ -51,8 +61,19 @@ table {
 table th {
     border-bottom: 1px solid black;
 }
+
 table td {
     border-bottom: 1px solid black;
+}
+
+table thead span {
+    color: var(--color-gray-500);
+}
+
+table tbody button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
 }
 
 .pagination {
@@ -62,10 +83,11 @@ table td {
 }
 
 .pagination ul {
-    list-style-type: none;
-    padding-left: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .cards header {

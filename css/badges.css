@@ -1,20 +1,19 @@
 @import url(colors.css);
 
-
 .ut-badge:not(body) {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding: 2px 8px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-line-height: 20px;
-/* identical to box height, or 143% */
-text-align: center;
-border-radius: 16px;
-margin: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    border-radius: 16px;
+    margin: 12px;
 }
 
 .ut-badge:not(body).is-gray {
@@ -25,41 +24,39 @@ margin: 12px;
     background-color: var(--color-primary-50);
 }
 
-
-.ut-badge:not(body).is-small{
+.ut-badge:not(body).is-small {
     font-size: 12px;
-    width:48px;
+    width: 48px;
     height: 22px;
 }
 
-.ut-badge:not(body).is-medium{
+.ut-badge:not(body).is-medium {
     font-size: 14px;
-        width:57px;
-        height: 24px;
-  /* Text sm/Medium */
+    width: 57px;
+    height: 24px;
+    /* Text sm/Medium */
 
-/* Gray/700 */
-color: #344054;
+    /* Gray/700 */
+    color: #344054;
 }
 
-
-.ut-dot{
-width: 6px;
-height: 6px;
-border-radius: 12px;
-margin-right: 5px;
-/* Gray/500 */
-background: #667085;
-}    
-
-.ut-badge:not(body).circle-small{
-  width: 24px;
-  height: 24px;
-  border-radius: 16px;
+.ut-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 12px;
+    margin-right: 5px;
+    /* Gray/500 */
+    background: #667085;
 }
 
-.ut-badge:not(body).circle-medium{
-  width: 28px;
-  height: 28px;
-  border-radius: 16px;
+.ut-badge:not(body).circle-small {
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+}
+
+.ut-badge:not(body).circle-medium {
+    width: 28px;
+    height: 28px;
+    border-radius: 16px;
 }

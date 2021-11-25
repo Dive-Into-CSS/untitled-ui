@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="../../css/teams/5/dashboards.css" />
+        <link rel="stylesheet" href="../../css/teams/n/badge.css" />
+        <link rel="stylesheet" href="../../css/teams/n/icons.css" />
+        <link rel="stylesheet" href="../../css/teams/n/page.css" />
         <link rel="stylesheet" href="../../css/blurs.css" />
         <link rel="stylesheet" href="../../css/list.css" />
-        <link rel="stylesheet" href="../../css/main.css" />
         <link rel="stylesheet" href="../../css/main.css" />
         <link rel="stylesheet" href="../../css/normalize.css" />
         <link rel="stylesheet" href="../../css/shadows.css" />
@@ -19,7 +21,7 @@
         <!-- Navigation on the left -->
         <nav class="ut-top-v-navbar">
             <ul class="top-v-navbar-list">
-                <li class="nav-item">
+                <li class="nav-brand">
                     <a href="#"
                         ><img
                             src="../../img/unititledui-dark.svg"
@@ -29,50 +31,42 @@
                     /></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon1.svg" alt="icon" />
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon2.svg" alt="icon" />
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon3.svg" alt="icon" />
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon4.svg" alt="icon" />
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon5.svg" alt="icon" />
                 </li>
                 <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
+                    <img src="./assets/icon6.svg" alt="icon" />
                 </li>
             </ul>
 
-            <ul class="top-v-navbar-list">
-                <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">
-                        <span><i>Icon</i></span>
-                    </a>
-                </li>
-            </ul>
-            <a href="#"><img src="../../img/avatar2.png" alt="imgs" /></a>
+            <div>
+                <ul class="top-v-navbar-list">
+                    <li class="nav-item">
+                        <img src="./assets/icon7.svg" alt="icon" />
+                    </li>
+                    <li class="nav-item">
+                        <img src="./assets/icon8.svg" alt="icon" />
+                    </li>
+                </ul>
+
+                <hr />
+
+                <div class="top-v-navbar-profile-row">
+                    <span class="dot"></span>
+                    <img src="../../img/avatar1.png" alt="avatar" />
+                </div>
+            </div>
         </nav>
 
         <!-- Main content -->
@@ -82,7 +76,7 @@
                 <div class="text-wrapper">
                     <span>Your balance</span>
                     <div class="balance">
-                        <i></i>
+                        <img src="./assets/us.svg" alt="US" />
                         <span>$40,206.20</span>
                     </div>
                 </div>
@@ -94,7 +88,7 @@
             </section>
 
             <!-- Canvas -->
-            <canvas></canvas>
+            <img src="./assets/section.svg" alt="Section" />
 
             <section id="transaction-history">
                 <header>
@@ -128,7 +122,11 @@
                     <tbody>
                         <tr>
                             <td>
-                                <span><i></i>Spotify</span>
+                                <span
+                                    ><img
+                                        src="./assets/avatar1.svg"
+                                    />Spotify</span
+                                >
                             </td>
                             <td>
                                 <span>- $18.99</span>
@@ -137,20 +135,25 @@
                                 <time>Wed 1:00pm</time>
                             </td>
                             <td>
-                                <span>Subscriptions</span>
+                                <span class="ut-badge">Subscriptions</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/visa.svg" alt="" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>A Coffee</span>
+                                <span
+                                    ><img src="./assets/avatar2.svg" />A
+                                    Coffee</span
+                                >
                             </td>
                             <td>
                                 <span>- $4.50</span>
@@ -159,20 +162,26 @@
                                 <time>Wed 7:20am</time>
                             </td>
                             <td>
-                                <span>Food and dining</span>
+                                <span class="ut-badge">Food and dining</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/visa.svg" alt="" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>Stripe</span>
+                                <span
+                                    ><img
+                                        src="./assets/avatar3.svg"
+                                    />Stripe</span
+                                >
                             </td>
                             <td>
                                 <span>+ $88.00</span>
@@ -181,20 +190,26 @@
                                 <time>Wed 2:45am</time>
                             </td>
                             <td>
-                                <span>Income</span>
+                                <span class="ut-badge">Income</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/mastercard.svg" alt="" />
                                 <span>Mastercard 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>Figma</span>
+                                <span
+                                    ><img
+                                        src="./assets/avatar4.svg"
+                                    />Figma</span
+                                >
                             </td>
                             <td>
                                 <span>- $15.00</span>
@@ -203,20 +218,25 @@
                                 <time>Tue 6:10pm</time>
                             </td>
                             <td>
-                                <span>Subscriptions</span>
+                                <span class="ut-badge">Subscriptions</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/visa.svg" alt="" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>TBF Bakery</span>
+                                <span
+                                    ><img src="./assets/avatar5.svg" />TBF
+                                    Bakery</span
+                                >
                             </td>
                             <td>
                                 <span>- $12.50</span>
@@ -225,20 +245,25 @@
                                 <time>Tue 7:52am</time>
                             </td>
                             <td>
-                                <span>Food and dining</span>
+                                <span class="ut-badge">Food and dining</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/visa.svg" alt="" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>Fresh F&V</span>
+                                <span
+                                    ><img src="./assets/avatar6.svg" />Fresh
+                                    F&V</span
+                                >
                             </td>
                             <td>
                                 <span>- $40.20</span>
@@ -247,20 +272,26 @@
                                 <time>Tue 12:15pm</time>
                             </td>
                             <td>
-                                <span>Groceries</span>
+                                <span class="ut-badge">Groceries</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/visa.svg" alt="" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <span><i></i>Stripe</span>
+                                <span
+                                    ><img
+                                        src="./assets/avatar3.svg"
+                                    />Stripe</span
+                                >
                             </td>
                             <td>
                                 <span>+ $88.00</span>
@@ -269,15 +300,17 @@
                                 <time>Tue 5:40am</time>
                             </td>
                             <td>
-                                <span>Income</span>
+                                <span class="ut-badge">Income</span>
                             </td>
-                            <td>
-                                <i></i>
+                            <td class="account">
+                                <img src="./assets/mastercard.svg" alt="visa" />
                                 <span>Visa 1234</span>
                                 <time>Expiry 06/2024</time>
                             </td>
                             <td>
-                                <button></button>
+                                <button>
+                                    <img src="./assets/button.svg" />
+                                </button>
                             </td>
                         </tr>
                     </tbody>
@@ -315,12 +348,12 @@
 
         <!-- Profile info on the right side -->
         <article id="side-panel">
-            <img src="" alt="img" />
+            <img src="./assets/image-wrap-inner.svg" alt="img" />
             <header>
                 <img src="../../img/avatar2.png" alt="imgs" />
                 <div class="account">
                     <span>Olivia Rhye</span>
-                    <span>Premium</span>
+                    <span class="ut-badge">Premium</span>
                     <span>olivia@untittledui.com</span>
                 </div>
             </header>
@@ -329,7 +362,7 @@
                     <h2>My cards</h2>
                     <button>+ Add card</button>
                 </header>
-                <img src="" alt="img" />
+                <img src="./assets/cards2.svg" alt="img" />
             </section>
             <section class="budgets">
                 <header>
@@ -338,7 +371,7 @@
                 </header>
                 <ul>
                     <li>
-                        <i></i>
+                        <img src="./assets/icon9.svg" alt="icon" />
                         <div class="wrapper">
                             <div class="text">
                                 <span>Subscriptions</span>
@@ -348,7 +381,7 @@
                         </div>
                     </li>
                     <li>
-                        <i></i>
+                        <img src="./assets/icon10.svg" alt="icon" />
                         <div class="wrapper">
                             <div class="text">
                                 <span>Food and booze</span>
@@ -358,7 +391,7 @@
                         </div>
                     </li>
                     <li>
-                        <i></i>
+                        <img src="./assets/icon11.svg" alt="icon" />
                         <div class="wrapper">
                             <div class="text">
                                 <span>Groceries</span>
