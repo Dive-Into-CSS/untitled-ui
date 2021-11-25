@@ -167,7 +167,7 @@ button {
 .ut-dashboard-content .dashboard-top button {
     padding: 8px;
     border-radius: 8px;
-    margin-top: 16px;
+    margin-top: 32px;
     border: 1px solid var(--color-gray-300);
 }
 
@@ -204,6 +204,9 @@ button {
     margin-top: 24px;
 }
 
+.ut-dashboard-table-container .filters {
+    display: inline;
+}
 .ut-dashboard-table-container button.filter {
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
@@ -457,6 +460,7 @@ button {
 }
 
 @media screen and (max-width: 800px) {
+    html, body{margin:0;padding:0;}
     .ut-dashboard-table-container .ut-table-dashboard tr {
         display: flex;
         flex-direction: row;
@@ -471,7 +475,7 @@ button {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 
     .ut-dashboard-navbar {
         display: flex;
@@ -480,7 +484,7 @@ button {
         align-items: center;
         position: fixed;
         width: 100%;
-        height: 8%;
+        height: 60px;
         background-color: white;
         border: 1px solid var(--color-gray-200);
     }
@@ -497,15 +501,19 @@ button {
     .ut-dashboard-navbar .dashboard-navbar-list-profile-icon {
         content: url("../../../img/team1/team1-dashboard-mobile-logo.svg");
         border-top: 1px solid var(--color-gray-100);
-        padding: 40px;
-        margin: 24px 16px;
+    }
+
+    .ut-dashboard-background {
+        margin-left: 10px;
+        width: 100%;
     }
 
     .ut-dashboard-content {
-        margin-top: 8%;
+        margin-top: 50px;
         border-top-left-radius: 0px;
         padding-left: 0px;
         padding-right: 0px;
+        width: 100%;
     }
 
     .ut-dashboard-content .dashboard-top {
@@ -517,6 +525,64 @@ button {
     .ut-dashboard-content .dashboard-graphs {
         display: flex;
         flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .ut-dashboard-content .dashboard-graphs div:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    .ut-dashboard-content .dashboard-graphs .chart-graph {
+        content:url("../../../img/team1/team1-dashboard-chart-mobile.png");
+        width: 90%;
+        justify-content: center;
+    }
+
+    .ut-dashboard-table-container .table-filtering  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ut-dashboard-table-container .table-filtering div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ut-dashboard-table-container .table-search input {
+        width: 85%;
+        /* padding: 0; */
+        margin: 5px 0px;
+    }
+
+    .ut-dashboard-table-container .table-filtering .more-filters {
+        width: 90%;
+        /* padding: 0; */
+        margin: 5px 0px;
+    }
+
+    .ut-dashboard-table-container .table-filtering .filters {
+        margin-top: 5px;
+        display: inline;
+    }
+
+    .ut-dashboard-table-container .table-filtering .filter {
+        width: 150px;
+    }
+
+    .ut-table-dashboard td:nth-child(n+4),
+    .ut-table-dashboard th:nth-child(n+4) {
+        display: none;
+    }
+
+    .ut-dashboard-table-container .ut-table-dashboard td,
+    .ut-dashboard-table-container .ut-table-dashboard th {
+        flex: 1 1 0px;
+        border: 0.5px solid rgba(3, 3, 3, 0.2);
+    }
+
+    .ut-dashboard-table-container .ut-table-dashboard td:nth-child(2) span {
+        font-size: 10px;
+        margin-left: -15px;
     }
 
     
