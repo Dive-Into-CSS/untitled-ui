@@ -31,19 +31,19 @@ ul, ol {
 }
 
 .left__nav__wrapper {
-	height: 100vh;
+	min-height: 100vh;
 	background: var(--color-primary-800);
 }
 
 .left__nav__wrapper ul:not(.nested__nav) {
-	height: 75vh;
+	height: 70%;
 	display: flex;
 	flex-direction: column;
 }
 
 .left__nav {
 	padding: 24px;
-	height: 100vh;
+	height: 100%;	
 }
 
 .left__nav__logo {
