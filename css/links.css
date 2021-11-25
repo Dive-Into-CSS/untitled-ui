@@ -1,9 +1,9 @@
-.link,
-span {
+.ut-link {
     color: var(--color-primary-200);
     font-size: 14px;
     line-height: 20px;
 }
+
 .link-more {
     color: var(--color-primary-700);
 }
@@ -62,7 +62,7 @@ span {
     box-sizing: border-box;
 }
 .colortext {
-    color: var(--color-gray-700) !important;
+    color: var(--color-gray-700);
 }
 .btn-link {
     display: flex;
