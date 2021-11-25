@@ -36,7 +36,9 @@ ol {
 }
 
 .left__nav__wrapper {
-  min-height: 100vh;
+  height: 100%;
+  width: 312px;
+  position: fixed;
   background: var(--color-primary-800);
 }
 
@@ -184,9 +186,17 @@ li.active a {
   grid-area: 2/2;
 }
 
+main {
+  margin-left: 312px;
+}
+
 @media (max-width: 480px) {
   .left__nav__wrapper {
     display: none;
+  }
+
+  main {
+    margin-left: 0px;
   }
 
   .mobile__header {
