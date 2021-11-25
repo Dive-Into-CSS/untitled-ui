@@ -35,6 +35,11 @@ ul, ol {
 	background: var(--color-primary-700);
 }
 
+.collapsed__nav li:not(.settings__logo, .settings__badge, .collapsed__nav__avatar) img {
+	width: 20px;
+	height: 20px;
+}
+
 .collapsed__nav hr {
 	margin: 24px 16px 0px;
 	color: var(--color-primary-600);
@@ -75,4 +80,58 @@ ul, ol {
 .ut-icon-grp-2 li:not(:first-of-type) {
 	margin-top: 40px;
 	padding: 0px 16px;
+}
+
+.settings__nav {
+	padding: 36px 28px 0px;
+	color: var(--color-white);
+	display: flex;
+	flex-direction: column;
+}
+
+.settings__nav img:not(.notification__badge) {
+	width: 19px;
+	height: 19px;
+	object-fit: contain;
+}
+
+.notification__badge {
+	float: right;
+}
+
+.settings__nav li span {
+	margin-left: 14px;
+}
+
+.settings__nav li:not(:first-of-type) {
+	margin-top: 16px;
+}
+
+.settings__nav li:nth-of-type(5) {
+	background: var(--color-primary-700);
+	padding: 8px 12px;
+	border-radius: 6px;
+}
+
+.settings__icon__list {
+	margin-top: 24px;
+}
+
+.settings__nav__item {
+	color: var(--color-white);
+}
+
+.settings__nav__details__wrapper {
+	margin-top: auto;
+	margin-bottom: 24px;
+}
+
+.logout__icon {
+	float: right;
+	cursor: pointer;
+}
+
+.settings__nav__user__email {
+	margin-top: 8px;
+	display: inline-block;
 }
