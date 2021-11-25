@@ -25,6 +25,9 @@ ul, ol {
 	list-style: none;
 }
 
+.top-nav{
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 81px 281px 1fr;
@@ -175,4 +178,25 @@ main {
 
 .main__header__title--sm {
 	margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+	.top-nav {
+	}
+	.container {
+		display: flex;
+	}
+	.collapsed__nav {
+		display: none;
+	}
+	.settings__nav {
+		display: none;
+	}
+	.main__header {
+		display: flex;
+		flex-direction: column;
+	}
+	.account__plans {
+		margin-top: 32px;
+	}
 }
