@@ -27,44 +27,101 @@
         <!-- ############ HEADER ############ -->
         <header class="ut-dashboard-navbar">
             <nav>
-                <ul class="top-v-navbar-list">
-                    <li class="nav-item"><a href="">logo</a></li>
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
+                <div class="dashboard-navbar-logo">
+                    <img
+                        src="../../img/team1/team1-dashboard-logo.svg"
+                        alt="Logo"
+                    />
+                </div>
+                <ul class="dashboard-navbar-list">
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-home.svg"
+                            alt="Home icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-bar-chart-2.svg"
+                            alt="Charts icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-3-layers.svg"
+                            alt="Layers icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-check-square.svg"
+                            alt="Check icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-flag.svg"
+                            alt="Flag icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-users.svg"
+                            alt="Users icon"
+                        />
+                    </li>
                 </ul>
             </nav>
             <nav>
-                <ul class="top-v-navbar-list">
-                    <li class="nav-item"><i>icon</i></li>
-                    <li class="nav-item"><i>icon</i></li>
+                <ul class="dashboard-navbar-list">
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-life-buoy.svg"
+                            alt="Buoy icon"
+                        />
+                    </li>
+                    <li class="nav-item">
+                        <img
+                            src="../../img/team1/team1-dashboard-settings.svg"
+                            alt="Settings icon"
+                        />
+                    </li>
                 </ul>
-                <hr />
-                <div class="top-v-navbar-list-profile">
-                    <i class="dot"></i>
-                </div>
+                <i class="dashboard-navbar-list-profile"></i>
             </nav>
         </header>
         <!-- ############ MAIN ############ -->
         <main class="ut-dashboard-background">
             <div class="ut-dashboard-content">
                 <!-- ############ SECTION 1 ############ -->
-                <section class="main-content-top flex-space-between">
+                <section class="dashboard-top">
                     <h1>Customers</h1>
                     <div>
-                        <button class="import"><i>icon </i>Import</button>
-                        <button class="add-customer"><i>icon </i>customer</button>
+                        <button class="import">
+                            <img
+                                src="../../img/team1/team1-dashboard-upload.svg"
+                                alt="Upload icon"
+                            />
+                            Import
+                        </button>
+                        <button class="add-customer">
+                            <img
+                                src="../../img/team1/team1-dashboard-plus.svg"
+                                alt="Plus icon"
+                            />
+                            customer
+                        </button>
                     </div>
                 </section>
                 <!-- ############ SECTION 2 ############ -->
-                <section class="flex-space-between">
+                <section class="dashboard-graphs">
                     <div>
-                        <div class="flex-space-between">
-                            <strong class="strong-headers">Active now</strong>
-                            <i>icon</i>
+                        <div>
+                            <strong>Active now</strong>
+                            <img
+                                src="../../img/team1/team1-dashboard-three-dots.svg"
+                                alt="Three dots"
+                            />
                         </div>
                         <div>
                             <hr />
@@ -76,11 +133,12 @@
                     </div>
 
                     <div>
-                        <div class="flex-space-between">
-                            <strong class="strong-headers"
-                                >Total customers</strong
-                            >
-                            <i>icon</i>
+                        <div>
+                            <strong>Total customers</strong>
+                            <img
+                                src="../../img/team1/team1-dashboard-three-dots.svg"
+                                alt="Three dots"
+                            />
                         </div>
                         <div>
                             <hr />
@@ -91,44 +149,83 @@
                         </div>
                     </div>
                 </section>
-                <hr />
                 <!-- ############ SECTION 3 ############ -->
-                <section class="main-content-middle">
-                    <div class="flex-space-between">
+                <section class="ut-dashboard-table-container">
+                    <div class="table-filtering">
                         <div>
-                            <button>All time <i>icon</i></button>
-                            <button>US, AU... <i>icon</i></button>
-                            <button><i>icon</i> More filters</button>
+                            <button class="filter">
+                                All time
+                                <img
+                                    src="../../img/team1/team1-dashboard-x.svg"
+                                    alt="X icon"
+                                />
+                            </button>
+                            <button class="filter">
+                                US, AU, +4
+                                <img
+                                    src="../../img/team1/team1-dashboard-x.svg"
+                                    alt="X icon"
+                                />
+                            </button>
+                            <button class="more-filters">
+                                <img
+                                    src="../../img/team1/team1-dashboard-filters-lines.svg"
+                                    alt="Filter icon"
+                                />
+                                More filters
+                            </button>
                         </div>
-                        <div>
+                        <form class="table-search">
                             <input type="text" placeholder="Search" />
-                        </div>
+                        </form>
                     </div>
                     <div>
                         <!-- ############ TABLE ############ -->
-                        <table class="table-dashboard">
+                        <table class="ut-table-dashboard">
                             <tr>
-                                <th>Icon</th>
-                                <th>Company</th>
+                                <th>
+                                    <img
+                                        src="../../img/team1/team1-dashboard-checkbox-th.svg"
+                                        alt="Arrow icon"
+                                    />
+                                </th>
+                                <th>
+                                    Company
+                                    <img
+                                        src="../../img/team1/team1-dashboard-arrow-down.svg"
+                                        alt="Arrow icon"
+                                    />
+                                </th>
                                 <th>Status</th>
                                 <th>About</th>
                                 <th>Users</th>
                                 <th>License use</th>
-                                <th class="empty"></th>
+                                <th></th>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" /></td>
-                                <td class="flex">
-                                    <i>Icon</i>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo1.svg"
+                                        alt="Arrow icon"
+                                    />
                                     <div>
-                                        <div><span>something</span></div>
-                                        <div><span>another</span></div>
+                                        <span>Catalog</span>
+                                        <span>catalogapp.io</span>
                                     </div>
                                 </td>
-                                <td>other data</td>
+                                <td><span class="customer">Customer</span></td>
                                 <td>
-                                    <div><span>something</span></div>
-                                    <div><span>another</span></div>
+                                    <span>Content curating app</span>
+                                    <span
+                                        >Brings all your news into one
+                                        place</span
+                                    >
                                 </td>
                                 <td>
                                     <i
@@ -156,25 +253,47 @@
                                         style="background-color: darksalmon"
                                     ></i>
                                 </td>
-                                <td>smashing!</td>
-                                <td class="edit-buttons">
-                                    <button class="delete">Delete</button>
-                                    <button class="edit">Edit</button>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-0"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" /></td>
-                                <td class="flex">
-                                    <i>Icon</i>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo2.svg"
+                                        alt="Arrow icon"
+                                    />
                                     <div>
-                                        <div><span>something</span></div>
-                                        <div><span>another</span></div>
+                                        <span>Circooles</span>
+                                        <span>getcirooles.com</span>
                                     </div>
                                 </td>
-                                <td>other data</td>
+                                <td><span class="churned">Churned</span></td>
                                 <td>
-                                    <div><span>something</span></div>
-                                    <div><span>another</span></div>
+                                    <span>Design software</span>
+                                    <span>Super lightweight design appr</span>
                                 </td>
                                 <td>
                                     <i
@@ -202,25 +321,47 @@
                                         style="background-color: darksalmon"
                                     ></i>
                                 </td>
-                                <td>smashing!</td>
-                                <td class="edit-buttons">
-                                    <button class="delete">Delete</button>
-                                    <button class="edit">Edit</button>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-25"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" /></td>
-                                <td class="flex">
-                                    <i>Icon</i>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo3.svg"
+                                        alt="Arrow icon"
+                                    />
                                     <div>
-                                        <div><span>something</span></div>
-                                        <div><span>another</span></div>
+                                        <span>Command+R</span>
+                                        <span>cmdr.ai</span>
                                     </div>
                                 </td>
-                                <td>other data</td>
+                                <td><span class="customer">Customer</span></td>
                                 <td>
-                                    <div><span>something</span></div>
-                                    <div><span>another</span></div>
+                                    <span>Data prediction</span>
+                                    <span>AI and machine learning data</span>
                                 </td>
                                 <td>
                                     <i
@@ -248,25 +389,49 @@
                                         style="background-color: darksalmon"
                                     ></i>
                                 </td>
-                                <td>smashing!</td>
-                                <td class="edit-buttons">
-                                    <button class="delete">Delete</button>
-                                    <button class="edit">Edit</button>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-50"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" /></td>
-                                <td class="flex">
-                                    <i>Icon</i>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo4.svg"
+                                        alt="Arrow icon"
+                                    />
                                     <div>
-                                        <div><span>something</span></div>
-                                        <div><span>another</span></div>
+                                        <span>Hourglass</span>
+                                        <span>hourglass.app</span>
                                     </div>
                                 </td>
-                                <td>other data</td>
+                                <td><span class="customer">Customer</span></td>
                                 <td>
-                                    <div><span>something</span></div>
-                                    <div><span>another</span></div>
+                                    <span>Productivity app</span>
+                                    <span
+                                        >Time management and productivity</span
+                                    >
                                 </td>
                                 <td>
                                     <i
@@ -294,25 +459,47 @@
                                         style="background-color: darksalmon"
                                     ></i>
                                 </td>
-                                <td>smashing!</td>
-                                <td class="edit-buttons">
-                                    <button class="delete">Delete</button>
-                                    <button class="edit">Edit</button>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-75"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" /></td>
-                                <td class="flex">
-                                    <i>Icon</i>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo5.svg"
+                                        alt="Arrow icon"
+                                    />
                                     <div>
-                                        <div><span>something</span></div>
-                                        <div><span>another</span></div>
+                                        <span>Layers</span>
+                                        <span>getlayers.io</span>
                                     </div>
                                 </td>
-                                <td>other data</td>
+                                <td><span class="churned">Churned</span></td>
                                 <td>
-                                    <div><span>something</span></div>
-                                    <div><span>another</span></div>
+                                    <span>Web app integrations</span>
+                                    <span>Connect web apps seamlessly</span>
                                 </td>
                                 <td>
                                     <i
@@ -340,13 +527,171 @@
                                         style="background-color: darksalmon"
                                     ></i>
                                 </td>
-                                <td>smashing!</td>
-                                <td class="edit-buttons">
-                                    <button class="delete">Delete</button>
-                                    <button class="edit">Edit</button>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-100"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo6.svg"
+                                        alt="Arrow icon"
+                                    />
+                                    <div>
+                                        <span>Quotient</span>
+                                        <span>quotient.co</span>
+                                    </div>
+                                </td>
+                                <td><span class="customer">Customer</span></td>
+                                <td>
+                                    <span>Sales CRM</span>
+                                    <span>Web-based sales doc management</span>
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-25"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <img
+                                        src="../../img/team1/company-logos/company-logo7.svg"
+                                        alt="Arrow icon"
+                                    />
+                                    <div>
+                                        <span>Sisyphus</span>
+                                        <span>sisyphus.com</span>
+                                    </div>
+                                </td>
+                                <td><span class="customer">Customer</span></td>
+                                <td>
+                                    <span>Automation and workflow</span>
+                                    <span
+                                        >Time tracking, invoicing and
+                                        expenses</span
+                                    >
+                                </td>
+                                <td>
+                                    <i
+                                        class="dot"
+                                        style="background-color: red"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: aqua"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: black"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: chartreuse"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darkcyan"
+                                    ></i>
+                                    <i
+                                        class="dot"
+                                        style="background-color: darksalmon"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <div class="range-outer">
+                                        <div
+                                            class="range-inner range-width-50"
+                                        ></div>
+                                    </div>
+                                </td>
+                                <td class="edit-links">
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-trash-2.svg"
+                                            alt="Trash icon"
+                                    /></a>
+                                    <a href="#"
+                                        ><img
+                                            src="../../img/team1/team1-dashboard-edit.svg"
+                                            alt="Edit icon"
+                                    /></a>
                                 </td>
                             </tr>
                         </table>
+                        <div class="pagination">
+                            <button>Previous</button>
+                            <span>Page 1 of 10</span>
+                            <button>Next</button>
+                        </div>
                     </div>
                 </section>
             </div>
