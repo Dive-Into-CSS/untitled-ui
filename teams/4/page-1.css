@@ -875,10 +875,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .sliderHeadingText {
   margin-bottom: 20px;
-}
-
-.sliderHeadingDesc {
-
+  margin-right: 20px;
 }
 
 .sliderHeadingBtn,
@@ -899,8 +896,11 @@ ul li:not(:first-of-type):not(.company__logo) {
   display: flex !important;
 }
 
-.sliderListItem {
-  width: 384px !important;
+.sliderListItem,
+.slick-slide {
+  width: 384px;
+  min-width: 384px !important;
+  max-width: 384px !important;
   height: 512px !important;
   padding: 32px 24px 24px;
   background-color: var(--color-primary-600);
@@ -912,10 +912,6 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .sliderListItem:last-child {
   margin-right: 0 !important;
-}
-
-.sliderLogo {
-
 }
 
 .sliderContent {
@@ -970,28 +966,22 @@ ul li:not(:first-of-type):not(.company__logo) {
 }
 
 /* ctaSection */
-
 .ctaSection {
   background-color: var(--color-gray-50);
   padding: 96px 80px;
 }
 
 .bgContainer {
+  display: flex;
+  align-items: center;
   padding: 117px 64px 117px 32px;
-}
-
-.ctaLeft {
-
-}
-
-.ctaText {
-
 }
 
 .ctaWrapper .ctaRight-image {
   height: 496px;
   background: url('./assets/contents.png') center center no-repeat;
-  background-size: contain;
+  background-size: cover;
+  padding: 117px 64px 117px 32px;
 }
 
 .ctaBtns .whiteBtn {
@@ -1000,4 +990,75 @@ ul li:not(:first-of-type):not(.company__logo) {
   border: 2px solid var(--color-gray-300);
   margin-right: 12px;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderSection,
+  .ctaSection {
+    padding: 56px 72px;
+  }
+
+  .sliderSection {
+    padding-bottom: 155px;
+  }
+
+  .ctaWrapper .ctaRight-image,
+  .bgContainer {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ctaSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .ctaLeftSlider {
+    margin-bottom: 80px;
+  }
+
+  .slick-prev,
+  .slick-next  {
+    width: 48px;
+    height: 48px;
+  }
+
+  .slick-next  {
+    left: 64px;
+  }
+
+  .slick-prev {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ctaLeftSlider {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sliderSection,
+  .ctaSection {
+    padding: 40px 16px;
+  }
+
+  .sliderSection {
+    padding-bottom: 135px;
+  }
+
+  .sliderListItem,
+  .slick-slide {
+    width: 304px;
+    min-width: 304px !important;
+    max-width: 304px !important;
+    height: 480px !important;
+    padding: 32px 24px 24px;
+    background-color: var(--color-primary-600);
+    margin-right: 24px;
+  }
 }

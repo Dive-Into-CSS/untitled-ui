@@ -293,8 +293,8 @@
     <!-- Nazar's 2 -->
     <section class="ctaSection">
       <div class="bgContainer">
-        <article class="ctaLeft">
-          <h2 class="ctaText ut-display-lg-semi-bold">No long-term contracts. No catches.</h2>
+        <article class="ctaLeftSlider">
+          <h2 class="ctaText ut-display-lg-semi-bold">No long-term contracts. <br /> No catches.</h2>
           <p class="ctaDesc ut-text-xl-normal">Start your 30-day free trial today.</p>
           <div class="ctaBtns">
             <button class="customBtn whiteBtn text-md-med ut-button primary">Learn more</button>
@@ -638,6 +638,22 @@
         slidesToScroll: 1,
         arrows: true,
         fade: false,
+        responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+              }
+          },
+        ]
       });
     });
 
