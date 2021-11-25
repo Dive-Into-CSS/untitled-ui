@@ -15,7 +15,7 @@ body {
 }
 
 
-.number-stat {
+.number-stat-card{
     height: 114px;
     margin: 10px;
     background-color: red;
@@ -106,4 +106,114 @@ section {
     display: flex;
     list-style-type: none;
     column-gap: 10px;
+}
+
+.activity-entity i{
+    background-image: url(./../img/activity-avatar.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.dots{
+    width: 10px;
+    height: 10px;
+}
+
+.dots::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/dots.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.arrow-up {
+    width: 30px;
+    height: 30px;
+}
+
+
+.arrow-up::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/arrow-up.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.arrow-down {
+    width: 30px;
+    height: 30px;
+}
+
+
+.arrow-down::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/arrow-down.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.plus {
+    width: 30px;
+    height: 30px;
+}
+
+
+.plus::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/plus.svg);
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+}
+
+.export {
+    width: 30px;
+    height: 30px;
+}
+
+
+.export::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/export.svg);
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+}
+
+.plus-white {
+    width: 30px;
+    height: 30px;
+}
+
+
+.plus-white::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/plus-white.svg);
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+}
+
+.filter {
+    width: 30px;
+    height: 30px;
+}
+
+
+.filter::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/filter.svg);
+    height: 10px;
+    width: 15px;
+    background-size: contain;
 }
