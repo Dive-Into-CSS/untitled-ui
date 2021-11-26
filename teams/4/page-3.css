@@ -121,7 +121,7 @@ main {
 
 .you .message-text {
   background-color: var(--color-primary-600);
-  color: white;
+  color: var(--color-white);
 }
 
 .current-user,
@@ -144,7 +144,7 @@ main {
 } */
 
 .current-user .message {
-  background-color: white;
+  background-color: var(--color-white);
   display: flex;
   border-bottom-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -195,7 +195,8 @@ main {
   left: calc(100% - 244px);
 }
 
-.chat .textarea-controls button {
+.chat .textarea-controls button,
+.ut-button {
   background: none;
 	color: inherit;
 	border: none;
@@ -218,6 +219,91 @@ main {
   line-height: 24px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.add-btn {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  color: var(--color-gray-700);
+}
+
+.view-btn {
+  background-color: var(--color-primary-700);
+  color: var(--color-white);
+}
+
+.profile {
+  padding: 24px;
+}
+
+.profile .avatar {
+  height: 96px;
+  width: 96px;
+}
+
+.profile-title {
+  margin-bottom: 4px;
+  display: block;
+}
+
+.profile-email {
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.skills {
+  margin-bottom: 16px;
+}
+
+.skills span {
+  padding: 2px 8px;
+  border-radius: 16px;
+  background-color: var(--color-primary-700);
+  color: var(--color-white);
+}
+
+.skills span:nth-child(2) {
+  background-color: var(--color-blue-700);
+}
+
+.skills span:last-child {
+  background-color: var(--color-indigo-700);
+}
+
+.skills button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding:  10px 16px;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.section-title {
+  margin-bottom: 4px;
+}
+
+.about {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.company-info {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.company-info img {
+  margin-right: 12px;
+}
+
+.company-info span {
+  display: block;
 }
 
 .mobile__header {
