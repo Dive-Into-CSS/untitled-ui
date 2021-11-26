@@ -312,11 +312,13 @@ h1 {
     grid-template-columns: auto auto;
     row-gap: 30px;
     flex-direction: row;
+    display: flex;
 }
 
 .blocks-grid {
    display: flex;
    justify-content: space-around;
+   padding: 96px 0px;
     
 }
 
@@ -452,15 +454,44 @@ h1 {
 
 .span-text {
     font-size: 36px;
-    color: black ;
+    color: #101828 ;
+    font-weight: var(--font-weight-bold);
+
 }
 
 .p-text {
     color: #667085;
     font-size: 20px;
+    
 }
 
 .span-text-2 {
     font-size: 14px;
     color: #667085;
 }
+
+.action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 70%;
+    margin: 20px;
+}
+
+
+.action button {
+    padding: 20px 12px;
+    width: 100%;
+}
+
+.btn-link-grey {
+    display: flex;
+    justify-content: center;
+}
+
+.ut-checked-list-items > li {
+    background-image: url(./../img/check.svg);
+    line-height: 30px;
+    color: #667085;
+}
+
