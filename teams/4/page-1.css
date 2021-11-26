@@ -393,7 +393,6 @@
   display: flex;
   column-gap: 2rem;
   margin-top: 4rem;
-  justify-content: space-between;
   flex-flow: wrap;
   row-gap: 2rem;
 }
@@ -468,6 +467,8 @@
 .stats__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-flow: wrap;
+  row-gap: 1rem;
 }
 
 .stats__header {
@@ -796,12 +797,6 @@ ul li:not(:first-of-type):not(.company__logo) {
 
   .analytics {
     margin: 64px 0px;
-  }
-
-  .stats__wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
   }
 
   .stats__header {
