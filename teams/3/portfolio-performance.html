@@ -16,7 +16,7 @@
     </head>
     <body>
         <header class="flex justify-between">
-            <nav class="ut-top-navbar w-full">
+            <!-- <nav class="ut-top-navbar w-full">
                 <ul class="top-navbar-list">
                     <li class="nav-brand">
                         <a href="#"
@@ -41,7 +41,7 @@
                     <button class="nav-item nav-item-login">Log in</button>
                     <button class="nav-item nav-item-signup">Sign up</button>
                 </div>
-            </nav>
+            </nav> -->
         </header>
         <main>
             <section class="hero">
@@ -86,7 +86,7 @@
                         />
                     </a>
                 </div>
-                <div class="flex justify-center analytics">
+                <div class="analytics">
                     <img
                         src="../../img/iphone-12-mock-up.png"
                         alt="iphone 12 mock up"
@@ -97,23 +97,23 @@
                 <h2 class="ut-text-md-med">
                     Official partner of these companies
                 </h2>
-                <div class="companies flex justify-between">
-                    <div>
+                <ul class="companies -ut-list-horizontal">
+                    <li>
                         <img src="../../img/layers.svg" alt="layers icon" />
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <img src="../../img/sisyphus.svg" alt="sisyphus" />
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <img src="../../img/circooles.svg" alt="sisyphus" />
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <img src="../../img/catalog.svg" alt="sisyphus" />
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <img src="../../img/quotient.svg" alt="sisyphus" />
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
             <section class="features">
                 <h2 class="ut-text-md-semi-bold">Features</h2>
@@ -268,49 +268,50 @@
                         plan free for 30 days.
                     </p>
                 </div>
+                <div class="plan-boxes">
+                    <div class="pricing-items-1 text-center">
+                        <span class="most-popular-badge">
+                            <img
+                                src="../../img/curved-line.svg"
+                                alt="curved-line"
+                            />
+                            <p>Most popular!</p>
+                        </span>
+                        <span class="price-badge ut-display-lg-semi-bold"
+                            >$10/mth</span
+                        >
+                        <div>
+                            <h3 class="ut-text-xl-semi-bold">Basic plan</h3>
+                            <span class="ut-text-md-reg">Billed annually.</span>
+                        </div>
 
-                <div class="pricing-items-1 text-center">
-                    <span class="most-popular-badge">
-                        <img
-                            src="../../img/curved-line.svg"
-                            alt="curved-line"
-                        />
-                        <p>Most popular!</p>
-                    </span>
-                    <span class="price-badge ut-display-lg-semi-bold"
-                        >$10/mth</span
-                    >
-                    <div>
-                        <h3 class="ut-text-xl-semi-bold">Basic plan</h3>
-                        <span class="ut-text-md-reg">Billed annually.</span>
+                        <ul class="ut-checked-list-items text-start">
+                            <li>Access to all basic features</li>
+                            <li>Basic reporting and analytics</li>
+                            <li>Up to 10 individual users</li>
+                            <li>20GB individual data each user</li>
+                            <li>Basic chat and email support</li>
+                        </ul>
+                        <button class="btn-primary">Get started</button>
                     </div>
+                    <div class="pricing-items-1 text-center">
+                        <span class="price-badge ut-display-lg-semi-bold"
+                            >$20/mth</span
+                        >
+                        <div>
+                            <h3 class="ut-text-xl-semi-bold">Business plan</h3>
+                            <span class="ut-text-md-reg">Billed annually.</span>
+                        </div>
 
-                    <ul class="ut-checked-list-items text-start">
-                        <li>Access to all basic features</li>
-                        <li>Basic reporting and analytics</li>
-                        <li>Up to 10 individual users</li>
-                        <li>20GB individual data each user</li>
-                        <li>Basic chat and email support</li>
-                    </ul>
-                    <button class="btn-primary">Get started</button>
-                </div>
-                <div class="pricing-items-1 text-center">
-                    <span class="price-badge ut-display-lg-semi-bold"
-                        >$20/mth</span
-                    >
-                    <div>
-                        <h3 class="ut-text-xl-semi-bold">Business plan</h3>
-                        <span class="ut-text-md-reg">Billed annually.</span>
+                        <ul class="ut-checked-list-items text-start">
+                            <li>200+ integrations</li>
+                            <li>Advanced reporting</li>
+                            <li>Up to 20 individual users</li>
+                            <li>40GB individual data each user</li>
+                            <li>Priority chat and email support</li>
+                        </ul>
+                        <button class="btn-primary">Get started</button>
                     </div>
-
-                    <ul class="ut-checked-list-items text-start">
-                        <li>200+ integrations</li>
-                        <li>Advanced reporting</li>
-                        <li>Up to 20 individual users</li>
-                        <li>40GB individual data each user</li>
-                        <li>Priority chat and email support</li>
-                    </ul>
-                    <button class="btn-primary">Get started</button>
                 </div>
             </section>
             <section class="subscription">
@@ -327,8 +328,8 @@
                         <button class="btn-primary">Subscribe</button>
                     </div>
                     <p>
-                        We care about your data in our <u>privacy policy</u>
-                        <a href="#">link</a>
+                        We care about your data in our
+                        <a href="#"> <u>privacy policy</u></a>
                     </p>
                 </div>
                 <div class="stats-image">
@@ -338,33 +339,36 @@
         </main>
         <footer>
             <div class="view-demo flex flex-col items-center">
-                <span>No long-term contracts. No catches. Simple.</span>
-                <p>Start your 30-day free trial. Cancel anytime.</p>
+                <span class="ut-display-md-semi-bold">
+                    No long-term contracts. No catches. Simple.
+                </span>
+                <p class="ut-text-xl-reg">
+                    Start your 30-day free trial. Cancel anytime.
+                </p>
                 <div class="flex">
                     <button class="btn-white">
                         <img src="../../img/play.svg" />
                         View demo
                     </button>
-                    <button>Get started</button>
+                    <button class="btn-purple">Get started</button>
                 </div>
             </div>
             <div class="footer-1">
                 <div class="footer-1-left">
                     <div>
                         <a href="#" class="flex items-center">
-                            <img src="../../img/logo.svg" />
-                            <span>Untitled UI</span>
+                            <img src="../../img/unititledui-dark.svg" />
                         </a>
                     </div>
                     <div>
-                        <p>
+                        <p class="ut-text-md-reg">
                             Design amazing digital experiences that create more
                             happy in the world.
                         </p>
                     </div>
 
                     <nav>
-                        <ul class="footer-nav flex">
+                        <ul class="footer-nav ut-list-horizontal">
                             <li>
                                 <a href="">Overview</a>
                             </li>
@@ -387,31 +391,39 @@
                     </nav>
                 </div>
                 <div class="download">
-                    <span>span</span>
-                    <img src="../../img/app-store.svg" />
+                    <span>Go to the App</span>
+                    <img class="app-store-icon" src="../../img/app-store.svg" />
                     <img src="../../img/google-play.svg" />
                 </div>
             </div>
             <div class="footer-footer">
-                <span>p</span>
-                <ul class="social-media-list">
+                <span class="ut-text-md-reg"
+                    >© 2077 Untitled UI. All rights reserved.</span
+                >
+                <ul class="ut-list-horizontal">
                     <li>
-                        <i><svg></svg></i>
+                        <img src="../../img/twitter.svg" alt="twitter icon" />
                     </li>
                     <li>
-                        <i><svg></svg></i>
+                        <img
+                            src="../../img//linkedin.svg"
+                            alt="linkedin icon"
+                        />
                     </li>
                     <li>
-                        <i><svg></svg></i>
+                        <img src="../../img/facebook.svg" alt="facebook icon" />
                     </li>
                     <li>
-                        <i><svg></svg></i>
+                        <img src="../../img/github.svg" alt="github icon" />
                     </li>
                     <li>
-                        <i><svg></svg></i>
+                        <img
+                            src="../../img/angel-list.svg"
+                            alt="angel list icon"
+                        />
                     </li>
                     <li>
-                        <i><svg></svg></i>
+                        <img src="../../img/ball.svg" alt="ball icon" />
                     </li>
                 </ul>
             </div>
