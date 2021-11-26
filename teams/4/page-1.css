@@ -254,7 +254,7 @@
 .features__image {
   margin-top: 49px;
   height: 400px;
-  width: 400px;
+  width: 350px;
   background: url(./assets/featuresImageMobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -928,6 +928,7 @@ ul li:first-of-type:not(.company__logo) {
 .sliderSection {
   padding: 16px 112px;
   padding-bottom: 96px;
+  overflow: hidden;
 }
 
 .sliderHeading {
@@ -955,7 +956,7 @@ ul li:first-of-type:not(.company__logo) {
 .sliderList {
   display: flex;
   margin-bottom: 32px;
-  overflow-x: auto;
+  overflow: hidden;
   margin-right: -112px;
 }
 
@@ -1117,10 +1118,6 @@ ul li:first-of-type:not(.company__logo) {
   .sliderSection,
   .ctaSection {
     padding: 10px 16px;
-  }
-
-  .sliderSection {
-	  overflow: hidden;
   }
 
   .sliderListItem,
