@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="./../../css/list.css" />
     <link rel="stylesheet" href="./../../css/navigation.css" />
     <link rel="stylesheet" href="assets/css/blog_posts.css" />
-
-        <link rel="stylesheet" href="./assets/css/informational-pages.css" />
+    <link rel="stylesheet" href="./assets/css/informational-pages.css" />
     <title>Informational Pages</title>
 </head>
 
@@ -50,30 +49,41 @@
 
     <div class="container">
 
-        <h1></h1>
+        <h1>Customers</h1>
         <div id="tabs">
             <ul>
-                <li>
-                    <a href="#tabs-1"></a>
+                <li class="active"> 
+                    <a href="#tabs-1">Overview</a>
                 </li>
                 <li>
-                    <a href="#tabs-2"></a>
+                    <a href="#tabs-2">Table</a>
                 </li>
                 <li>
-                    <a href="#tabs-3"></a>
+                    <a href="#tabs-3">List view</a>
                 </li>
                 <li>
-                    <a href="#tabs-3"></a>
+                    <a href="#tabs-3">Segment</a>
                 </li>
             </ul>
         </div>
 
         <section id="overview">
             <article class="card">
-                <img src="" alt="img" />
-                <button></button>
+                <i class="featured-icon"></i>
+                <button class="button-menu"></button>
                 <div class="card-stats">
-                    <span class="title"></span>
+                    <span class="title">Total Customers</span>
+                    <span class="number">2,420</span>
+                </div>
+                <span>
+                    <i></i>
+                </span>
+            </article>
+            <article class="card">
+                <i class="bfeatured-icon"></i>
+                <button class="button-menu"></button>
+                <div class="card-stats">
+                    <span class="title">Members</span>
                     <span class="number"></span>
                 </div>
                 <span>
@@ -81,21 +91,10 @@
                 </span>
             </article>
             <article class="card">
-                <img src="" alt="img" />
-                <button></button>
+                <i class="gfeatured-icon"></i>
+                <button class="button-menu"></button>
                 <div class="card-stats">
-                    <span class="title"></span>
-                    <span class="number"></span>
-                </div>
-                <span>
-                    <i></i>
-                </span>
-            </article>
-            <article class="card">
-                <img src="" alt="img" />
-                <button></button>
-                <div class="card-stats">
-                    <span class="title"></span>
+                    <span class="title">Active Now</span>
                     <span class="number"></span>
                 </div>
                 <span>
@@ -108,27 +107,28 @@
             <div id="middle-content">
                 <div>
 
-                    <h3></h3>
-                    <p></p>
+                    <h3>Customers</h3>
+                    <p>Companies that have purchased a subscription.</p>
                 </div>
                 <button>
+                    <i class="download"></i>
+                    Download all
                 </button>
             </div>
 
             <div id="action">
                 <form>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <label for="search">
-                        <input type="text" name="search" placeholder="input[type='text']" />
+                        Search for customer
+                        <input type="text" name="search" placeholder="Search" />
                     </label>
                     <label for="status">
-                        <input type="text" name="status" placeholder="input[type='text']" />
+                        Status
+                        <input type="text" name="status" placeholder="View all" />
                     </label>
                     <label for="Category">
-                        <input type="text" name="Category" placeholder="input[type='text']" />
+                        Status
+                        <input type="text" name="Category" placeholder="All" />
                     </label>
                 </form>
                 <button></button>
