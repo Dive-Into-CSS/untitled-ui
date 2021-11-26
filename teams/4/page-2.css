@@ -15,6 +15,12 @@
 body {
   overflow-x: hidden;
   list-style: none;
+  background: var(--color-gray-50);
+}
+
+
+main {
+  margin-left: 362px;
 }
 
 a {
@@ -24,6 +30,7 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0px;
 }
 
 .mobile__header {
@@ -38,7 +45,7 @@ ol {
 .collapsed__nav {
   position: fixed;
   width: 81px;
-  height: 100vh;
+  height: 100%;
   background: var(--color-primary-700);
 }
 
@@ -61,7 +68,7 @@ ol {
 .settings__nav {
   position: fixed;
   width: 281px;
-  height: 100vh;
+  height: 100%;
   left: 81px;
   background: var(--color-primary-800);
 }
@@ -150,15 +157,11 @@ ol {
   display: inline-block;
 }
 
-main {
-  background: var(--color-gray-50);
-  margin-left: 362px;
-}
-
 .main__container {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .main__header {
@@ -191,6 +194,246 @@ main {
 .main__header__title--sm {
   margin-top: 4px;
 }
+
+.split-section {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 2rem 0rem;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ut-button {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.ut-button.primary {
+  background-color: var(--color-primary-600);
+  border: 1px solid var(--color-primary-600);
+  color: var(--color-white);
+}
+
+.ut-button.primary.mobile {
+  display: none;
+}
+
+.ut-button.primary:hover {
+  background-color: var(--color-primary-500);
+}
+
+.ut-button.secondary {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  color: var(--color-gray-700);
+}
+
+.ut-button.secondary:hover {
+  background-color: var(--color-gray-200);
+}
+
+.basic-plan-icon {
+  background: url('./assets/page-2/basic-plan.svg');
+  width: 14px;
+  height: 16px;
+}
+
+.buss-plan-icon {
+  background: url('./assets/page-2/buss-plan.svg');
+  width: 14px;
+  height: 16px;
+}
+
+.ent-plan-icon {
+  background: url('./assets/page-2/ent-plan.svg');
+  width: 14px;
+  height: 16px;
+}
+
+.down-arrow-icon {
+  background: url('./assets/page-2/down-arrow.svg');
+  width: 12px;
+  height: 12px;
+}
+
+.plan-logo {
+  background-color: var(--color-primary-100);
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked-box-icon {
+  background: url('./assets/page-2/checked-box.svg');
+  width: 16px;
+  height: 16px;
+}
+
+.unchecked-box-icon {
+  background: url('./assets/page-2/unchecked-box.svg');
+  width: 16px;
+  height: 16px;
+}
+
+.download-icon {
+  background: url('./assets/page-2/download.svg');
+  width: 20px;
+  height: 20px;
+}
+
+.plan-right {
+  list-style-type: none;
+
+}
+
+.sec-right {
+  flex-grow: 2;
+
+}
+
+.plan-list-item {
+  padding: 1rem;
+  border: solid 1px var(--color-primary-300);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.plan-desc {
+  color: var(--color-gray-500)
+}
+
+.plan-active {
+  background-color: var(--color-primary-50);
+  color: var(--color-primary-600);
+}
+
+.plan-active .plan-desc {
+  color: var(--color-primary-600);
+}
+
+.plan-content {
+  flex-grow: 2;
+  margin-left: 1.5rem;
+}
+
+.plan-content p {
+  margin-top: 0.2rem;
+  margin-bottom: 0px;
+}
+
+.plan-header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.plan-name {
+  flex-grow: 2;
+}
+
+.sec-left {
+  padding-right: 6rem;
+}
+
+.left-content,
+.left-header {
+  margin: 0.2rem 0rem;
+}
+
+.left-content {
+  color: var(--color-gray-500)
+}
+
+.billing-header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.billing-header h2 {
+  margin: 0rem 0rem 0.2rem 0rem;
+}
+
+.head-left {
+  flex-grow: 2
+}
+
+.billing-header button {
+  align-self: center;
+}
+
+thead {
+  background: var(--color-gray-50);
+}
+
+table td {
+  padding: 1.5rem;
+  border-bottom: solid 1px var(--color-gray-200);
+}
+
+table tbody td {
+  background: #fff;
+
+}
+
+.table-wrapper {
+  overflow-x: auto;
+
+}
+
+.billing-history {
+  border: solid 1px var(--color-gray-200);
+  border-radius: 10px;
+  width: 100%;
+  min-width: 850px;
+}
+
+.paid-badge {
+  color: var(--color-success-700);
+  background: var(--color-success-50);
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 16px;
+}
+
+.green-check-icon {
+  background: url('./assets/page-2/green-check.svg');
+  width: 10px;
+  height: 8px;
+}
+
+table td a {
+  color: var(--color-primary-700);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1199px) {
+  .split-section {
+    display: flex;
+    flex-flow: column nowrap;
+	padding: 2rem;
+  }
+
+  .billing-history {
+    margin-top: 1rem
+  }
+
+  .billing-header {
+    padding: 0rem 2rem;
+  }
+}
+
 
 @media (max-width: 480px) {
   .mobile__header {
