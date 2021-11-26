@@ -226,7 +226,7 @@ button {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 2.25rem;
+        font-size: 2rem;
         line-height: 2.75rem;
         letter-spacing: var(--letter-spacing);
         font-weight: var(--font-weight-semi-bold);
@@ -385,8 +385,7 @@ button {
     height: 600px;
     background: var(--color-primary-800);
     border-radius: 24px;
-    
-    
+
     box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1),
         0px 8px 8px -4px rgba(16, 24, 40, 0.04);
     display: flex;
@@ -632,7 +631,7 @@ input[type='email'] {
     color: var(--color-gray-500);
     display: block;
 }
-.email p{
+.email p {
     color: var(--color-gray-500);
     display: block;
 }
@@ -859,3 +858,24 @@ footer {
     }
 }
 
+.burger-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .login {
+        display: none;
+    }
+    .top-navbar-list .nav-item {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .nav-brand {
+        display: inline;
+    }
+}
