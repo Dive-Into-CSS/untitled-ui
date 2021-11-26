@@ -467,8 +467,6 @@
 .stats__wrapper {
   display: flex;
   justify-content: space-between;
-  flex-flow: wrap;
-  row-gap: 1rem;
 }
 
 .stats__header {
@@ -724,6 +722,12 @@ ul li:not(:first-of-type):not(.company__logo) {
     background-size: contain;
     width: 343px;
     height: 224px;
+  }
+  .stats__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	row-gap: 1rem;
   }
 }
 
