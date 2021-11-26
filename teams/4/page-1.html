@@ -52,8 +52,10 @@
     </nav>
   </header>
   <header class="mobile__header">
-    <img src="./assets/page-2/icon-logo.svg" alt="logo">
-    <img src="./assets/page-2/icon-hamburger.svg" alt="hamburger">
+    <ul class="mobile__header__container">
+      <li><img src="./assets/page-2/icon-logo.svg" alt="logo"></li>
+      <li><img src="./assets/page-2/icon-hamburger.svg" alt="hamburger"></li>
+    </ul>
   </header>
   <main>
     <section class="ctaSection container">
@@ -640,20 +642,19 @@
         slidesToScroll: 1,
         arrows: true,
         fade: false,
-        responsive: [
-          {
-              breakpoint: 768,
-              settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-              }
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
           },
           {
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-              }
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
           },
         ]
       });
