@@ -312,7 +312,6 @@ h1 {
     grid-template-columns: auto auto;
     row-gap: 30px;
     flex-direction: row;
-    display: flex;
 }
 
 .blocks-grid {
