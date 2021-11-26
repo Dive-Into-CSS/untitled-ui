@@ -11,15 +11,14 @@
         "start": "npm run build && npm run dev",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier-format": "prettier --config .prettierrc 'teams/**/*.html' --write",
-        "prettier-watch": "onchange 'teams/**/*.html' -- prettier --write {{changed}}"
+        "prettier-watch": "onchange 'teams/**/*.html' -- prettier --write {{changed}}",
+        "prepare": "husky install"
     },
     "devDependencies": {
+        "husky": "^7.0.0",
         "onchange": "^7.1.0",
         "parcel-bundler": "^1.12.4",
-        "prettier": "^2.4.1"
-    },
-    "dependencies": {
-        "colors.css": "^3.0.0",
-        "typography.css": "^0.1.0"
+        "prettier": "^2.4.1",
+        "pretty-quick": "^3.1.2"
     }
 }
