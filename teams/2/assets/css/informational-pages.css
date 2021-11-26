@@ -1,97 +1,253 @@
-* {
-  color: rgb(0, 39, 193);
+.container {
+    margin: 5%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  font-family: helvetica;
+#tabs ul {
+    display: flex;
+    border-bottom: 1px solid var(--color-gray-200);
+    padding-bottom: 0;
+}
+#tabs ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-left: 0;
+    margin-left: 0;
 }
 
-main,
-nav,
-footer,
-header,
-section,
-#action,
-#middle-content {
-  border: 3px #5e5e5e;
-  border-style: dashed;
-  margin: 10px;
-  padding: 10px;
+#tabs ul li a {
+    text-decoration: none;
+    color: var(--color-gray-500);
 }
 
-ul {
-  list-style: none;
-  display: flex;
+#tabs ul li.active {
+    border-bottom: 1px solid var(--color-primary-700);
 }
 
-li {
-  margin-right: 10px;
-}
-
-nav {
-  background-color: rgb(176, 176, 176);
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10%;
-}
-
-main {
-  padding: 10px 10%;
+#tabs ul li.active a {
+    color: var(--color-primary-700);
 }
 
 #overview {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 20px;
+    column-gap: 30px;
+    margin-top: 50px;
 }
 
 #overview .card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: rgb(176, 176, 176);
-  padding: 10px;
-  margin: 10px;
-  height: 100px;
-  border-radius: 10px;
+    display: grid;
+    box-shadow: var(--shadow-md);
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#overview .card .button-menu {
+    background-color: transparent;
+    border: none;
+    justify-self: end;
+    align-self: baseline;
+}
+
+#overview .card .button-menu::after {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/button-menu.svg);
+    margin-left: 0;
+    height: 14px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#overview .card .title {
+    display: block;
+    margin-top: 20px;
+    color: var(--color-gray-500);
+}
+
+#overview .card .number {
+    font-size: 3rem;
+    letter-spacing: var(--letter-spacing);
+    font-weight: var(--font-weight-reg);
 }
 
 #middle-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#action {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 10px;
+#middle-content .download {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: #d0d5dd 1px solid;
 }
+.first_section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0 10%;
+    margin-top: 100px;
+}
+#action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+    flex-direction: column;
+}
+
+#action label{
+    margin: 10px;
+}
+
+#action,
+table {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    box-shadow: var(--shadow-md);
+    border-radius: 16px;
+    border: 1px solid var(--color-gray-200);
+}
+
+main #action { 
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+
+main #action form input { 
+    display: block;
+    padding: 10px;
+}
+
 
 table {
-  width: 100%;
-  /* border-collapse: collapse; */
+    width: 100%;
+    /* border-collapse: collapse; */
 }
 
 th,
 tr {
-  border: 1px solid rgb(176, 176, 176);
-  padding: 10px;
+    padding: 10px;
+}
+
+th { 
+    background-color: white;
+}
+
+tr:nth-child(2n+1) { 
+    background-color: var(--color-gray-50);
 }
 
 td {
-  border: 1px solid rgb(176, 176, 176);
-  padding: 10px;
-  text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
-  background-color: rgb(176, 176, 176);
-  padding: 10px 10%;
-  display: grid;
-  justify-content: center;
-  color: white;
+    background-color: rgb(176, 176, 176);
+    padding: 10px 10%;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+.featured-icon::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/purple-feature.svg);
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+
+.bfeatured-icon::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/blue-feature.svg);
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+
+.gfeatured-icon::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/green-feature.svg);
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+
+.middle-section .download::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/download.svg);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+}
+
+.arrow-down::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/arrow-down-black.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.green-dot::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/greendot.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.purple-dot::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/purpledot.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.search::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/search.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.customer-badge::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/customer-badge.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+.churned-badge::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/churned-badge.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
 }
