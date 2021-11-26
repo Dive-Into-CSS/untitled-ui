@@ -2,10 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-* {
-    background-color: var(--color-gray-50);
-    font-family: 'Inter', sans-serif;
-}
+
 
 nav {
     width: 100%;
