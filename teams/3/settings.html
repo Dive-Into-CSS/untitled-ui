@@ -5,102 +5,70 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-
+        
         <!-- links-->
-        >
         <link rel="stylesheet" href="../../css/normalize.css" />
         <link rel="stylesheet" href="../../css/main.css" />
-        <link rel="stylesheet" href="../../css/vertical-navigation.css" />
+        <link rel="stylesheet" href="../../css/vertical-navigation.css"/>
+        <link rel="stylesheet" href="../../css/navigation.css"/>
+        <link rel="stylesheet" href="../../css/main.css" />
+        <link rel="stylesheet" href="./teams.css" />
     </head>
     <body>
         <aside>
-            <!-- This is for the logo -->
+            <nav class="ut-top-v-navbar">
+                <ul class="top-v-navbar-list">
+                    <li class="nav-brand">
+                        <a href="#"
+                        ><img
+                            src="../../img/unititledui-dark.svg"
+                            height="142"
+                            width="142"
+                            alt="logo"
+                    /></a>
+                </li>
+                <li class="nav-search">
+                    <input placeholder="i Search" type="search" />
+                </li>
+                <li class="nav-item">Icon Home<i class="arrow down"></i></li>
+                <li class="nav-item">
+                    Icon Dashboard<i class="arrow down"></i>
+                </li>
+                <li class="nav-item">
+                    Icon Projects<i class="arrow down"></i>
+                </li>
+                <li class="nav-item">Icon Tasks<i class="arrow down"></i></li>
+                <li class="nav-item">
+                    Icon Reporting<i class="arrow down"></i>
+                </li>
+                <li class="nav-item">Icon Users<i class="arrow down"></i></li>
+            </ul>
+
             <div>
-                <svg>svg</svg>
-                <span>span</span>
-            </div>
-            <input type="text" placeholder="Search" />
-            <!-- This span is for icon on the input. It will have a background image in CSS -->
-            <span>span</span>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Home
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
+                <ul class="top-v-navbar-list">
+                    <li class="nav-item">
+                        Icon Support<i class="arrow down"></i>
                     </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Dashboard
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Projects
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Tasks
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Reporting
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Users
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Support
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Settings
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
+                    <li class="nav-item">
+                        Icon Settings<i class="arrow down"></i>
                     </li>
                 </ul>
+
+                <hr />
+
+                <div class="top-v-navbar-profile-row">
+                    <span class="dot"></span>
+                    <div class="top-v-navbar-profile-row-inner-div">
+                        <span>email</span>
+                        <span>name</span>
+                    </div>
+                    <i>icon</i>
+                </div>
+            </div>
             </nav>
             <div>
                 <div>
-                    <h3>New features available!</h3>
+                    <h3 class="ut-display-sm-med">New features available!</h3>
                     <p>
                         Check out the new dashboard view. Pages now load faster.
                     </p>
@@ -115,46 +83,40 @@
                     <button>What’s new?</button>
                 </div>
             </div>
-            <div>
-                <img src="" alt="image of the user" />
-                <span>Olivia Rhye</span>
-                <span>olivia@untitledui.com</span>
-                <button><i></i></button>
-            </div>
         </aside>
         <main>
             <section>
                 <div>
-                    <h1>Settings</h1>
-                    <p>Manage your team and preferences here.</p>
+                    <h1 class="ut-display-sm-med">Settings</h1>
+                    <p class="ut-text-md-reg">Manage your team and preferences here.</p>
                 </div>
                 <div>
-                    <nav>
-                        <ul>
-                            <li><a href="">My details</a></li>
-                            <li><a href="">Profile</a></li>
-                            <li><a href="">Password</a></li>
-                            <li><a href="">Team</a></li>
-                            <li><a href="">Plan</a></li>
-                            <li><a href="">Billing</a></li>
-                            <li><a href="">Notifications</a></li>
-                            <li><a href="">Integrations</a></li>
-                            <li><a href="">API</a></li>
+                    <nav class="ut-top-navbar">
+                        <ul class="top-navbar-list">
+                            <li class="nav-item"><a href="#">My details</a></li>
+                            <li class="nav-item"><a href="#">Profile</a></li>
+                            <li class="nav-item"><a href="#">Password</a></li>
+                            <li class="nav-item"><a href="#">Team</a></li>
+                            <li class="nav-item"><a href="#">Plan</a></li>
+                            <li class="nav-item"><a href="#">Billing</a></li>
+                            <li class="nav-item"><a href="#">Notifications</a></li>
+                            <li class="nav-item"><a href="#">Integrations</a></li>
+                            <li class="nav-item"><a href="#">API</a></li>
                         </ul>
                     </nav>
                 </div>
             </section>
             <section>
                 <div>
-                    <h2>Payment method</h2>
-                    <p>Update your billing details and address.</p>
+                    <h2 class="ut-text-lg-med">Payment method</h2>
+                    <p class="ut-text-sm-reg">Update your billing details and address.</p>
                 </div>
                 <div>
                     <div>
-                        <span>Contact email</span>
-                        <p>Where should invoices be sent?</p>
+                        <span class="ut-text-sm-med">Contact email</span>
+                        <p class="ut-text-sm-reg">Where should invoices be sent?</p>
                     </div>
-                    <div>
+                    <div class="open-position">
                         <form>
                             <input
                                 value="send to my account"
@@ -174,39 +136,46 @@
                         </form>
                     </div>
                 </div>
-                <div>
-                    <span>Card details</span>
-                    <p>Select default payment method.</p>
-                </div>
-                <div>
+                <li class="work-box">
                     <div>
-                        <img src="" alt="Image" />
-                        <p>
-                            <strong> Visa ending in 1234</strong><br />Expiry
-                            06/2024
-                        </p>
-                        <button>set as default</button>
-                        <button>Edit</button>
-                        <!-- for icon -->
-                        <i></i>
+                        <span class="ut-text-sm-med">Card details</span>
+                        <p class="ut-text-sm-med">Select default payment method.</p>
                     </div>
-                    <div>
-                        <img src="" alt="Image" />
-                        <p>
-                            <strong> Mastercard ending in 1234</strong
-                            ><br />Expiry 06/2024
-                        </p>
-                        <button>set as default</button>
-                        <button>Edit</button>
+                    <div class="open-position">
+                        <div class="position-info">
+                            <div>
+                                <img src="" alt="Image" />
+                                <p class="ut-text-sm-med">
+                                    <strong> Visa ending in 1234</strong></p>
+                                    <span class="ut-text-sm-reg"> Expiry 06/2024</span>
+                    
+                                <button>set as default</button>
+                                <button>Edit</button>
+                                <!-- for icon -->
+                                <i></i>
+                            </div>
+                        </div>
+                            <div class="open-position">
+                                <div class="position-info">
+                                    <img src="" alt="Image" />
+                                    <p class="ut-text-sm-med"> <strong> Mastercard ending in 1234</strong></p>
+                                    <span class="ut-text-sm-reg">Expiry 06/2024</span> 
+    
+                                    <button>set as default</button>
+                                    <button>Edit</button>
+                                </div>
+                            </div>
+                            <div>
+                                <i>icon</i>
+                                <button>Add new payment method</button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <i>icon</i>
-                        <button>Add new payment method</button>
-                    </div>
-                </div>
+                    
+                </li>
             </section>
             <section>
-                <h2>Billing history</h2>
+                <h2 class="ut-text-lg-med">Billing history</h2>
                 <button><i></i>>Download all</button>
                 <div>
                     <table>
