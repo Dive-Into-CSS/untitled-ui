@@ -1,0 +1,394 @@
+/* ########### NAVBAR ########### */
+
+.ut-dashboard-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+    width: 5%;
+    background-color: var(--color-primary-700);
+}
+
+button {
+    cursor: pointer;
+}
+
+.ut-dashboard-navbar .dashboard-navbar-logo {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.ut-dashboard-navbar .dashboard-navbar-list {
+    padding: 0;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.ut-dashboard-navbar .dashboard-navbar-list-profile::before {
+    border-top: 1px solid var(--color-gray-100);
+    padding-top: 40px;
+    margin: 24px 16px;
+    content: url("../../../img/team1/team1-dashboard-grey-circle.svg");
+}
+
+.ut-dashboard-navbar .dashboard-navbar-list .nav-item {
+    list-style-type: none;
+    color: var(--color-gray-25);
+    margin-bottom: 24px;
+}
+
+.ut-dashboard-navbar .nav-item:hover {
+    cursor: pointer;
+}
+
+.ut-dashboard-navbar .nav-item a {
+    text-decoration: none;
+}
+
+/* ########### DASHBOARD BACKGROUND ########### */
+
+.ut-dashboard-background {
+    background-color: var(--color-primary-700);
+    margin-left: 5%;
+    padding-top: 8px;
+}
+
+/* ########### DASHBOARD CONTENT ########### */
+
+.ut-dashboard-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-left-radius: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.ut-dashboard-content .dashboard-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ut-dashboard-content .dashboard-top button {
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: 1px solid var(--color-gray-300);
+}
+
+.ut-dashboard-content .dashboard-top button.import {
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ut-dashboard-content .dashboard-top button.add-customer {
+    background-color: var(--color-primary-700);
+    color: var(--color-primary-25);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ut-dashboard-content .dashboard-graphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ut-dashboard-content .dashboard-graphs img {
+    float: right;
+}
+
+/* ########### TABLE STYLING ########### */
+
+.ut-dashboard-table-container {
+    margin-top: 24px;
+}
+
+.ut-dashboard-table-container button.filter {
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    color: var(--color-primary-700);
+    border: 1px solid var(--color-gray-300);
+    background-color: var(--color-primary-50);
+}
+
+.ut-dashboard-table-container button.more-filters {
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--color-gray-300);
+    background-color: white;
+}
+
+.ut-dashboard-table-container .table-filtering {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ut-dashboard-table-container .table-search input {
+    border-radius: 6px;
+    border: 1.5px solid var(--color-gray-200);
+    padding: 10px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard tr {
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.ut-dashboard-table-container .ut-table-dashboard tr:nth-child(1) {
+    border-top: 1px solid var(--color-gray-200);
+    background-color: var(--color-gray-50);
+}
+
+.ut-dashboard-table-container .ut-table-dashboard th:nth-child(1),
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) {
+    border-left: 1px solid var(--color-gray-200);
+    padding-left: 24px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard th:last-child, 
+.ut-dashboard-table-container .ut-table-dashboard td:last-child {
+    border-right: 1px solid var(--color-gray-200);
+    padding-right: 24px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(2) div span:nth-child(2),
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(4) span:nth-child(2) {
+    color: var(--color-gray-500);
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(3) span.customer {
+    background-color: var(--color-success-50);
+    color: var(--color-success-700);
+    padding: 0px 10px 0px 10px;
+    border-radius: 8px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(3) span.churned {
+    background-color: var(--color-gray-100);
+    color: var(--color-gray-700);
+    padding: 0px 10px 0px 10px;
+    border-radius: 8px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(4) span {
+    display: block;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard th {
+    color: var(--color-gray-500);
+    text-align: left;
+    padding: 4px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td {
+    text-align: left;
+    padding: 4px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .edit-links {
+    text-align: right;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .edit-links a {
+    margin-left: 16px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .dot {
+    height: 32px;
+    width: 32px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .range-outer {
+    background-color: var(--color-primary-50);
+    height: 10px;
+    border-radius: 8px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .range-inner {
+    background-color: var(--color-primary-600);
+    height: 10px;
+    border-radius: 8px;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard .range-width-0 {
+    width: 0%;
+}
+.ut-dashboard-table-container .ut-table-dashboard .range-width-25 {
+    width: 25%;
+}
+.ut-dashboard-table-container .ut-table-dashboard .range-width-50 {
+    width: 50%;
+}
+.ut-dashboard-table-container .ut-table-dashboard .range-width-75 {
+    width: 75%;
+}
+.ut-dashboard-table-container .ut-table-dashboard .range-width-100 {
+    width: 100%;
+}
+
+/* ############### CHECKBOX STYLING ###############*/
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkbox-label {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 6px;
+    background-color:white;
+    border: 1.5px solid var(--color-gray-300);
+}
+
+  /* When the checkbox is checked, add a blue background */
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkbox-label input:checked ~ .checkmark {
+    background-color: var(--color-primary-100);
+    border: 1.5px solid var(--color-primary-700);
+
+}
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the checkmark when checked */
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkbox-label input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+.ut-dashboard-table-container .ut-table-dashboard td:nth-child(1) .checkbox-label .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: 1.5px solid var(--color-primary-700);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* ############# PAGINATION ############# */
+
+.ut-dashboard-table-container .pagination {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--color-gray-200);
+    padding: 16px 48px;
+}
+
+.ut-dashboard-table-container .pagination button {
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--color-gray-300);
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .ut-dashboard-table-container .ut-table-dashboard tr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 8px 0;
+        border: 1px solid rgba(3, 3, 3, 0.2);
+    }
+    .ut-dashboard-table-container .ut-table-dashboard td,
+    .ut-dashboard-table-container .ut-table-dashboard th {
+        flex: 1 1 150px;
+        border: 0.5px solid rgba(3, 3, 3, 0.2);
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .ut-dashboard-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 8%;
+        background-color: white;
+        border: 1px solid var(--color-gray-100);
+    }
+
+    .ut-dashboard-navbar .dashboard-navbar-logo {
+        margin-left: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .ut-dashboard-navbar .dashboard-navbar-list {
+        display: none;
+    }
+
+    .ut-dashboard-navbar .dashboard-navbar-list-profile {
+        content: url("../../../img/team1/team1-dashboard-mobile-logo.svg");
+        border-top: 1px solid var(--color-gray-100);
+        padding: 40px;
+        margin: 24px 16px;
+    }
+
+    .ut-dashboard-content {
+        margin-top: 8%;
+        border-top-left-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ut-dashboard-content .dashboard-top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .ut-dashboard-content .dashboard-graphs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+
