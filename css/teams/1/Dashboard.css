@@ -1,14 +1,3 @@
-/* ########### NAVBAR ########### */
-
-.ut-dashboard-navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: fixed;
-    height: 100%;
-    width: 80px;
-    background-color: var(--color-primary-700);
-}
 
 button {
     cursor: pointer;
@@ -114,6 +103,17 @@ button {
     vertical-align: middle;
 }
 
+/* ########### NAVBAR ########### */
+
+.ut-dashboard-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    background-color: var(--color-primary-700);
+}
 
 .ut-dashboard-navbar .dashboard-navbar-list {
     padding: 0;
