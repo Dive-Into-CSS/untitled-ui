@@ -789,7 +789,13 @@ ul li:first-of-type:not(.company__logo) {
   .post:first-of-type {
     margin-top: 3rem;
   }
-
+  
+  .post__image {
+	max-width: 343px;
+	height: 240px;
+	object-fit: cover;
+  }
+  
   .analytics {
     margin: 64px 0px;
   }
@@ -1111,6 +1117,10 @@ ul li:first-of-type:not(.company__logo) {
   .sliderSection,
   .ctaSection {
     padding: 10px 16px;
+  }
+
+  .sliderSection {
+	  overflow: hidden;
   }
 
   .sliderListItem,
