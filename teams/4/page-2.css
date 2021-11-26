@@ -161,7 +161,7 @@ ol {
   padding: 32px;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  padding-left: 92px;
 }
 
 .main__header {
@@ -286,7 +286,7 @@ ol {
 }
 
 .download-icon {
-  background: url('./assets/page-2/download.svg');
+  background: url('./assets/page-2/icon-download.svg');
   width: 20px;
   height: 20px;
 }
@@ -298,7 +298,12 @@ ol {
 
 .sec-right {
   flex-grow: 2;
+  max-width: 700px;
 
+}
+
+.green-check-icon.icon {
+  color: var(--color-success-700);
 }
 
 .plan-list-item {
@@ -358,7 +363,8 @@ ol {
 
 .billing-header {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  row-gap: 1rem;
 }
 
 .billing-header h2 {
@@ -371,6 +377,11 @@ ol {
 
 .billing-header button {
   align-self: center;
+}
+
+.plan-left.sec-left {
+  max-width: 280px;
+  padding: 0px;
 }
 
 thead {
@@ -395,14 +406,14 @@ table tbody td {
 .billing-history {
   border: solid 1px var(--color-gray-200);
   border-radius: 10px;
-  width: 100%;
-  min-width: 850px;
+  max-width: 700px;
 }
 
 .paid-badge {
   color: var(--color-success-700);
   background: var(--color-success-50);
-  display: inline-block;
+  display: flex;
+  column-gap: 10px;
   padding: 0.5rem;
   border-radius: 16px;
 }
@@ -422,7 +433,7 @@ table td a {
   .split-section {
     display: flex;
     flex-flow: column nowrap;
-	padding: 2rem;
+    padding: 2rem;
   }
 
   .billing-history {
@@ -436,6 +447,18 @@ table td a {
 
 
 @media (max-width: 480px) {
+	.billing-header {
+		padding: 0px;
+	}
+	.main__container {
+		padding: 16px;
+	}
+	.split-section {
+		padding: 0px;
+	}
+	.hide-mobile {
+		display: none;
+	}
   .mobile__header {
     width: 100vw;
     height: 64px;
