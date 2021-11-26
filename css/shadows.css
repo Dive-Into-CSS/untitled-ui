@@ -1,4 +1,4 @@
-@import url(colors.css);
+@import url("./colors.css");
 
 :root {
     --shadow-xs: 0px 1px 2px var(--color-shadow-xs);
