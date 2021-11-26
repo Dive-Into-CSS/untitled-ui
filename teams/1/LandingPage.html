@@ -44,6 +44,7 @@
       </div>
     </nav>
   </header>
+
   <main class="">
     <header class="main-header container">
       <div class="main-header-top">
@@ -58,8 +59,7 @@
           by over 4,000 startups.
         </p>
 
-        <!-- not sure to use form  -->
-        <!--I wouldnt use a form, as it is just a single input, not really a form-->
+
         <div class="header-subscribe">
           <div class="header-subscribe-left">
             <input class="ut-text-md-reg" type="text" name="email" required placeholder="Enter your email" />
@@ -74,13 +74,18 @@
         </div>
       </div>
 
-      <img class="header-img" src="../../img/team-1/Mockup.png" alt="">
+      <div class="header-img">
+        <img class="header-img-1" src="../../img/team-1/Mockup.png" alt="">
+        <img class="header-img-2" src="../../img/team-1/graph.png" alt="">
+
+
+      </div>
     </header>
 
-    <!-- Users over time -->
+
 
     <section class="features-overview">
-      <!-- 3 copies -->
+
       <article class="single-feature">
         <i class="feature-message"></i>
         <span>
@@ -126,7 +131,7 @@
 
       <div class="integrations-container">
         <article class="single-integration">
-          <img src="../../img/team-1/notion.svg" alt="notion logo">
+          <img src="../../img/team-1/notion.svg" height="50px" alt="notion logo">
           <h4 class="ut-text-xl-med">Slack integration</h4>
           <p class="ut-text-md-reg">
             Work faster and smarter by integrating directly with Slack, right in the app.
@@ -134,7 +139,7 @@
           <a class="ut-text-md-med">View integration <i></i></a>
         </article>
         <article class="single-integration">
-          <img src="../../img/team-1/slack.svg" alt="slack logo">
+          <img src="../../img/team-1/slack.svg" height="50px" alt="slack logo">
           <h4 class="ut-text-xl-med">Google Drive integration</h4>
           <p class="ut-text-md-reg">
             Work faster and smarter by integrating directly with Google Drive, right in the app.
@@ -142,7 +147,7 @@
           <a class="ut-text-md-med">View integration <i></i></a>
         </article>
         <article class="single-integration">
-          <img src="../../img/team-1/g-drive.svg" alt="google drive logo">
+          <img src="../../img/team-1/g-drive.svg" height="50px" alt="google drive logo">
           <h4 class="ut-text-xl-med">Intercom integration</h4>
           <p class="ut-text-md-reg">
             Work faster and smarter by integrating directly with Intercom, right in the app.
@@ -150,7 +155,7 @@
           <a class="ut-text-md-med">View integration <i></i></a>
         </article>
         <article class="single-integration">
-          <img src="../../img/team-1/intercom.png" alt="intercom logo">
+          <img src="../../img/team-1/intercom.png" height="50px" alt="intercom logo">
           <h4 class="ut-text-xl-med">Jira integration</h4>
           <p class="ut-text-md-reg">
             Work faster and smarter by integrating directly with Jira, right in the app.
@@ -158,7 +163,7 @@
           <a class="ut-text-md-med">View integration <i></i></a>
         </article>
         <article class="single-integration">
-          <img src="../../img/team-1/jira.png" alt="jira logo">
+          <img src="../../img/team-1/jira.png" height="50px" alt="jira logo">
           <h4 class="ut-text-xl-med">Notion Integration</h4>
           <p class="ut-text-md-reg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -168,7 +173,7 @@
           <a class="ut-text-md-med">View integration <i></i></a>
         </article>
         <article class="single-integration">
-          <img src="../../img/team-1/dropbox.png" alt="dropbox logo">
+          <img src="../../img/team-1/dropbox.png" height="50px" alt="dropbox logo">
           <h4 class="ut-text-xl-med">Dropbox integration</h4>
           <p class="ut-text-md-reg">
             Work faster and smarter by integrating directly with Dropbox, right in the app.
@@ -185,7 +190,7 @@
         Everything you need to convert, engage, and retain more users.
       </p>
       <div class="figures-figures">
-        <!-- duplicate 3 times -->
+
         <div class="single-figure">
           <span class="ut-display-xl-semi-bold"><strong>40+</strong></span><br>
           <span class="ut-text-lg-med">Integrations</span>
@@ -210,8 +215,9 @@
         over 4,000 startups.
       </p>
 
-      <figure>
-        <img class="features-detail-img" src="../../img/team-1/features-detail-img.png" alt="#" />
+      <figure class="features-detail-img">
+        <img class="features-detail-img-1" src="../../img/team-1/features-detail-img.png" alt="#" />
+        <img class="features-detail-img-2" src="../../img/team-1/iphone.png" alt="">
       </figure>
       <div class="features-container">
         <article class="single-feature">
@@ -261,7 +267,7 @@
       </div>
 
       <div class="pricing-plans">
-        <!-- copy of this -->
+
         <div class="pricing-card">
           <div class="pricing-header">
             <div>
@@ -343,52 +349,57 @@
 
     <section class="faqs">
 
-      <h2 class="ut-display-md-semi-bold">Frequently asked questions</h2>
-      <p calss="ut-text-xl-reg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Temporibus, nisi.
-      </p>
-      <!-- collapsibles: needed 6 times -->
-      <div class="faq-card">
-        <span class="ut-text-lg-med">Is there a free trial available?</span>
-        <span>icon</span>
+      <div class="faqs-top">
+        <h2 class="ut-display-md-semi-bold">Frequently asked questions</h2>
+        <p calss="ut-text-xl-reg">
+          Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Temporibus, nisi.
+        </p>
+
+        <div class="faq-card">
+          <span class="ut-text-lg-med">Is there a free trial available?</span>
+          <span><i class="minus-circle"></i></span>
+        </div>
+        <p class="ut-text-md-reg" style="text-align: left;margin-bottom:0;">Yes, you can try us for free for 30 days.
+          If you want, we’ll
+          provide you with a free,
+          personalized 30-minute
+          onboarding call to get you up and running as soon as possible.</p>
+
+        <hr>
+        <div class="faq-card">
+          <span class="ut-text-lg-med">Is there a free trial available?</span>
+          <span><i class="plus-circle"></i></span>
+        </div>
+
+        <hr>
+
+        <div class="faq-card">
+          <span class="ut-text-lg-med">Is there a free trial available?</span>
+          <span><i class="plus-circle"></i></span>
+        </div>
+
+        <hr>
+        <div class="faq-card">
+          <span class="ut-text-lg-med">Is there a free trial available?</span>
+          <span><i class="plus-circle"></i></span>
+        </div>
+
+        <hr>
+        <div class="faq-card">
+          <span class="ut-text-lg-med">Is there a free trial available?</span>
+          <span><i class="plus-circle"></i></span>
+        </div>
+
+
       </div>
-      <p class="ut-text-md-reg" style="text-align: left;margin-bottom:0;">Yes, you can try us for free for 30 days.
-        If you want, we’ll
-        provide you with a free,
-        personalized 30-minute
-        onboarding call to get you up and running as soon as possible.</p>
 
-      <hr>
-      <div class="faq-card">
-        <span class="ut-text-lg-med">Is there a free trial available?</span>
-        <span>icon</span>
-      </div>
 
-      <hr>
 
-      <div class="faq-card">
-        <span class="ut-text-lg-med">Is there a free trial available?</span>
-        <span>icon</span>
-      </div>
-
-      <hr>
-      <div class="faq-card">
-        <span class="ut-text-lg-med">Is there a free trial available?</span>
-        <span>icon</span>
-      </div>
-
-      <hr>
-      <div class="faq-card">
-        <span class="ut-text-lg-med">Is there a free trial available?</span>
-        <span>icon</span>
-      </div>
-
-      <hr>
 
 
       <div class="faq-more-questions">
-        <img src="" alt="">
+        <img src="../../img/team-1/avatar-group.png" alt="avatar-group" height="50px">
         <p class="ut-text-xl-med  faq-more-questions-header"><strong>Still have questions?</strong></p>
         <p class="ut-text-lg-reg faq-more-questions-description">
           Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -402,11 +413,11 @@
     <aside class="trusted-companies">
       <span class="ut-text-xl-reg">Trusted by 4,000+ companies</span>
       <ul>
-        <li><img src="#" alt="#" /></li>
-        <li><img src="#" alt="#" /></li>
-        <li><img src="#" alt="#" /></li>
-        <li><img src="#" alt="#" /></li>
-        <li><img src="#" alt="#" /></li>
+        <li><img src="../../img/team-1/logo1.png" alt="logo" /></li>
+        <li><img src="../../img/team-1/logo2.png" alt="logo" /></li>
+        <li><img src="../../img/team-1/logo3.png" alt="logo" /></li>
+        <li><img src="../../img/team-1/logo4.png" alt="logo" /></li>
+        <li><img src="../../img/team-1/logo5.png" alt="logo" /></li>
       </ul>
     </aside>
 
@@ -425,46 +436,102 @@
     </section>
   </main>
 
-  <footer>
-    <div>
-      <!-- repeated -->
-      <nav>
-        <div class="footer-menu-col-1">
-          <ul>
-            <li><span>Products</span></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li>
-              <a href="">Content<span class="new-tag">New</span></a>
-            </li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-          </ul>
-        </div>
 
-        <div class="footer-menu-col-2">
-          <ul>
-            <li><span>Products</span></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">Content</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <footer class="footer">
+
+
+    <nav class="footer-nav">
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Products</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">Overview</a></li>
+          <li><a href="#" class="ut-text-md-med">Features</a></li>
+          <li><a href="#" class="ut-text-md-med">Solutions</a></li>
+          <li><a href="#" class="ut-text-md-med">Tutorials</a></li>
+          <li><a href="#" class="ut-text-md-med">Pricing</a></li>
+          <li><a href="#" class="ut-text-md-med">Releases</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Company</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">About</a></li>
+          <li><a href="#" class="ut-text-md-med">Careers</a></li>
+          <li><a href="#" class="ut-text-md-med">Press</a></li>
+          <li><a href="#" class="ut-text-md-med">News</a></li>
+          <li><a href="#" class="ut-text-md-med">Media Kit</a></li>
+          <li><a href="#" class="ut-text-md-med">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Resources</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">Blog</a></li>
+          <li><a href="#" class="ut-text-md-med">Newsletter</a></li>
+          <li><a href="#" class="ut-text-md-med">Events</a></li>
+          <li><a href="#" class="ut-text-md-med">Help centre</a></li>
+          <li><a href="#" class="ut-text-md-med">Tutorials</a></li>
+          <li><a href="#" class="ut-text-md-med">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Use cases</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">Startups</a></li>
+          <li><a href="#" class="ut-text-md-med">Enterprises</a></li>
+          <li><a href="#" class="ut-text-md-med">Goverment</a></li>
+          <li><a href="#" class="ut-text-md-med">SaaS</a></li>
+          <li><a href="#" class="ut-text-md-med">Marketplace</a></li>
+          <li><a href="#" class="ut-text-md-med">Ecommerce</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Social</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">Twitter</a></li>
+          <li><a href="#" class="ut-text-md-med">LinkedIn</a></li>
+          <li><a href="#" class="ut-text-md-med">Facebook</a></li>
+          <li><a href="#" class="ut-text-md-med">GitHub</a></li>
+          <li><a href="#" class="ut-text-md-med">AngelList</a></li>
+          <li><a href="#" class="ut-text-md-med">Dribbble</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-list">
+        <span class="ut-text-sm-semi-bold">Legal</span>
+        <ul>
+          <li><a href="#" class="ut-text-md-med">Terms</a></li>
+          <li><a href="#" class="ut-text-md-med">Privacy</a></li>
+          <li><a href="#" class="ut-text-md-med">Cookies</a></li>
+          <li><a href="#" class="ut-text-md-med">Licenses</a></li>
+          <li><a href="#" class="ut-text-md-med">Settings</a></li>
+          <li><a href="#" class="ut-text-md-med">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-list download">
+        <span class="ut-text-sm-semi-bold">Get the app</span>
+        <ul>
+          <li><a class="ut-text-md-med"><img src="../../img/team-1/appStore.png" height="45" alt=""></a></li>
+          <li><a class="ut-text-md-med"><img src="../../img/team-1/googlePlay.png" height="45" alt=""></a></li>
+        </ul>
+      </div>
+    </nav>
 
     <hr />
 
-    <div class="logo">
-      <img src="#" alt="logo" />
-    </div>
 
-    <strong>&copy; Untitled UI. All right reserved.</strong>
+    <div class="container2">
+      <div class="logo">
+        <img src="../../img/untitledui.svg" alt="Untitled UI Logo" />
+      </div>
+      <strong class="ut-text-md-reg">&copy; 2077 Untitled UI. All right reserved.</strong>
+    </div>
   </footer>
+
 
   <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../../js/plugins.js"></script>
