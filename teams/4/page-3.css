@@ -102,7 +102,7 @@ ol {
   max-width: 609px;
 }
 
-.current-user > div {
+.current-user>div {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -113,7 +113,7 @@ ol {
   align-self: flex-end;
 }
 
-.current-user > div .wrap,
+.current-user>div .wrap,
 .you .wrap {
   display: flex;
   justify-content: space-between;
@@ -197,11 +197,11 @@ ol {
 .chat .textarea-controls button,
 .ut-button {
   background: none;
-	color: inherit;
-	border: none;
-	padding:  10px 16px;
-	font: inherit;
-	cursor: pointer;
+  color: inherit;
+  border: none;
+  padding: 10px 16px;
+  font: inherit;
+  cursor: pointer;
   outline: inherit;
   margin-right: 16px;
 }
@@ -288,11 +288,11 @@ ol {
 
 .skills button {
   background: none;
-	color: inherit;
-	border: none;
-	padding:  10px 16px;
-	font: inherit;
-	cursor: pointer;
+  color: inherit;
+  border: none;
+  padding: 10px 16px;
+  font: inherit;
+  cursor: pointer;
   outline: inherit;
   width: 20px;
   height: 20px;
@@ -478,6 +478,12 @@ li.active a {
 }
 
 @media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+  }
+
   .left__nav__wrapper {
     display: none;
   }
