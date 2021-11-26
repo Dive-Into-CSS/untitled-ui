@@ -170,11 +170,21 @@ ol {
   margin-bottom: 6px;
 }
 
-.reactions button {
+.reactions {
+  display: flex;
+  align-self: flex-end;
+}
+
+.reactions > button {
   border-radius: 16px;
   border: 0;
-  background-color: var(--color-gray-50);
+  background-color: var(--color-gray-100);
   padding: 4px 8px;
+  cursor: pointer;
+}
+
+.reactions > button:first-child {
+  margin-right: 6px;
 }
 
 .chat textarea {
@@ -475,6 +485,10 @@ li.active a {
 
 .nav__user__email {
   grid-area: 2/2;
+}
+
+.small-block {
+  width: min-content;
 }
 
 @media (max-width: 480px) {
