@@ -62,6 +62,15 @@ section {
     }
 }
 
+@media (max-width: 480px) {
+    section {
+        padding-top: 0px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0px;
+    }
+}
+
 button {
     background: none;
     border: none;
@@ -160,15 +169,11 @@ button {
 }
 
 .hero {
-    height: 800px;
     display: flex;
-
-    /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
 }
 
 .portfolio-performance {
-    padding: 200px 0px;
-    width: 650px;
+    margin: auto;
     flex: 1;
 }
 
@@ -183,10 +188,9 @@ button {
 
 .badge {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 4px 10px 4px 4px;
-    background-color: #f9f5ff;
+    background-color: var(--color-primary-50);
     mix-blend-mode: multiply;
     border-radius: 16px;
     width: 260px;
@@ -194,11 +198,16 @@ button {
     color: var(--color-primary-700);
 }
 
-.badge-new {
+.badge-label {
     padding: 2px 10px;
     margin-right: 8px;
     background-color: #fff;
     border-radius: 12px;
+}
+
+.badge-text {
+    display: flex;
+    align-items: center;
 }
 
 .arrow {
@@ -227,18 +236,69 @@ button {
     }
 }
 
-.analytics > img {
-    margin-left: 50px;
-    padding-top: 50px;
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        letter-spacing: var(--letter-spacing);
+        font-weight: var(--font-weight-semi-bold);
+    }
+    .analytics {
+        height: 360px;
+        background-image: none;
+    }
+    .analytics > img {
+        width: 100%;
+        object-fit: cover;
+        object-position: -20% 0;
+        padding-top: 0px;
+    }
 }
 
 .partners {
     color: var(--color-gray-500);
     background-color: var(--color-gray-50);
+    text-align: center;
 }
 
 .partners h2 {
     margin-bottom: 32px;
+}
+
+.companies li:last-child {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .companies li:last-child {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .partners {
+        padding: 64px 16px;
+    }
+
+    .partners h2 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .partners {
+        height: 318px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .partners h2 {
+        margin-bottom: 0px;
+    }
+
+    .companies img {
+        width: 155px;
+    }
 }
 
 .features h2 {
@@ -267,15 +327,9 @@ button {
     grid-column-gap: 32px;
 }
 
-@media (max-width: 1200px) {
-    .benefits {
-        display: block;
-        height: auto;
-    }
-}
-
-.benefits img {
+.benefits li img {
     margin-bottom: 20px;
+    display: block;
 }
 
 .benefits li > span {
@@ -288,6 +342,7 @@ button {
 
 .stats {
     position: relative;
+    display: flex;
 }
 
 .background-image {
@@ -298,8 +353,14 @@ button {
 }
 
 @media (max-width: 1200px) {
+    .benefits {
+        display: block;
+        height: auto;
+    }
     .stats {
         margin-top: 150px;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -309,11 +370,25 @@ button {
     }
     .stats {
         justify-content: center;
-        margin-top: 48px;
+        margin-top: 100px;
         height: 360px;
     }
-    .stats img {
-        width: 254px;
+}
+
+@media (max-width: 480px) {
+    .stats {
+        margin-top: 48px;
+        height: auto;
+    }
+    .stats .iphone-mock-up {
+        height: 425px;
+        width: 100%;
+        object-fit: cover;
+        object-position: -20% 0;
+        padding-top: 0px;
+    }
+    .stats-image img {
+        width: 100%;
     }
 }
 
@@ -352,6 +427,17 @@ button {
     margin-top: 40px;
 }
 
+@media (max-width: 480px) {
+    .trial h2 {
+        font-size: 1.875rem;
+        line-height: 2.375rem;
+        letter-spacing: var(--letter-spacing);
+        font-weight: var(--font-weight-semi-bold);
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
 .notification-center {
     margin-top: 100px;
 }
@@ -383,6 +469,14 @@ button {
     color: var(--color-primary-700);
 }
 
+.trial-item-1 .download {
+    display: flex;
+}
+
+.trial-item-1 .download > img {
+    margin-right: 15px;
+}
+
 @media (max-width: 1200px) {
     .trial {
         /* display: block;
@@ -392,7 +486,7 @@ button {
         display: none;
     }
     .trial-item-2 {
-        background-position: 60px 0px;
+        background-position: center;
     }
 }
 
@@ -400,7 +494,10 @@ button {
     .trial {
         flex-direction: column;
         margin: 16px;
-        background-position: center;
+        min-height: 700px;
+    }
+    .trial-item-2 {
+        background-position: top;
     }
     .download {
         display: flex;
@@ -503,6 +600,9 @@ button {
 }
 
 @media (max-width: 768px) {
+    .upgrade {
+        margin-top: 40px;
+    }
     .plan-boxes {
         margin-top: 64px;
         flex-direction: column;
@@ -521,6 +621,14 @@ button {
     display: flex;
 }
 
+input[type='email'] {
+    margin-right: 16px;
+}
+
+.email {
+    margin-right: 64px;
+}
+
 .email span {
     display: block;
 }
@@ -536,6 +644,7 @@ button {
 
 .email-subscribe {
     display: flex;
+    margin-top: 40px;
 }
 
 .email button {
@@ -572,6 +681,15 @@ button {
     }
 }
 
+@media (max-width: 768px) {
+    .subscription {
+        padding-bottom: 0px;
+    }
+    .email {
+        margin-right: 0px;
+    }
+}
+
 footer {
     background-color: #53389e;
     color: #fff;
@@ -585,6 +703,10 @@ footer {
 
 .view-demo > p {
     color: var(--color-primary-200);
+}
+
+.view-btns {
+    display: flex;
 }
 
 .btn-white {
@@ -633,7 +755,7 @@ footer {
 .download span,
 .download img {
     display: block;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .app-store-icon {
@@ -657,4 +779,61 @@ footer {
 
 .footer-footer li {
     margin-left: 24px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 48px 16px;
+        text-align: center;
+    }
+
+    .footer-1 {
+        flex-direction: column;
+    }
+
+    .footer-1-left {
+        width: auto;
+    }
+
+    .footer-1 p {
+        text-align: start;
+    }
+
+    .footer-1 ul {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .footer-1 .download {
+        display: block;
+    }
+    .footer-1 .download div {
+        display: flex;
+    }
+    .footer-1 .download span {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .view-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-white {
+        order: 1;
+        margin-top: 12px;
+    }
+    .view-btns button {
+        width: 100%;
+    }
+
+    .footer-footer {
+        flex-direction: column;
+    }
+
+    .footer-footer span {
+        order: 1;
+        margin-top: 24px;
+        text-align: start;
+    }
 }
