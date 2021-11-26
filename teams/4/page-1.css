@@ -623,6 +623,7 @@ footer .container {
 .footer__info__link-container {
   display: flex;
   column-gap: 100px;
+  flex-flow: wrap;
 }
 
 ul,
@@ -654,6 +655,29 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .footer__socialCopyright {
   color: var(--color-gray-400);
+}
+
+@media(max-width: 768px) {
+  .feature-users__figure {
+    margin-top: 2rem;
+    background: url(./assets/featuresLogoMobile.png) no-repeat;
+    background-size: contain;
+    width: 343px;
+    height: 224px;
+  }
+
+  .mobile__header {
+    width: 90vw;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: var(--color-white);
+  }
 }
 
 @media(max-width: 480px) {
