@@ -90,6 +90,134 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 24px;
+}
+
+.current-user {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 16px;
+  max-width: 609px;
+}
+
+.current-user > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.you {
+  margin-bottom: 16px;
+  align-self: flex-end;
+}
+
+.current-user > div .wrap,
+.you .wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.you .message-text {
+  background-color: var(--color-primary-600);
+  color: white;
+}
+
+.current-user,
+.you {
+  max-width: 560px;
+}
+
+.chat .avatar {
+  margin-right: 12px;
+}
+
+.avatar .wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+/* .message {
+  display: flex;
+} */
+
+.current-user .message {
+  background-color: white;
+  display: flex;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 6px;
+}
+
+.message svg {
+  margin-right: 14px;
+}
+
+.message .wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-text {
+  padding: 10px 14px;
+  margin-top: 6px;
+  background-color: var(--color-gray-100);
+  display: flex;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.reactions button {
+  border-radius: 16px;
+  border: 0;
+  background-color: var(--color-gray-50);
+  padding: 4px 8px;
+}
+
+.chat textarea {
+  border-radius: 8px;
+  height: 104px;
+  width: 100%;
+  position: relative;
+  padding: 10px 14px;
+  padding-right: 250px;
+}
+
+.chat .textarea-controls {
+  position: relative;
+  top: -60px;
+  left: calc(100% - 244px);
+}
+
+.chat .textarea-controls button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding:  10px 16px;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  margin-right: 16px;
+}
+
+.chat .ut-button.primary {
+  background-color: var(--color-primary-600);
+  border: 1px solid var(--color-primary-600);
+  color: var(--color-white);
+}
+
+.ut-button {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .mobile__header {
