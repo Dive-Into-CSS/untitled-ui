@@ -25,109 +25,347 @@
     <link rel="stylesheet" href="../../css/navigation.css" />
     <link rel="stylesheet" href="../../css/main.css" />
     <link rel="stylesheet" href="../../css/normalize.css" />
+    <link rel="stylesheet" href="../../css/list.css" />
   </head>
 </head>
 
 <body>
-  <header class="mobile__header">
-    <img src="./assets/page-2/icon-logo.svg" alt="logo">
-    <img src="./assets/page-2/icon-hamburger.svg" alt="hamburger">
-  </header>
-  <div class="left__nav__wrapper">
-    <div class="left__nav__logo">
-      <a href="#">
-        <img src="./assets/page-2/logo.png" alt="logo icon">
-      </a>
-    </div>
-    <div class="left__nav__input__wrapper">
-      <span class="ut-search-icon">
-        <img src="./assets/page-2/icon-search-white.svg" alt="search icon">
-      </span>
-      <input type="text" placeholder="Search" />
-    </div>
-    <nav class="left__nav">
-      <ul>
-        <div class="left__nav__icon__grp1">
+  <div class="container">
+    <header class="mobile__header">
+      <img src="./assets/page-2/icon-logo.svg" alt="logo">
+      <img src="./assets/page-2/icon-hamburger.svg" alt="hamburger">
+    </header>
+    <header class="desktop-header">
+      <nav class="breadcrumb">
+        <ul>
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-home.svg" alt="home icon">
-              <span>Home</span>
-              <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+            <a href="#">
+              <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.5 18.3332V9.99984H11.5V18.3332M1.5 7.49984L9 1.6665L16.5 7.49984V16.6665C16.5 17.1085 16.3244 17.5325 16.0118 17.845C15.6993 18.1576 15.2754 18.3332 14.8333 18.3332H3.16667C2.72464 18.3332 2.30072 18.1576 1.98816 17.845C1.67559 17.5325 1.5 17.1085 1.5 16.6665V7.49984Z"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
             </a>
           </li>
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-bar-chart.svg" alt="user icon">
-              <span class="ut-text-md-med">Deshboard</span>
-              <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
-            </a>
-          </li>
-          <li class="active">
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-layers.svg" alt="key icon">
-              <span>Projects</span>
-              <img class="ut-icon-arrow" src="./assets/page-2/icon-up-arrow.svg" alt="arrow">
-            </a>
-          </li>
-          <ul class="nested__nav">
-            <li class="ut-text-md-med left__nav__item active">Current projects</li>
-            <li class="ut-text-md-med left__nav__item">Upcoming projects</li>
-            <li class="ut-text-md-med left__nav__item">Archive</li>
-          </ul>
-          <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-check.svg" alt="users icon">
-              <span>Tasks</span>
-              <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+            <a href="#">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke="#D0D5DD" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                
             </a>
           </li>
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-flag.svg" alt="credit card icon">
-              <span>Reporting</span>
-              <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+            <a class="ut-text-sm-med" href="#">
+              Projects
             </a>
           </li>
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-users.svg" alt="notification icon">
-              <span>Users</span>
-            </a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 12L10 8L6 4" stroke="#D0D5DD" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
           </li>
-        </div>
-        <div class="left__nav__icon__grp2">
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-bar-chart.svg" alt="user icon">
-              <span>Support</span>
+            <a class="ut-text-sm-med" href="#">
+              Current
             </a>
           </li>
           <li>
-            <a class="ut-text-md-med left__nav__item" href="#">
-              <img src="./assets/page-2/icon-setting-gray.svg" alt="setting icon">
-              <span>Settings</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 12L10 8L6 4" stroke="#D0D5DD" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+          </li>
+          <li>
+            <a href="#">
+              <span>
+                <svg width="11" height="3" viewBox="0 0 11 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.97869 2.09446C2.5206 2.09446 2.97301 1.65199 2.97301 1.10014C2.97301 0.558239 2.5206 0.110795 1.97869 0.110795C1.43182 0.110795 0.984375 0.558239 0.984375 1.10014C0.984375 1.65199 1.43182 2.09446 1.97869 2.09446ZM5.94354 2.09446C6.48544 2.09446 6.93786 1.65199 6.93786 1.10014C6.93786 0.558239 6.48544 0.110795 5.94354 0.110795C5.39666 0.110795 4.94922 0.558239 4.94922 1.10014C4.94922 1.65199 5.39666 2.09446 5.94354 2.09446ZM9.90838 2.09446C10.4503 2.09446 10.9027 1.65199 10.9027 1.10014C10.9027 0.558239 10.4503 0.110795 9.90838 0.110795C9.36151 0.110795 8.91406 0.558239 8.91406 1.10014C8.91406 1.65199 9.36151 2.09446 9.90838 2.09446Z" fill="#667085"/>
+                </svg>                  
+              </span>
             </a>
           </li>
-          <hr class="left__nav__hr">
-          <div class="avatar__wrapper">
-            <img src="./assets/page-2/avatar.png" alt="avatar">
-            <div class="avatar__info">
-              <span class="ut-text-sm-med">Olivia Rhye</span>
-              <span class="ut-text-sm-reg nav__user__email">olivia@untitledui.com</span>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 12L10 8L6 4" stroke="#D0D5DD" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+          </li>
+          <li>
+            <a class="ut-text-sm-med" href="#">
+              Messages
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="wrap">
+        <h1 class="ut-display-sm-med">Messages</h1>
+        <button class="ut-text-sm-med add-btn ut-button primary">View project</button>
+      </div>
+    </header>
+    <div class="left__nav__wrapper">
+      <div class="left__nav__logo">
+        <a href="#">
+          <img src="./assets/page-2/logo.png" alt="logo icon">
+        </a>
+      </div>
+      <div class="left__nav__input__wrapper">
+        <span class="ut-search-icon">
+          <img src="./assets/page-2/icon-search-white.svg" alt="search icon">
+        </span>
+        <input type="text" placeholder="Search" />
+      </div>
+      <nav class="left__nav">
+        <ul>
+          <div class="left__nav__icon__grp1">
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-home.svg" alt="home icon">
+                <span>Home</span>
+                <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+              </a>
+            </li>
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-bar-chart.svg" alt="user icon">
+                <span class="ut-text-md-med">Deshboard</span>
+                <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+              </a>
+            </li>
+            <li class="active">
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-layers.svg" alt="key icon">
+                <span>Projects</span>
+                <img class="ut-icon-arrow" src="./assets/page-2/icon-up-arrow.svg" alt="arrow">
+              </a>
+            </li>
+            <ul class="nested__nav">
+              <li class="ut-text-md-med left__nav__item active">Current projects</li>
+              <li class="ut-text-md-med left__nav__item">Upcoming projects</li>
+              <li class="ut-text-md-med left__nav__item">Archive</li>
+            </ul>
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-check.svg" alt="users icon">
+                <span>Tasks</span>
+                <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+              </a>
+            </li>
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-flag.svg" alt="credit card icon">
+                <span>Reporting</span>
+                <img class="ut-icon-arrow" src="./assets/page-2/icon-down-arrow.svg" alt="arrow">
+              </a>
+            </li>
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-users.svg" alt="notification icon">
+                <span>Users</span>
+              </a>
+            </li>
+          </div>
+          <div class="left__nav__icon__grp2">
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-bar-chart.svg" alt="user icon">
+                <span>Support</span>
+              </a>
+            </li>
+            <li>
+              <a class="ut-text-md-med left__nav__item" href="#">
+                <img src="./assets/page-2/icon-setting-gray.svg" alt="setting icon">
+                <span>Settings</span>
+              </a>
+            </li>
+            <hr class="left__nav__hr">
+            <div class="avatar__wrapper">
+              <img src="./assets/page-2/avatar.png" alt="avatar">
+              <div class="avatar__info">
+                <span class="ut-text-sm-med">Olivia Rhye</span>
+                <span class="ut-text-sm-reg nav__user__email">olivia@untitledui.com</span>
+              </div>
+              <img class="logout__icon" src="./assets/page-2/icon-logout.svg" alt="logout icon">
             </div>
-            <img class="logout__icon" src="./assets/page-2/icon-logout.svg" alt="logout icon">
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <div class="chat">
+        <div class="current-user">
+          <img class="avatar" alt="Avatar" src="./assets/page-3/Avatar-chat.svg" />
+          <div>
+            <div class="wrap">
+              <span class="ut-text-sm-med">Mollie Hall</span>
+              <span class="date ut-text-sm-reg">Thursday 11:40am</span>
+            </div>
+            <div class="message">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 18C2 9.16344 9.16344 2 18 2C26.8366 2 34 9.16344 34 18C34 26.8366 26.8366 34 18 34C9.16344 34 2 26.8366 2 18Z"
+                  fill="#F4EBFF" />
+                <path
+                  d="M18.6667 11.3335H14.0001C13.6465 11.3335 13.3073 11.474 13.0573 11.724C12.8072 11.9741 12.6667 12.3132 12.6667 12.6668V23.3335C12.6667 23.6871 12.8072 24.0263 13.0573 24.2763C13.3073 24.5264 13.6465 24.6668 14.0001 24.6668H22.0001C22.3537 24.6668 22.6928 24.5264 22.9429 24.2763C23.1929 24.0263 23.3334 23.6871 23.3334 23.3335V16.0002M18.6667 11.3335L23.3334 16.0002M18.6667 11.3335V16.0002H23.3334"
+                  stroke="#7F56D9" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M18 32C10.268 32 4 25.732 4 18H0C0 27.9411 8.05887 36 18 36V32ZM32 18C32 25.732 25.732 32 18 32V36C27.9411 36 36 27.9411 36 18H32ZM18 4C25.732 4 32 10.268 32 18H36C36 8.05887 27.9411 0 18 0V4ZM18 0C8.05887 0 0 8.05887 0 18H4C4 10.268 10.268 4 18 4V0Z"
+                  fill="#F9F5FF" />
+              </svg>
+              <div class="wrap">
+                <p class="ut-text-sm-med">
+                  Tech requirements.pdf
+                </p>
+                <span class="ut-text-sm-reg">1.2 MB</span>
+              </div>
+            </div>
           </div>
         </div>
-      </ul>
-    </nav>
+        <div class="you">
+          <div class="wrap">
+            <span class="ut-text-sm-med">You</span>
+            <span class="date ut-text-sm-reg">Thursday 11:40am</span>
+          </div>
+          <p class="message-text">
+            Awesome! Thanks. I’ll look at this today.
+          </p>
+        </div>
+        <div class="current-user">
+          <img class="avatar" alt="Avatar" src="./assets/page-3/Avatar-chat.svg" />
+          <div>
+            <div class="wrap">
+              <span class="ut-text-sm-med">Mollie Hall</span>
+              <span class="date ut-text-sm-reg">Thursday 11:40am</span>
+            </div>
+            <p class="message-text">
+              No rush though — we still have to wait for Lana’s designs.
+            </p>
+            <div class="reactions">
+              <button>
+                <img src="./assets/page-3/heart.svg" alt="Heart Icon" />                
+              </button>
+              <button>
+                <img src="./assets/page-3/heart.svg" alt="Heart Icon" />                
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="current-user">
+          <img class="avatar" alt="Avatar" src="./assets/page-3/Avatar-chat.svg" />
+          <div>
+            <div class="wrap">
+              <span class="ut-text-sm-med">Mollie Hall</span>
+              <span class="date ut-text-sm-reg">Thursday 11:40am</span>
+            </div>
+            <p class="message-text">
+              Hey Olivia, can you please review the latest design when you can?
+            </p>
+          </div>
+        </div>
+        <div class="you">
+          <div>
+            <div class="wrap">
+              <span class="ut-text-sm-med">You</span>
+              <span class="date ut-text-sm-reg">Thursday 11:40am</span>
+            </div>
+            <p class="message-text">
+              Sure thing, I’ll have a look today. They’re looking great!
+            </p>
+          </div>
+        </div>
+        <div class="current-user">
+          <img class="avatar" alt="Avatar" src="./assets/page-3/Avatar-chat.svg" />
+          <div class="wrap">
+            <span class="ut-text-sm-med">Mollie Hall</span>
+            <p class="message-text">
+              <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="2" cy="6" r="2" fill="#667085"/>
+                <circle cx="10" cy="2" r="2" fill="#98A2B3"/>
+                <circle cx="18" cy="6" r="2" fill="#667085"/>
+              </svg>                
+            </p>
+          </div>
+        </div>
+        <div class="message-block">
+          <textarea placeholder="Send a message" name="message"></textarea>
+          <div class="textarea-controls">
+            <button>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.6665 11.6665C6.6665 11.6665 7.9165 13.3332 9.99984 13.3332C12.0832 13.3332 13.3332 11.6665 13.3332 11.6665M7.49984 7.49984H7.50817M12.4998 7.49984H12.5082M18.3332 9.99984C18.3332 14.6022 14.6022 18.3332 9.99984 18.3332C5.39746 18.3332 1.6665 14.6022 1.6665 9.99984C1.6665 5.39746 5.39746 1.6665 9.99984 1.6665C14.6022 1.6665 18.3332 5.39746 18.3332 9.99984Z"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button>
+              <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1.99984 8.8335C2.46007 8.8335 2.83317 8.4604 2.83317 8.00016C2.83317 7.53992 2.46007 7.16683 1.99984 7.16683C1.5396 7.16683 1.1665 7.53992 1.1665 8.00016C1.1665 8.4604 1.5396 8.8335 1.99984 8.8335Z"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M1.99984 3.00016C2.46007 3.00016 2.83317 2.62707 2.83317 2.16683C2.83317 1.70659 2.46007 1.3335 1.99984 1.3335C1.5396 1.3335 1.1665 1.70659 1.1665 2.16683C1.1665 2.62707 1.5396 3.00016 1.99984 3.00016Z"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M1.99984 14.6668C2.46007 14.6668 2.83317 14.2937 2.83317 13.8335C2.83317 13.3733 2.46007 13.0002 1.99984 13.0002C1.5396 13.0002 1.1665 13.3733 1.1665 13.8335C1.1665 14.2937 1.5396 14.6668 1.99984 14.6668Z"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="submit-btn ut-button primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside class="profile">
+      <img class="avatar" src="./assets/page-3/Big-avatar.png" alt="Avatar" />
+      <span class="profile-title ut-display-xs-med">Mollie Hall</span>
+      <span class="profile-email ut-text-md-reg">mollie@untitledui.com</span>
+      <section class="skills">
+        <span class="ut-text-xs-med">UX Design</span>
+        <span class="ut-text-xs-med">Product Design</span>
+        <span class="ut-text-xs-med">Webflow</span>
+        <button>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z"
+              fill="#F2F4F7" />
+            <path d="M10 6.5V13.5M6.5 10H13.5" stroke="#667085" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </section>
+      <div class="row">
+        <button class="add-btn ut-button primary ut-text-sm-med">Add to project</button>
+        <button class="view-btn ut-button primary ut-text-sm-med">View projects</button>
+      </div>
+      <section class="about">
+        <h4 class="section-title ut-text-sm-med">About</h4>
+        <p class="ut-text-sm-med">I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development.</p>
+      </section>
+      <section class="experience">
+        <h4 class=" section-title ut-text-sm-med">Work experience</h4>
+        <div class="company-info">
+          <img src="./assets/page-3/Company-logo1.svg" alt="Company 1 Logo" />
+          <div>
+            <span class="ut-text-sm-med">Lead Product Designer</span>
+            <span class="ut-text-sm-reg">Layers</span>
+            <span class="date ut-text-sm-reg">May 2020 – Present</span>
+          </div>
+        </div>
+        <div class="company-info">
+          <img src="./assets/page-3/Company-logo2.svg" alt="Company 2 Logo" />
+          <div>
+            <span class="ut-text-sm-med">UX Designer</span>
+            <span class="ut-text-sm-reg">Sisyphus</span>
+            <span class="date ut-text-sm-reg">Jan 2018 – May 2020</span>
+          </div>
+        </div>
+        <div class="company-info">
+          <img src="./assets/page-3/Company-logo3.svg" alt="Company 3 Logo" />
+          <div>
+            <span class="ut-text-sm-med">Visual Designer</span>
+            <span class="ut-text-sm-reg">Catalog</span>
+            <span class="date ut-text-sm-reg">Mar 2017 – Jan 2018</span>
+          </div>
+        </div>
+      </section>
+    </aside>
   </div>
-  <main>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, error inventore placeat impedit quidem
-    repudiandae, et quae quia vel molestiae consequuntur, quisquam nihil nobis praesentium dolore voluptatem at
-    recusandae unde quis odio odit rerum? Illo eaque explicabo expedita tempora consequatur officiis commodi, quaerat,
-    inventore soluta asperiores in optio, qui corrupti? Eaque quibusdam tempora neque tenetur officia iste error? Fuga,
-    vero ipsam autem asperiores incidunt facilis! A neque modi molestiae nemo porro ad? Libero, molestiae velit, dolor
-    facilis sequi dicta natus soluta, et ipsam praesentium nam. Ea obcaecati voluptates soluta architecto quidem fugit
-    asperiores! Similique accusantium, quaerat temporibus asperiores fugiat exercitationem!</main>
 </body>
 
 </html>
