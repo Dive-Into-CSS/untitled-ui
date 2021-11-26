@@ -346,9 +346,6 @@ button {
     }
 }
 
-.country-selector {
-}
-
 .country-selector p {
     color: var(--color-gray-500);
     width: 768px;

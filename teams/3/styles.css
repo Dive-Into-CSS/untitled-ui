@@ -1,16 +1,4 @@
 /* Disregard these styles. This is ony for example purposes */
-html {
-    box-sizing: border-box;
-}
-
-body {
-    /* padding-top: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem; */
-    color: #667085;
-    font-family: sans-serif;
-}
 
 h2 {
     margin-top: 3rem;
@@ -349,7 +337,7 @@ button {
     position: absolute;
     z-index: -2;
     top: -85px;
-    left: 40px;
+    /* background-image: url('../../img/statistics-dashboard.png'); */
 }
 
 @media (max-width: 1200px) {
@@ -359,7 +347,6 @@ button {
     }
     .stats {
         margin-top: 150px;
-        display: flex;
         justify-content: center;
     }
 }
@@ -427,6 +414,18 @@ button {
     margin-top: 40px;
 }
 
+@media (max-width: 1200px) {
+    .trial {
+        flex-direction: column;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .trial-item-2 {
+        background-position: top;
+    }
+}
+
 @media (max-width: 480px) {
     .trial h2 {
         font-size: 1.875rem;
@@ -478,15 +477,8 @@ button {
 }
 
 @media (max-width: 1200px) {
-    .trial {
-        /* display: block;
-        height: auto; */
-    }
     .notification {
         display: none;
-    }
-    .trial-item-2 {
-        background-position: center;
     }
 }
 
@@ -510,11 +502,8 @@ button {
 }
 
 .upgrade {
-    margin-top: 200px;
-    /* display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr; */
+    margin-top: 100px;
     display: flex;
-    height: 702px;
 }
 
 .upgrade h2 {
@@ -819,12 +808,29 @@ footer {
         flex-direction: column;
         width: 100%;
     }
+    .footer-1 {
+        padding: 48px 0px;
+    }
+    .footer-nav {
+        text-align: start;
+    }
+    .ut-list-horizontal {
+        row-gap: 12px;
+    }
     .btn-white {
         order: 1;
         margin-top: 12px;
     }
     .view-btns button {
         width: 100%;
+    }
+
+    .app-store-icon {
+        margin-right: 16px;
+    }
+
+    .download span {
+        text-align: start;
     }
 
     .footer-footer {
