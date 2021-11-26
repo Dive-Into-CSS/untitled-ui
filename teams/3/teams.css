@@ -43,6 +43,11 @@ input {
     padding: 12px 14px 12px 16px;
 }
 
+input:focus{
+    box-shadow: 0px 1px 2px #7f56d9;
+    border: 1px solid #7f56d9;
+}
+
 section {
     /* margin-top: 2rem; */
     padding-top: 2rem;
@@ -50,6 +55,46 @@ section {
     padding-right: 5rem;
     padding-bottom: 5rem;
 }
+
+.paint{
+color: #7f56d9;
+}
+
+.card{
+    background: #F2F4F7;
+    border-radius: 16px;
+}
+
+.select-mods{
+    position: relative;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    padding-left:20px;
+}
+
+.imagemod{
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+}
+
+.pad-quick{
+    padding-left: 30px;
+}
+
+.pad-quick2{
+    display: flex;
+    align-items: center;
+}
+
+.quickmod{
+    height: 27px;
+    position: relative;
+    display: flex;
+}
+
+
 
 @media (max-width: 768px) {
     section {
