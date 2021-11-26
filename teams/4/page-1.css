@@ -949,8 +949,8 @@ ul li:first-of-type:not(.company__logo) {
 .sliderList {
   display: flex;
   margin-bottom: 32px;
-  width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
+  margin-right: -112px;
 }
 
 .slick-track {
