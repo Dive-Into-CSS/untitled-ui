@@ -393,7 +393,6 @@
   display: flex;
   column-gap: 2rem;
   margin-top: 4rem;
-  justify-content: space-between;
   flex-flow: wrap;
   row-gap: 2rem;
 }
@@ -699,16 +698,20 @@ ul li:not(:first-of-type):not(.company__logo) {
   }
 
   .mobile__header {
-    width: 100vw;
+    display: block;
+    width: 100%;
     position: fixed;
     top: 0px;
     z-index: 2;
     height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 16px;
     background-color: var(--color-white);
+  }
+
+  .mobile__header__container {
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -720,22 +723,15 @@ ul li:not(:first-of-type):not(.company__logo) {
     width: 343px;
     height: 224px;
   }
+  .stats__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	row-gap: 1rem;
+  }
 }
 
 @media(max-width: 480px) {
-  .mobile__header {
-    width: 90vw;
-    position: fixed;
-    top: 0px;
-    z-index: 2;
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 16px;
-    background-color: var(--color-white);
-  }
-
   .container {
     padding: 0px 16px;
   }
@@ -796,12 +792,6 @@ ul li:not(:first-of-type):not(.company__logo) {
 
   .analytics {
     margin: 64px 0px;
-  }
-
-  .stats__wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
   }
 
   .stats__header {
@@ -1011,7 +1001,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 }
 
 .slick-prev,
-.slick-next  {
+.slick-next {
   position: absolute;
   z-index: 1;
   bottom: -88px;
@@ -1063,6 +1053,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 }
 
 @media screen and (max-width: 768px) {
+
   .sliderSection,
   .ctaSection {
     padding: 56px 72px;
@@ -1091,12 +1082,12 @@ ul li:not(:first-of-type):not(.company__logo) {
   }
 
   .slick-prev,
-  .slick-next  {
+  .slick-next {
     width: 48px;
     height: 48px;
   }
 
-  .slick-next  {
+  .slick-next {
     left: 64px;
   }
 
@@ -1112,6 +1103,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 }
 
 @media screen and (max-width: 480px) {
+
   .sliderSection,
   .ctaSection {
     padding: 40px 16px;
