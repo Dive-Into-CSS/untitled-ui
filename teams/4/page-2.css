@@ -45,7 +45,7 @@ ol {
 .collapsed__nav {
   position: fixed;
   width: 81px;
-  height: 100vh;
+  height: 100%;
   background: var(--color-primary-700);
 }
 
@@ -68,7 +68,7 @@ ol {
 .settings__nav {
   position: fixed;
   width: 281px;
-  height: 100vh;
+  height: 100%;
   left: 81px;
   background: var(--color-primary-800);
 }
