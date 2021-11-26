@@ -949,6 +949,8 @@ ul li:first-of-type:not(.company__logo) {
 .sliderList {
   display: flex;
   margin-bottom: 32px;
+  width: 100%;
+  overflow-x: scroll;
 }
 
 .slick-track {
@@ -959,6 +961,7 @@ ul li:first-of-type:not(.company__logo) {
 .slick-slide {
   width: 384px;
   max-width: 384px;
+  min-width: 384px;
   min-height: 512px;
   padding: 32px 24px 24px;
   background-color: var(--color-primary-600);
@@ -1113,6 +1116,8 @@ ul li:first-of-type:not(.company__logo) {
   .sliderListItem,
   .slick-slide {
     width: 304px;
+    max-width: 304px;
+    min-width: 304px;
     height: 480px;
     padding: 32px 24px 24px;
     background-color: var(--color-primary-600);
