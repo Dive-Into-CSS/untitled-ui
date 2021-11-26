@@ -1,5 +1,5 @@
 main {
-    padding: 10px 10%;
+    padding: 10px;
 }
 
 .container {
@@ -74,7 +74,6 @@ main {
     display: block;
     margin-top: 20px;
     color: var(--color-gray-500);
-  
 }
 
 #overview .card .number {
@@ -88,6 +87,14 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+
+#middle-content .download { 
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: #D0D5DD 1px solid;
+}
+
 
 #action {
     display: flex;
@@ -148,11 +155,37 @@ footer {
     background-size: contain;
 }
 
-.download::before {
+.middle-section .download::before {
     content: '';
     display: inline-block;
-    background-image: url(./../img/export.svg);
+    background-image: url(./../img/download.svg);
     height: 25px;
-    width: 25 px;
+    width: 25px;
+    background-size: contain;
+}
+
+.arrow-down::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/arrow-down-black.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+
+.customer-badge::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/customer-badge.svg);
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+}
+.churned-badge::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./../img/churned-badge.svg);
+    height: 10px;
+    width: 10px;
     background-size: contain;
 }
