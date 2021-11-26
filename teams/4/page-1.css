@@ -652,7 +652,7 @@ ul li:first-of-type:not(.company__logo) {
   color: var(--color-gray-400);
 }
 
-ul li:not(:first-of-type):not(.company__logo) {
+.footer ul li:not(:first-of-type):not(.company__logo) {
   color: var(--color-gray-200);
   margin-top: 14px;
 }
@@ -919,11 +919,9 @@ ul li:not(:first-of-type):not(.company__logo) {
   }
 }
 
-/* sliderSection (Nazar) */
-
 .sliderSection {
-  padding: 96px 112px;
-  padding-bottom: 186px;
+  padding: 16px 112px;
+  padding-bottom: 96px;
 }
 
 .sliderHeading {
@@ -950,6 +948,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .sliderList {
   display: flex;
+  margin-bottom: 32px;
 }
 
 .slick-track {
@@ -959,9 +958,8 @@ ul li:not(:first-of-type):not(.company__logo) {
 .sliderListItem,
 .slick-slide {
   width: 384px;
-  min-width: 384px;
   max-width: 384px;
-  height: 512px;
+  min-height: 512px;
   padding: 32px 24px 24px;
   background-color: var(--color-primary-600);
   margin-right: 32px;
@@ -981,6 +979,7 @@ ul li:not(:first-of-type):not(.company__logo) {
   backdrop-filter: blur(24px);
   min-height: 258px;
   padding: 32px 24px;
+  color: var(--color-white);
 }
 
 .sliderContentLink {
@@ -1002,9 +1001,6 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .slick-prev,
 .slick-next {
-  position: absolute;
-  z-index: 1;
-  bottom: -88px;
   width: 56px;
   height: 56px;
   border-radius: 28px;
@@ -1017,6 +1013,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 
 .slick-prev {
   left: 0;
+  margin-right: 32px;
   background: url(./assets/home/prev-slider-btn.svg) center center no-repeat;
 }
 
@@ -1028,7 +1025,7 @@ ul li:not(:first-of-type):not(.company__logo) {
 /* ctaSection */
 .ctaSection {
   background-color: var(--color-gray-50);
-  padding: 96px 80px;
+  padding: 16px 80px;
 }
 
 .bgContainer {
@@ -1056,11 +1053,11 @@ ul li:not(:first-of-type):not(.company__logo) {
 
   .sliderSection,
   .ctaSection {
-    padding: 56px 72px;
+    padding: 16px 72px;
   }
 
   .sliderSection {
-    padding-bottom: 155px;
+    padding-bottom: 55px;
   }
 
   .ctaWrapper .ctaRight-image,
@@ -1094,6 +1091,10 @@ ul li:not(:first-of-type):not(.company__logo) {
   .slick-prev {
     margin-right: 16px;
   }
+
+  .sliderSection {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1106,18 +1107,12 @@ ul li:not(:first-of-type):not(.company__logo) {
 
   .sliderSection,
   .ctaSection {
-    padding: 40px 16px;
-  }
-
-  .sliderSection {
-    padding-bottom: 135px;
+    padding: 10px 16px;
   }
 
   .sliderListItem,
   .slick-slide {
     width: 304px;
-    min-width: 304px;
-    max-width: 304px;
     height: 480px;
     padding: 32px 24px 24px;
     background-color: var(--color-primary-600);
