@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .integrations-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -529,7 +529,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* footer */
-footer {
+.footer {
     background-color: white;
     color: #ffffff;
     padding: 64px;
@@ -707,7 +707,7 @@ footer {
         width: 100%;
     }
 
-    footer{
+    .footer{
         padding: 48px 16px;
     }
 
