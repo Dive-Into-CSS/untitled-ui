@@ -91,6 +91,7 @@ main {
   flex-direction: column;
   width: 100%;
   padding: 24px;
+  margin-top: 18px;
 }
 
 .current-user {
