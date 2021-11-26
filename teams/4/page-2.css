@@ -161,6 +161,7 @@ ol {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .main__header {
@@ -421,7 +422,7 @@ table td a {
   .split-section {
     display: flex;
     flex-flow: column nowrap;
-    padding: 2rem;
+	padding: 2rem;
   }
 
   .billing-history {
