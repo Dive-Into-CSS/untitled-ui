@@ -1,0 +1,265 @@
+@import url('../../colors.css');
+@import url('../../typography.css');
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    background-color: #f9fafb;
+}
+
+.ut-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.ut-inner-v-navbar {
+    background-color: var(--color-primary-800);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 960px;
+    width: 281px;
+}
+
+.ut-inner-v-navbar .inner-nav-title {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.ut-inner-v-navbar .nav-item {
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 0 0.75rem 0.5rem;
+}
+
+.ut-inner-v-navbar span {
+    color: var(--color-primary-100);
+}
+
+.ut-inner-v-navbar .top-wrapper {
+    padding: 2.25rem 1rem 0 1rem;
+}
+
+.ut-inner-v-navbar .bottom-wrapper {
+    padding: 0 1rem 1.5rem 1rem;
+}
+
+.ut-inner-v-navbar .bottom-wrapper .name {
+    margin: 0;
+    color: white;
+}
+
+.ut-inner-v-navbar .bottom-wrapper .email {
+    color: var(--color-primary-200);
+    margin: 0;
+}
+
+.inner-nav-profile-badge {
+    float: right;
+}
+
+main .content-wrapper {
+    padding: 2rem;
+    background-color: var(--color-gray-50);
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-header .left-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-header .left-wrapper .text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header .name {
+    color: var(--color-gray-900);
+}
+
+.main-header .email {
+    color: var(--color-gray-500);
+}
+
+.ut-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ut-row.pos {
+    margin-top: 15%;
+    margin-left: 85%;
+    justify-content: space-around;
+}
+
+.ut-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ut-col.pos {
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+button.light,
+button.dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+}
+
+button.light {
+    background-color: white;
+    color: var(--color-gray-700);
+    border: 1px solid var(--color-gray-300);
+}
+
+button.dark {
+    background-color: var(--color-primary-600);
+    color: white;
+}
+
+.main-header .share {
+    width: 99px;
+    margin-right: 0.75rem;
+}
+
+.main-header .view-profile {
+    width: 112px;
+}
+
+.section {
+    width: 1014px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-info .left-wrapper h2, .profile .left-wrapper h2 {
+    margin: 0;
+    color: var(--color-gray-700);
+}
+
+.personal-info .left-wrapper p, .profile .left-wrapper p {
+    margin: 0;
+    color: var(--color-gray-500);
+}
+
+section .left-wrapper {
+    width: 30%;
+    background-color: #f9fafb;
+    padding: 5px;
+}
+
+section .right-wrapper {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+}
+
+section form > * {
+    margin-bottom: 1rem;
+}
+
+section .right-wrapper .buttons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+section .right-wrapper .buttons .cancel {
+    margin-right: 0.75rem;
+    width: 79px;
+}
+
+section .right-wrapper .buttons .save {
+    width: 126px;
+}
+
+.ut-input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ut-input-wrapper label {
+    margin-bottom: 0.5rem;
+    color: var(--color-gray-700);
+}
+
+.ut-input-wrapper input {
+    border: 1px solid var(--color-gray-300);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+.input-upload-wrapper {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input-upload-wrapper img {
+    margin-right: 1rem;
+}
+
+.personal-info .upload-area input {
+    border: 1px solid var(--color-gray-300);
+    border-radius: 8px;
+}
+
+.personal-info .upload-area button {
+    background-color: transparent;
+    border: 0;
+}
+
+.personal-info .upload-area {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-gray-200);
+    border-radius: 8px;
+    align-items: center;
+}
+
+.personal-info .upload-area .input-desc {
+    color: var(--color-gray-500);
+    margin: 0;
+}
+
+.personal-info .upload-area .input-spec {
+    color: var(--color-gray-500);
+    margin: 0;
+}
+
+.personal-info .upload-area .text-upload {
+    color: var(--color-primary-700);   
+    margin: 0;
+}
