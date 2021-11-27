@@ -27,67 +27,22 @@
         <!-- ############ HEADER ############ -->
         <header class="ut-dashboard-navbar">
             <nav>
-                <div class="dashboard-navbar-logo">
-                    <img
-                        src="../../img/team1/team1-dashboard-logo.svg"
-                        alt="Logo"
-                    />
-                </div>
+                <i class="nav-logo"></i>
                 <ul class="dashboard-navbar-list">
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-home.svg"
-                            alt="Home icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-bar-chart-2.svg"
-                            alt="Charts icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-3-layers.svg"
-                            alt="Layers icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-check-square.svg"
-                            alt="Check icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-flag.svg"
-                            alt="Flag icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-users.svg"
-                            alt="Users icon"
-                        />
-                    </li>
+                    <li><i class="nav-item nav-home-icon"></i></li>
+                    <li><i class="nav-item nav-bar-chart-icon"></i></li>
+                    <li><i class="nav-item nav-3-layers-icon"></i></li>
+                    <li><i class="nav-item nav-check-square-icon"></i></li>
+                    <li><i class="nav-item nav-flag-icon"></i></li>
+                    <li><i class="nav-item nav-users-icon"></i></li>
                 </ul>
             </nav>
             <nav>
                 <ul class="dashboard-navbar-list">
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-life-buoy.svg"
-                            alt="Buoy icon"
-                        />
-                    </li>
-                    <li class="nav-item">
-                        <img
-                            src="../../img/team1/team1-dashboard-settings.svg"
-                            alt="Settings icon"
-                        />
-                    </li>
+                    <li><i class="nav-item nav-life-buoy-icon"></i></li>
+                    <li><i class="nav-item nav-settings-icon"></i></li>
                 </ul>
-                <i class="dashboard-navbar-list-profile"></i>
+                <i class="dashboard-navbar-list-profile-icon"></i>
             </nav>
         </header>
         <!-- ############ MAIN ############ -->
@@ -98,18 +53,12 @@
                     <h1>Customers</h1>
                     <div>
                         <button class="import">
-                            <img
-                                src="../../img/team1/team1-dashboard-upload.svg"
-                                alt="Upload icon"
-                            />
+                            <i class="upload-icon"></i>
                             Import
                         </button>
                         <button class="add-customer">
-                            <img
-                                src="../../img/team1/team1-dashboard-plus.svg"
-                                alt="Plus icon"
-                            />
-                            customer
+                            <i class="plus-icon"></i>
+                            Add customer
                         </button>
                     </div>
                 </section>
@@ -118,14 +67,11 @@
                     <div>
                         <div>
                             <strong>Active now</strong>
-                            <img
-                                src="../../img/team1/team1-dashboard-three-dots.svg"
-                                alt="Three dots"
-                            />
+                            <i class="three-dots-icon"></i>
                         </div>
                         <div>
                             <hr />
-                            <img
+                            <img class="activity-graph"
                                 src="../../img/team1-activity-gauge.png"
                                 alt="Activity gauge"
                             />
@@ -135,14 +81,12 @@
                     <div>
                         <div>
                             <strong>Total customers</strong>
-                            <img
-                                src="../../img/team1/team1-dashboard-three-dots.svg"
-                                alt="Three dots"
-                            />
+                            <i class="three-dots-icon"></i>
                         </div>
                         <div>
                             <hr />
                             <img
+                                class="chart-graph"
                                 src="../../img/team1-chart-data.png"
                                 alt="Chart data"
                             />
@@ -153,30 +97,26 @@
                 <section class="ut-dashboard-table-container">
                     <div class="table-filtering">
                         <div>
-                            <button class="filter">
-                                All time
-                                <img
-                                    src="../../img/team1/team1-dashboard-x.svg"
-                                    alt="X icon"
-                                />
-                            </button>
-                            <button class="filter">
-                                US, AU, +4
-                                <img
-                                    src="../../img/team1/team1-dashboard-x.svg"
-                                    alt="X icon"
-                                />
-                            </button>
+                            <div class="filters">
+                                <button class="filter">
+                                    All time
+                                    <i class="cross-icon"></i>
+                                </button>
+                                <button class="filter">
+                                    US, AU, +4
+                                    <i class="cross-icon"></i>
+                                </button>
+                            </div>
                             <button class="more-filters">
-                                <img
-                                    src="../../img/team1/team1-dashboard-filters-lines.svg"
-                                    alt="Filter icon"
-                                />
+                                <i class="filter-lines-icon"></i>
                                 More filters
                             </button>
                         </div>
-                        <form class="table-search">
-                            <input type="text" placeholder="Search" />
+                        <form action="/" method="GET" class="form">
+                            <input type="search" placeholder="Search" class="search-field" />
+                            <button type="submit" class="search-button" disabled>
+                            <i class="search-icon"></i>
+                            </button>
                         </form>
                     </div>
                     <div>
@@ -184,17 +124,11 @@
                         <table class="ut-table-dashboard">
                             <tr>
                                 <th>
-                                    <img
-                                        src="../../img/team1/team1-dashboard-checkbox-th.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="checkbox-icon"></i>
                                 </th>
                                 <th>
                                     Company
-                                    <img
-                                        src="../../img/team1/team1-dashboard-arrow-down.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="arrow-down-icon"></i>
                                 </th>
                                 <th>Status</th>
                                 <th>About</th>
@@ -210,10 +144,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo1.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-1-icon"></i>
                                     <div>
                                         <span>Catalog</span>
                                         <span>catalogapp.io</span>
@@ -228,30 +159,12 @@
                                     >
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot mud-brown"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot blue-purple"></i>
+                                    <i class="dot white-purple"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -261,16 +174,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -281,10 +186,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo2.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-2-icon"></i>
                                     <div>
                                         <span>Circooles</span>
                                         <span>getcirooles.com</span>
@@ -296,30 +198,12 @@
                                     <span>Super lightweight design appr</span>
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot blue-purple"></i>
+                                    <i class="dot mud-brown"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -329,16 +213,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -349,10 +225,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo3.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-3-icon"></i>
                                     <div>
                                         <span>Command+R</span>
                                         <span>cmdr.ai</span>
@@ -364,30 +237,12 @@
                                     <span>AI and machine learning data</span>
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot mud-brown"></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot blue-purple"></i>
+                                    <i class="dot light-brown"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -397,16 +252,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -417,10 +264,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo4.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-4-icon"></i>
                                     <div>
                                         <span>Hourglass</span>
                                         <span>hourglass.app</span>
@@ -434,30 +278,12 @@
                                     >
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot mud-brown"></i>
+                                    <i class="dot blue-purple"></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot light-purple"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -467,16 +293,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -487,10 +305,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo5.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-5-icon"></i>
                                     <div>
                                         <span>Layers</span>
                                         <span>getlayers.io</span>
@@ -502,30 +317,12 @@
                                     <span>Connect web apps seamlessly</span>
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot blue-purple"></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot mud-brown"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -535,16 +332,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -555,10 +344,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo6.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-6-icon"></i>
                                     <div>
                                         <span>Quotient</span>
                                         <span>quotient.co</span>
@@ -570,30 +356,12 @@
                                     <span>Web-based sales doc management</span>
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot mud-brown"></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot blue-purple"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -603,16 +371,8 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -623,10 +383,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <img
-                                        src="../../img/team1/company-logos/company-logo7.svg"
-                                        alt="Arrow icon"
-                                    />
+                                    <i class="company-7-icon"></i>
                                     <div>
                                         <span>Sisyphus</span>
                                         <span>sisyphus.com</span>
@@ -641,30 +398,12 @@
                                     >
                                 </td>
                                 <td>
-                                    <i
-                                        class="dot"
-                                        style="background-color: red"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: aqua"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: black"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: chartreuse"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darkcyan"
-                                    ></i>
-                                    <i
-                                        class="dot"
-                                        style="background-color: darksalmon"
-                                    ></i>
+                                    <i class="dot light-brown"></i>
+                                    <i class="dot white-purple"></i>
+                                    <i class="dot mud-brown"></i>
+                                    <i class="dot brown"></i>
+                                    <i class="dot light-purple"></i>
+                                    <i class="dot blue-purple"></i>
                                 </td>
                                 <td>
                                     <div class="range-outer">
@@ -674,23 +413,15 @@
                                     </div>
                                 </td>
                                 <td class="edit-links">
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-trash-2.svg"
-                                            alt="Trash icon"
-                                    /></a>
-                                    <a href="#"
-                                        ><img
-                                            src="../../img/team1/team1-dashboard-edit.svg"
-                                            alt="Edit icon"
-                                    /></a>
+                                    <i class="trash-icon"></i>
+                                    <i class="edit-icon"></i>
                                 </td>
                             </tr>
                         </table>
                         <div class="pagination">
-                            <button>Previous</button>
+                            <button class="previous">Previous</button>
                             <span>Page 1 of 10</span>
-                            <button>Next</button>
+                            <button class="next">Next</button>
                         </div>
                     </div>
                 </section>
