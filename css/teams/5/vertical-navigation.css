@@ -1,0 +1,22 @@
+@import url("../../colors.css");
+
+.ut-cross-v-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-700);
+    height: 960px;
+    width: 81px;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.ut-cross-v-navbar .nav-item {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.ut-cross-v-navbar .nav-brand {
+  margin-bottom: 1.5rem;
+}
