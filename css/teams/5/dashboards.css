@@ -1,0 +1,400 @@
+@import '../../colors.css';
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ut-top-v-navbar-for-mobile {
+    display: none;
+}
+
+.ut-top-v-navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 960px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 10px;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-wrapper hr {
+    width: 100%;
+}
+
+.top-v-navbar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-v-navbar-list .nav-item {
+    margin-bottom: 10px;
+}
+
+main {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-wrapper > span {
+    color: var(--color-gray-500);
+}
+
+.balance {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.balance span {
+    color: var(--color-gray-900);
+}
+
+.buttons1 button {
+    color: var(--color-gray-700);
+    background-color: #ffffff;
+    border: 1px solid var(--color-gray-300);
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.canvas-for-mobile {
+    display: none;
+}
+
+.transaction-history {
+    margin-top: 3rem;
+}
+
+.transaction-history header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.transaction-history header:first-child {
+    color: var(--color-gray-900);
+}
+
+.buttons2 button {
+    color: var(--color-gray-700);
+    background-color: #ffffff;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.transaction-history header h2 {
+    color: var(--color-gray-900);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    border-bottom: 1px solid black;
+}
+
+table td {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+table thead span {
+    color: var(--color-gray-500);
+}
+
+table tbody button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.campany-name {
+    color: var(--color-gray-900);
+}
+
+.amount {
+    color: var(--color-gray-500);
+}
+
+.for-mobile {
+    display: none;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagination-for-mobile {
+    display: none;
+}
+
+.pagination-for-mobile span {
+    color: var(--color-gray-700);
+}
+
+.pagination ul {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+}
+
+.previous {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.next {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.side-panel header img {
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.email {
+    display: block;
+}
+
+.cards header {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.budgets header {
+    display: flex;
+    flex-direction: row;
+}
+
+.budgets button {
+    border: 0;
+    background: transparent;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+.budgets ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding: 10px;
+}
+
+.budgets ul li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: var(--color-blue-25);
+    margin-bottom: 10px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.budgets ul li img {
+    margin-right: 20px;
+}
+
+.budgets ul li .wrapper {
+    width: 100%;
+}
+
+.budgets ul li .wrapper progress {
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text span {
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+
+    .ut-top-v-navbar-for-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .ut-top-v-navbar-for-mobile button {
+        border: 0;
+        background: transparent;
+    }
+
+    .ut-top-v-navbar {
+        display: none;
+    }
+
+    main {
+        border-left: 0px solid #ffffff;
+        border-right: 0px solid #ffffff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+
+    .heading {
+        display: inline;
+    }
+
+    .text-wrapper {
+        margin-top: 1rem;
+    }
+
+    .balance {
+        margin-top: 0.5rem;
+    }
+
+    .buttons1 {
+        font-size: 0;
+    }
+
+    .buttons1 button {
+        flex-direction: row;
+        font-size: 0.7rem;
+        border-radius: 8px;
+    }
+
+    .buttons1-2 {
+        border-radius: 0px !important;
+    }
+
+    .buttons1-1 {
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .buttons1-3 {
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .canvas-for-mobile {
+        display: inline;
+        width: 100%;
+    }
+
+    .canvas {
+        display: none;
+    }
+
+    .transaction-history header {
+        display: inline;
+    }
+
+    .transaction-history header span {
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .buttons2 {
+        margin-bottom: 1rem;
+    }
+
+    .transaction-history table thead {
+        display: none;
+    }
+
+    table tbody:first-child {
+        border-top: 1px solid black;
+    }
+
+    .transaction-history table tbody tr td time {
+        display: none;
+    }
+
+    .transaction-history table tbody tr td .ut-badge {
+        display: none;
+    }
+
+    .transaction-history table tbody tr .account2 {
+        display: none;
+    }
+
+    .transaction-history table tbody tr button {
+        display: none;
+    }
+
+    .campany-icon {
+        margin-right: 1rem;
+    }
+
+    .amout-plus {
+        color: var(--color-success-600);
+    }
+
+    .for-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .pagination-for-mobile {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .side-panel {
+        display: none;
+    }
+}
