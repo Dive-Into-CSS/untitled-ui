@@ -11,7 +11,7 @@ body {
     display: none;
 }
 
-.ut-top-v-navbar {
+.ut-top-v-navbar { 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -43,10 +43,11 @@ body {
 }
 
 main {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid var(--color-gray-300);
+    border-right: 1px solid var(--color-gray-300);
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 2em;
 }
 
 .heading {
@@ -60,24 +61,44 @@ main {
 }
 
 .balance {
+    display: flex;
+    align-items: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    gap: 0.75em;
 }
 
 .balance span {
     color: var(--color-gray-900);
 }
 
+.buttons1 {
+    border-radius: 0.5em;
+    border: 1px solid var(--color-gray-300);
+    display: flex;
+    height: 100%;
+    color: white;
+    
+}
+
 .buttons1 button {
     color: var(--color-gray-700);
-    background-color: #ffffff;
-    border: 1px solid var(--color-gray-300);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.75em 1em;
 }
+
+.buttons1 :nth-child(2){
+    border-left: 1px solid var(--color-gray-300);
+    border-right: 1px solid var(--color-gray-300);
+}
+
 
 .canvas-for-mobile {
     display: none;
+    width: 100%;
+    height: auto;
 }
 
 .transaction-history {
@@ -100,33 +121,42 @@ main {
     background-color: #ffffff;
     border: 1px solid var(--color-gray-300);
     border-radius: 8px;
-    padding: 0.5rem;
+    padding: 0.75em 1.25rem;
+}
+
+.buttons2 button img {
+    margin-right: 0.5em;
 }
 
 .transaction-history header h2 {
     color: var(--color-gray-900);
 }
 
-table {
+.table {
     width: 100%;
     border-collapse: collapse;
 }
 
-table th {
-    border-bottom: 1px solid black;
+.table th {
+    border-bottom: 1px solid var(--color-gray-200);
+    text-align: left;
+    padding-bottom: 0.75em;
+    font-size: 0.75em;
+    font-weight: 500;
 }
 
-table td {
-    border-bottom: 1px solid black;
+.table td {
+    border-bottom: 1px solid var(--color-gray-200);
     width: 100%;
     height: 100%;
+    
 }
 
-table thead span {
+.table thead span {
     color: var(--color-gray-500);
 }
 
-table tbody button {
+.table tbody button {
     border: 0;
     background: transparent;
     cursor: pointer;
@@ -263,10 +293,8 @@ table tbody button {
     .ut-top-v-navbar-for-mobile {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .ut-top-v-navbar-for-mobile button {
@@ -281,9 +309,8 @@ table tbody button {
     main {
         border-left: 0px solid #ffffff;
         border-right: 0px solid #ffffff;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .heading {
@@ -300,27 +327,24 @@ table tbody button {
 
     .buttons1 {
         font-size: 0;
+        border-radius: 0.5em;
+        border: solid 1px var(--color-gray-50);
     }
 
     .buttons1 button {
         flex-direction: row;
         font-size: 0.7rem;
-        border-radius: 8px;
     }
 
     .buttons1-2 {
-        border-radius: 0px !important;
+
     }
 
     .buttons1-1 {
-        border-top-right-radius: 0px !important;
-        border-bottom-right-radius: 0px !important;
-    }
+        }
 
     .buttons1-3 {
-        border-top-left-radius: 0px !important;
-        border-bottom-left-radius: 0px !important;
-    }
+        }
 
     .canvas-for-mobile {
         display: inline;
@@ -370,10 +394,6 @@ table tbody button {
 
     .campany-icon {
         margin-right: 1rem;
-    }
-
-    .amout-plus {
-        color: var(--color-success-600);
     }
 
     .for-mobile {
