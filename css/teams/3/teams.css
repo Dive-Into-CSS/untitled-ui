@@ -493,9 +493,6 @@ input:focus {
 .picture {
     display: flex;
     justify-content: center;
-    background: url('../../img/office.png');
-    background-repeat: no-repeat;
-    background-position: center;
     height: 400px;
     padding-top: 0px;
     padding-bottom: 0px;
