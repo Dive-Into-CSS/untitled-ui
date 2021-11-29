@@ -7,213 +7,222 @@
         <title>Document</title>
 
         <!-- links-->
-        >
+
         <link rel="stylesheet" href="../../css/normalize.css" />
         <link rel="stylesheet" href="../../css/main.css" />
         <link rel="stylesheet" href="../../css/vertical-navigation.css" />
+        <link rel="stylesheet" href="../../css/teams/3/settings.css" />
     </head>
     <body>
-        <aside>
-            <!-- This is for the logo -->
-            <div>
-                <svg>svg</svg>
-                <span>span</span>
-            </div>
-            <input type="text" placeholder="Search" />
-            <!-- This span is for icon on the input. It will have a background image in CSS -->
-            <span>span</span>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Home
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Dashboard
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Projects
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Tasks
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Reporting
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Users
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Support
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <!-- This span and svg for icons of nav items -->
-                            <span><svg></svg></span>
-                            Settings
-                            <!-- This span for displaying number of notifications -->
-                            <span>span</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div>
+        <div class="container">
+            <aside>
                 <div>
+                    <img src="../../img/untitledui.svg" alt="logo" />
+                </div>
+
+                <input class="search-bar" type="text" placeholder="Search" />
+
+                <nav>
+                    <ul class="navigation-items">
+                        <li>
+                            <a href="">
+                                <img src="./img/home.svg" />
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img
+                                    src="./img/dashboard.svg"
+                                    alt="dashboard"
+                                />
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/projects.svg" />
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/task.svg" />
+                                Tasks
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/reporting.svg" />
+                                Reporting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/user.svg" />
+                                Users
+                            </a>
+                        </li>
+                        <li class="support-nav">
+                            <a href="">
+                                <img src="./img/support.svg" />
+                                Support
+                            </a>
+                        </li>
+                        <li class="setting-nav">
+                            <a href="#">
+                                <img src="./img/settings.svg" />
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="new-features">
                     <h3>New features available!</h3>
                     <p>
                         Check out the new dashboard view. Pages now load faster.
                     </p>
+
+                    <div>
+                        <a href="" title="nav image linked somewhere"
+                            ><img
+                                src="../../img/new-feature.png"
+                                alt="image picturing something"
+                        /></a>
+                    </div>
+                    <div>
+                        <button class="dismiss">Dismiss</button>
+                        <button class="whats-new">What’s new?</button>
+                    </div>
                 </div>
-                <div>
-                    <a href="" title="nav image linked somewhere"
-                        ><img src="" alt="image picturing something"
-                    /></a>
+                <div class="user">
+                    <img src="../../img/avatar2.png" alt="image of the user" />
+                    <div class="username">
+                        <span>Olivia Rhye</span>
+                        <span>olivia@untitledui.com</span>
+                    </div>
+                    <div class="logout">
+                        <img src="./img/logout.svg" />
+                    </div>
                 </div>
-                <div>
-                    <button>Dismiss</button>
-                    <button>What’s new?</button>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="image of the user" />
-                <span>Olivia Rhye</span>
-                <span>olivia@untitledui.com</span>
-                <button><i></i></button>
-            </div>
-        </aside>
-        <main>
-            <section>
-                <div>
-                    <h1>Settings</h1>
-                    <p>Manage your team and preferences here.</p>
-                </div>
-                <div>
-                    <nav>
+            </aside>
+            <main>
+                <section class="section-1">
+                    <h1 class="ut-display-md-medium">Settings</h1>
+                    <p class="ut-text-md-reg">
+                        Manage your team and preferences here.
+                    </p>
+
+                    <nav class="setting-navigation">
                         <ul>
                             <li><a href="">My details</a></li>
                             <li><a href="">Profile</a></li>
                             <li><a href="">Password</a></li>
                             <li><a href="">Team</a></li>
                             <li><a href="">Plan</a></li>
-                            <li><a href="">Billing</a></li>
+                            <li class="active"><a href="">Billing</a></li>
                             <li><a href="">Notifications</a></li>
                             <li><a href="">Integrations</a></li>
                             <li><a href="">API</a></li>
                         </ul>
                     </nav>
-                </div>
-            </section>
-            <section>
-                <div>
+                </section>
+                <section class="payment-method">
                     <h2>Payment method</h2>
                     <p>Update your billing details and address.</p>
-                </div>
-                <div>
-                    <div>
-                        <span>Contact email</span>
-                        <p>Where should invoices be sent?</p>
-                    </div>
-                    <div>
-                        <form>
-                            <input
-                                value="send to my account"
-                                type="radio"
-                                name="email"
-                            />Send to my account email
-                            <!-- span for actual email -->
-                            <span>span</span>
-                            <input
-                                value="send to alternative"
-                                type="radio"
-                                name="email"
-                            />Send to an alternative email
-                            <input type="email" name="email" />
-                            <!-- i tag for icon as background image -->
-                            <i></i>
+                    <div class="contact-email-section">
+                        <div class="contact-email">
+                            <span>Contact email</span>
+                            <p>Where should invoices be sent?</p>
+                        </div>
+
+                        <form class="email-info-section">
+                            <div class="send-to-1">
+                                <input type="radio" />
+                                <label>
+                                    <span> Send to my account email</span>
+                                    <span> olivia@untitledui.com</span>
+                                </label>
+                            </div>
+                            <div class="send-to">
+                                <div>
+                                    <input type="radio" />
+                                    <label>
+                                        <span
+                                            >Send to an alternative email</span
+                                        >
+                                    </label>
+                                </div>
+                                <div>
+                                    <input
+                                        type="email"
+                                        alt="email"
+                                        value="billing@untitledui.com"
+                                    />
+                                </div>
+                            </div>
                         </form>
                     </div>
-                </div>
-                <div>
-                    <span>Card details</span>
-                    <p>Select default payment method.</p>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="Image" />
-                        <p>
-                            <strong> Visa ending in 1234</strong><br />Expiry
-                            06/2024
-                        </p>
-                        <button>set as default</button>
-                        <button>Edit</button>
-                        <!-- for icon -->
-                        <i></i>
+
+                    <div class="card-details-section">
+                        <div class="left-panel">
+                            <span>Card details</span>
+                            <p>Select default payment method.</p>
+                        </div>
+                        <div class="selections-box">
+                            <div class="visa-block">
+                                <div>
+                                    <img src="./img/visa.svg" />
+                                    <div class="card-information">
+                                        <div class="visa-ending">
+                                            <span>Visa ending in 1234</span>
+                                            <span>Expiry 06/2024</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="set-default"
+                                                >Set as default</span
+                                            >
+                                            <span class="visa-edit">Edit</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <img class="checked" src="./img/checked.svg" />
+                            </div>
+                            <div class="mastercard-block">
+                                <img src="./img/mastercard.svg" />
+                                <div>
+                                    <span>Visa ending in 1234</span>
+                                    <span>Expiry 06/2024</span>
+                                    <div>
+                                        <span>Set as default</span>
+                                        <span class="visa-edit">Edit</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="add-new-payment-method">
+                                <img src="./img/plus.svg" /> Add new payment
+                                method</span
+                            >
+                        </div>
                     </div>
-                    <div>
-                        <img src="" alt="Image" />
-                        <p>
-                            <strong> Mastercard ending in 1234</strong
-                            ><br />Expiry 06/2024
-                        </p>
-                        <button>set as default</button>
-                        <button>Edit</button>
+                </section>
+
+                <section>
+                    <div class="download-section">
+                        <h2>Billing history</h2>
+                        <button>Download all</button>
                     </div>
-                    <div>
-                        <i>icon</i>
-                        <button>Add new payment method</button>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h2>Billing history</h2>
-                <button><i></i>>Download all</button>
-                <div>
+
                     <table>
-                        <tr>
+                        <tr class="table-header ut-text-xs-med">
                             <th>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
                             </th>
@@ -225,149 +234,193 @@
                             <!-- This is for download column -->
                             <th></th>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        type="checkbox"
+                                        class="table-checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Dec 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Dec 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Dec 2022</th>
+                            <td>USD $10.00</th>
+                            <td>Dec 1, 2022</th>
+                            <td>
+                                <img src="./img/paid.svg" />
+                            </td>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/avatarplus2.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Nov 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Nov 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Nov 2022</th>
+                            <td>USD $10.00</th>
+                            <td>Nov 1, 2022</th>
+                            <td><img src="./img/paid.svg" /></th>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/avatarplusone.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Oct 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Oct 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Oct 2022</th>
+                            <td>USD $10.00</th>
+                            <td>Oct 1, 2022</th>
+                            <td><img src="./img/paid.svg" /></th>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/cluster5.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Sep 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Sep 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Sep 2022</th>
+                            <td>USD $10.00</th>
+                            <td>Sep 1, 2022</th>
+                            <td><img src="./img/paid.svg" /></th>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/cluster3.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Aug 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Aug 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Aug 2022</td>
+                            <td>USD $10.00</td>
+                            <td>Aug 1, 2022</td>
+                            <td><img src="./img/paid.svg" /></td>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/cluster4.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Jul 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Jul 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Jul 2022</td>
+                            <td>USD $10.00</td>
+                            <td>Jul 1, 2022</td>
+                            <td><img src="./img/paid.svg" /></td>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/cluster4.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
-                        <tr>
-                            <th>
+                        <tr class="table-row ut-text-sm-med">
+                            <td>
                                 <label>
-                                    <input type="checkbox" />
+                                    <input
+                                        class="table-checkbox"
+                                        type="checkbox"
+                                    />
                                     <span class="checkmark"></span>
                                 </label>
-                            </th>
-                            <th>Basic Plan – Jun 2022</th>
-                            <th>USD $10.00</th>
-                            <th>Jun 1, 2022</th>
-                            <th>Paid</th>
-                            <th>
+                            </td>
+                            <td>Basic Plan – Jun 2022</td>
+                            <td>USD $10.00</td>
+                            <td>Jun 1, 2022</td>
+                            <td><img src="./img/paid.svg" /></td>
+                            <td>
                                 <div>
-                                    <img src="" alt="image cluster" />
+                                    <img
+                                        src="../../img/cluster3.png"
+                                        alt="image cluster"
+                                    />
                                 </div>
-                            </th>
-                            <th>
-                                <button></button>
-                            </th>
+                            </td>
+                            <td>
+                                <img src="./img/donwload.svg" />
+                            </td>
                         </tr>
                     </table>
-                </div>
-            </section>
-        </main>
+                </section>
+            </main>
+        </div>
     </body>
 </html>
