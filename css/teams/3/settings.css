@@ -386,7 +386,7 @@ input[type='email'] {
     height: 44px;
     box-sizing: border-box;
     padding-left: 40px;
-    background-image: url(./img/email.svg);
+    background-image: url('../../../teams/3/img/email.svg');
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 10px;
