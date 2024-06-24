@@ -1,410 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="assets/css/blog_posts.css" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>title</title>
-        <!--Here's the temporary styles for the markup-->
-        <style>
-            #blogpost-header {
-                border: 1px;
-                border-style: dashed;
-            }
 
-            .content {
-                background-color: crimson;
-            }
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="assets/css/footers.css"> 
+    <link rel="stylesheet" href="./../../css/colors.css" />
+    <link rel="stylesheet" href="./../../css/normalize.css" />
+    <link rel="stylesheet" href="./../../css/main.css" />
+    <link rel="stylesheet" href="./../../css/shadows.css" />
+    <link rel="stylesheet" href="./../../css/typography.css" />
+    <link rel="stylesheet" href="./../../css/teams/n/page.css" />
+    <link rel="stylesheet" href="./../../css/teams/n/icons.css" />
+    <link rel="stylesheet" href="./../../css/teams/n/badge.css" />
+    <link rel="stylesheet" href="./../../css/links.css" />
+    <link rel="stylesheet" href="./../../css/list.css" />
+    <link rel="stylesheet" href="./../../css/navigation.css" />
+    <link rel="stylesheet" href="assets/css/blog_posts.css" />
 
-            .flex-container {
-                background-color: cyan;
-            }
+    <title>BLOG POST</title>
+</head>
 
-            .img-span {
-                font-size: 3em;
-            }
+<body>
+    <nav class="ut-top-navbar">
+        <ul class="top-navbar-list">
+            <li class="nav-brand">
+                <a href="#"><img src="../../img/untitledui.svg" height="142" width="142" alt="logo" /></a>
+            </li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item">
+                <a href="#">Products <i></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Resources <i></i></a>
+            </li>
+            <li class="nav-item"><a href="#">Pricing</a></li>
+        </ul>
 
-            .blocks-header {
-                border: 1px black dashed;
-            }
+        <div>
+            <button class="nav-item nav-item-login">Log in</button>
+            <button class="nav-item nav-item-signup">Sign up</button>
+        </div>
+    </nav>
+    <header id="blogpost-header">
+        <section class="first_section">
+            <div class="content">
+                <div>
+                    <h1 id="title">Customer service software for customer-first teams</h1>
+                    <p>The best customer service software for customer-first teams. Industry-leading email and live
+                        chat support.</p>
+                </div>
 
-            .i-h3 {
-                background-color: darkmagenta;
-            }
+                <div class="action">
+                    <button class="btn-link-grey" id="demo">Demo</button>
+                    <button class="btn-link">Sign Up</button>
+                </div>
+            </div>
+            <img src="/teams/2/assets/img/header-img-with-line.png" alt="header-img-with-line">
+        </section>
 
-            .li-1 {
-                height: 40px;
-                background-color: darkslategray;
-                font-size: 2em;
-            }
+        <section class="social-proof-section">
+            <p class="flex-paragraph">Join 4,000+ companies already growing</p>
+            <div class="flex-container">
+                <span class="img-span">
+                    <img src="/teams/2/assets/img/layers-logo.svg" alt="img 1" />
+                </span>
 
-            .li-2 {
-                height: 40px;
-                background-color: darkorange;
-                font-size: 2em;
-            }
+                <span class="img-span">
+                    <img src="/teams/2/assets/img/Sysiphus-logo.svg" alt="img 2" />
+                </span>
 
-            .block-paragraph {
-                height: 100px;
-                background-color: darkgreen;
-            }
+                <span class="img-span">
+                    <img src="/teams/2/assets/img/circooles-logo.svg" alt="img 3" />
+                </span>
 
-            .flex-2 {
-                background-color: cyan;
-            }
+                <span class="img-span">
+                    <img src="/teams/2/assets/img/catalog-logo.svg" alt="img 4" />
+                </span>
 
-            .big-image {
-                font-size: 50px;
-            }
+                <span class="img-span">
+                    <img src="/teams/2/assets/img/quotient-logo.svg" alt="img 5" />
+                </span>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <header class="header-features">
+                <span>Features</span>
+                <h2>Beautiful analytics to grow smarter</h2>
+                <p>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users.
+                    Trusted by over 4,000 startups.</p>
+            </header>
 
-            .i-h2 {
-                background-color: darkmagenta;
-            }
-
-            .stats-header {
-                text-align: center;
-                background-color: gold;
-                margin-left: 300px;
-                margin-right: 300px;
-            }
-
-            .stats-description {
-                margin-left: 250px;
-                margin-right: 250px;
-                background-color: green;
-                text-align: center;
-                font-size: 2em;
-            }
-
-            .span-strong {
-                font-size: 4em;
-                color: green;
-            }
-
-            .stats-subscr {
-                font-size: 2em;
-            }
-
-            .row-button-1 {
-                height: 40px;
-                width: 120px;
-            }
-
-            .row-button-2 {
-                height: 40px;
-                width: 120px;
-                background-color: indigo;
-            }
-
-            .logo2 {
-                font-size: small;
-            }
-
-            .trial-header {
-                text-align: center;
-                background-color: ivory;
-                margin-left: 50px;
-                margin-right: 100px;
-            }
-
-            .trial-paragraph {
-                margin-left: 50px;
-                background-color: green;
-                text-align: center;
-                font-size: 1em;
-            }
-
-            .trial-div {
-                margin-top: 70px;
-            }
-
-            .logo-subscr {
-                font-size: 50px;
-            }
-
-            .flex-paragraph {
-                text-align: center;
-            }
-        </style>
-    </head>
-
-    <body>
-        <header id="blogpost-header">
-            Header
-            <nav id="navbar">
-                <div id="header-navbar-main">
-                    <div>
-                        navbar
-                        <i>i</i>
-                        <span>Span &nbsp;</span>
-                    </div>
-                    <div>
-                        <ul class="header-links">
-                            <li><a>a</a></li>
-                            <li><a>a</a></li>
-                            <li><a>a</a></li>
-                            <li><a>a</a></li>
+            <div id="blocks-grid">
+                <div class="block-grid">
+                    <div class="block-content">
+                        <i class="ut-icon-success"></i>
+                        <h3 class="block-title">Share team inboxes
+                        </h3>
+                        <p class="block-paragraph">Whether you have a team of 2 or 200, our shared team inboxes keep
+                            everyone on the same page and in the loop.
+                        </p>
+                        <ul class="ut-checked-list-items">
+                            <li> Leverage automation to move fast</li>
+                            <li class="li-2">Always give customers a human to chat to</li>
+                            <li class="li-1">Automate customer support and close leads faster</li>
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <ul class="header-links">
-                        <li><a>a</a></li>
-                        <li><a>a</a></li>
-                    </ul>
+                <img src="/teams/2/assets/img/inboxes-card.svg" alt="inboxes-card">
+                <img src="/teams/2/assets/img/deliver-card.svg" alt="deliver-card">
+                <div class="block-grid">
+                    <div class="block-content">
+                        <i class="ut-icon-lightning"></i>
+                        <h3 class="block-title">Deliver instant answers</h3>
+                        <p class="block-paragraph">An all-in-one customer service platform that helps you balance
+                            everything your customers need to be happy.</p>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">Keep your customers in the loop with live chat</li>
+                            <li class="li-2">Embed help articles right on your website</li>
+                            <li class="li-1">Customers never have to leave the page to find an answer</li>
+                        </ul>
+                    </div>
                 </div>
-            </nav>
-        </header>
+                <div class="block-grid">
+                    <div class="block-content">
+                        <i class="ut-icon-success"></i>
+                        <h3 class="i-h3">Share team inboxes</h3>
+                        <p class="block-paragraph">Whether you have a team of 2 or 200, our shared team inboxes keep
+                            everyone on the same page and in the loop.</p>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">Filter, export, and drilldown on the data quickly</li>
+                            <li class="li-2">Save, schedule, and automate reports to your inbox</li>
+                            <li class="li-1">Connect the tools you already use with 100+ integrations</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="/teams/2/assets/img/share-card.svg" alt="share-card">
+            </div>
+        </section>
 
-        <main>
-            <section class="first_section">
-                <div>
-                    <div class="content">
-                        <div>
-                            <h1>H1</h1>
-                            <p>p</p>
-                        </div>
+        <hr class="breaker">
 
-                        <br />
+        <section class="flexbox1">
+            <header class="blocks-header-2">
+                <div class="blocks-header-div">
+                    <span>Integrations</span>
+                    <h2>Get more value from your tools</h2>
+                    <p>Connect your tools, connect your teams. With over 100 apps already available in our directory,
+                        your team’s favourite tools are just a click away.</p>
+                </div>
+            </header>
+
+            <div class="flex-2">
+                <div class="flex-2-div"><img src="../../img/notion.svg" alt="notion"> <br>
+                    <span>Notion Integration</span>
+                    <p>Work faster and smarter by integrating directly with Notion, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/slack.svg" alt="slack"> <br>
+                    <span>Slack Integration</span>
+                    <p>Work faster and smarter by integrating directly with Slack, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/google-drive.svg"> <br>
+                    <span>Google Drive Integration</span>
+                    <p>Work faster and smarter by integrating directly with Google Drive, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/intercom.svg" alt="intercom"> <br>
+                    <span>Intercom
+                        Integration</span>
+                    <p>Work faster and smarter by integrating directly with Intercom, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/jira.svg" alt="jira"> <br>
+                    <span>Jira Integration</span>
+                    <p>Work faster and smarter by integrating directly with Jira, right in the app.</p>
+                </div>
+                <div class="flex-2-div"><img src="../../img/dropbox.svg" alt="dropbox"> <br>
+                    <span>Dropbox Integration</span>
+                    <p>Work faster and smarter by integrating directly with Dropbox, right in the app.</p>
+                </div>
+            </div>
+        </section>
+        <br />
+        <section>
+            <header class="blocks-header pb-5">
+                <div class="blocks-header-div">
+                    <span>Features</span>
+                    <h1>Cutting-edge features for advanced analytics</h1>
+                    <p c>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more
+                        users. Trusted by over 4,000 startups.</p>
+                </div>
+            </header>
+            <img class="dashboard-img" src="/teams/2/assets/img/screen-mockup.svg" alt="screen-mockup" />
+        </section>
+
+        <section>
+
+            <div class="unleash-section">
+                <img src="/teams/2/assets/img/lightning.svg" alt="lightning">
+                <h2 class="stats-header">Unleash the full power of data</h2>
+                <p class="stats-description">Everything you need to convert, engage, and retain more users.</p>
+            </div>
+
+            <!-- TODO NOT FINISH -->
+            <div id="promo-stats">
+                <div class="promo-stat">
+                    <span class="span-strong">40+</span> <br />
+                    <span class="stats-subscr">Integrations</span>
+                </div>
+                <div class="promo-stat middle">
+                    <span class="span-strong">600%</span> <br />
+                    <span class="stats-subscr">Return on Investment</span>
+                </div>
+                <div class="promo-stat">
+                    <span class="span-strong">4k+</span> <br />
+                    <span class="stats-subscr">Global customers</span>
+                </div>
+            </div>
+
+            <div id="trial-block">
+                <div class="trial-div">
+                    <h3 class="trial-header">Start your 30-day free trial</h3>
+                    <p class="trial-parapgraph">Join over 4,000+ startups already growing with Untitled.</p>
+                </div>
+                <div class="trial-btns">
+                    <button class="btn-link-grey">Learn More</button>
+                    <button class="btn-link">Get Started</button>
+                </div>
+            </div>
+        </section>
+        <br />
+
+        <section class="grid1">
+            <img class="img-logo" src="/teams/2/assets/img/Sysiphus-logo.svg" alt="sysiphus-logo">
+            <div class="rectangle2">
+                <h5 class="logo-subscr">Love the simplicity of the service and the prompt customer support. We can’t
+                    imagine working without it.</h5>
+            </div>
+            <div class="logo2"><img src="/teams/2/assets/img/avatar.svg" alt="avatar">
+                <p>Candice Wu</p>
+                <span>CX Manager, Sisyphus</span>
+            </div>
+        </section>
+
+        <section>
+            <div class="blocks-grid">
+                <div class="block-grid">
+                    <div class="block-content">
+                        <h2 class="i-h2">Join 4,000+ startups growing with Untitled</h2>
+                        <ul class="ut-checked-list-items">
+                            <li class="li-1">30-day free trial</li>
+                            <li class="li-2">Peronalized onboarding</li>
+                            <li class="li-1">Access to all features</li>
+                        </ul>
+
                         <div class="action">
-                            <button class="but1">button</button>
-                            <button class="but1">button</button>
+                            <button class=" btn-link-grey ">Learn More</button>
+                            <button class=" btn-link">Get Started</button>
                         </div>
                     </div>
                 </div>
-                <div class="img"></div>
-            </section>
+                <img src="/teams/2/assets/img/screen-mockup2.svg" alt="screen-mockup2">
+            </div>
+        </section>
 
-            <section>
-                <h2 class="flex-paragraph">p</h2>
-                <div class="flex-container">
-                    <span class="img-span">
-                        <img src="#" alt="img 1" />
-                    </span>
-                    <span class="img-span">
-                        <img src="#" alt="img 2" />
-                    </span>
-                    <span class="img-span">
-                        <img src="#" alt="img 3" />
-                    </span>
-                    <span class="img-span">
-                        <img src="#" alt="img 4" />
-                    </span>
-                    <span class="img-span">
-                        <img src="#" alt="img 5" />
-                    </span>
-                </div>
-            </section>
+        <section>
+            <div class="blocks-grid">
 
-            <section>
-                <header class="blocks-header">
-                    Header<br />
-                    <div class="blocks-header-div">
-                        <h2>h2</h2>
-                        <span>Span</span>
-                        <p>p</p>
-                    </div>
-                </header>
-                <div id="blocks-grid">
-                    <div class="block-grid">
-                        <div class="block-content">
-                            <h3 class="i-h3">i + H3</h3>
-                            <p class="block-paragraph">p</p>
-                            <ul>
-                                <li class="li-1">li: i + span</li>
-                                <li class="li-2">li: i + span</li>
-                                <li class="li-1">li: i + span</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="block-grid block-img">IMG</div>
-                    <div class="block-grid block-img">IMG</div>
-                    <div class="block-grid">
-                        <div class="block-content">
-                            <h3 class="i-h3">i + H3</h3>
-                            <p class="block-paragraph">p</p>
-                            <ul>
-                                <li class="li-1">li: i + span</li>
-                                <li class="li-2">li: i + span</li>
-                                <li class="li-1">li: i + span</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="block-grid">
-                        <div class="block-content">
-                            <h3 class="i-h3">i + H3</h3>
-                            <p class="block-paragraph">p</p>
-                            <ul>
-                                <li class="li-1">li: i + span</li>
-                                <li class="li-2">li: i + span</li>
-                                <li class="li-1">li: i + span</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="block-grid block-img">IMG</div>
-                </div>
-            </section>
-            <section class="flexbox1">
-                <header class="blocks-header">
-                    Header<br />
-                    <div class="blocks-header-div">
-                        <h2>h2</h2>
-                        <span>Span</span>
-                        <p>p</p>
-                    </div>
-                </header>
-
-                <div class="flex-2">
-                    <div class="flex-2-div">img, span, p</div>
-                    <div class="flex-2-div">img, span, p</div>
-                    <div class="flex-2-div">img, span, p</div>
-                    <div class="flex-2-div">img, span, p</div>
-                    <div class="flex-2-div">img, span, p</div>
-                    <div class="flex-2-div">img, span, p</div>
-                </div>
-            </section>
-            <br />
-            <section>
-                <header class="blocks-header">
-                    Header<br />
-                    <div class="blocks-header-div">
-                        <h2>h2</h2>
-                        <span>Span</span>
-                        <p>p</p>
-                    </div>
-                </header>
-                <div class="big-image">img</div>
-            </section>
-
-            <section>
-                <div id="thunder-img">IMG</div>
-                <h2 class="stats-header">H2</h2>
-                <p class="stats-description">p</p>
-                <div id="promo-stats">
-                    <div class="promo-stat">
-                        <p>div</p>
-                        <span class="span-strong">SPAN+strong</span> <br />
-                        <span class="stats-subscr">Another span</span>
-                    </div>
-                    <div class="promo-stat">
-                        <p>div</p>
-                        <span class="span-strong">SPAN + strong</span> <br />
-                        <span class="stats-subscr">Another span</span>
-                    </div>
-                    <div class="promo-stat">
-                        <p>div</p>
-                        <span class="span-strong">SPAN + strong</span> <br />
-                        <span class="stats-subscr">Another span</span>
-                    </div>
-                </div>
-                <footer id="trial-block">
-                    <div class="trial-div">
-                        <h3 class="trial-header">H3</h3>
-                        <p class="trial-parapgraph">p</p>
-                    </div>
-                    <div class="trial-div">
-                        <button class="row-button-1">Button</button>
-                        <button class="row-button-2">Button</button>
-                    </div>
-                </footer>
-            </section>
-            <br />
-            <section class="grid1">
-                <div class="logo1">img</div>
-                <div class="rectangle2">
-                    <h5 class="logo-subscr">p</h5>
-                </div>
-                <div class="logo2">img, span, span</div>
-            </section>
-            <section>
-                <div class="blocks-grid">
-                    <div class="block-grid">
-                        <div class="block-content">
-                            <h2 class="i-h2">i + H2</h2>
-                            <p class="block-paragraph">p</p>
-                            <ul>
-                                <li class="li-1">li: i + span</li>
-                                <li class="li-2">li: i + span</li>
-                                <li class="li-1">li: i + span</li>
-                            </ul>
-
-                            <div>
-                                <button class="row-button-1">Button</button>
-                                <button class="row-button-2">Button</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block-grid block-img">IMG</div>
-                </div>
-            </section>
-            <section class="grid2">
                 <div>
-                    <span>span</span>
-                    <p>p</p>
-                </div>
-                <div class="rectangle3">
-                    <form>
-                        Form<br />
-                        <input placeholder="input_text" />
 
-                        <p>p</p>
-                        <button>Button</button>
-                    </form>
+                    <span class="span-text">Sign up for our newsletter</span>
+                    <p class="p-text">Be the first to know about releases and industry news and insights.</p>
                 </div>
-            </section>
-        </main>
 
-        Footer
-        <footer id="footer-blog">
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-            <ul>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-                <li>li</li>
-            </ul>
-        </footer>
-    </body>
+                <form class="newsletter">
+                    <div>
+                        <input placeholder="Enter Your Email" />
+
+                        <button class="nav-item btn-link">Subscribe</button>
+                    </div>
+                    <span class="span-text-2">We care about your data in our <u>privacy policy</u></span>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <!--Footer Menu Nav-->
+        <nav>
+            <div class="footer-menu-list">
+                <span>Products</span>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Releases</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu-list">
+                <span>Company</span>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu-list">
+                <span>Resources</span>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Help centre</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu-list">
+                <span>Use cases</span>
+                <ul>
+                    <li><a href="#">Startups</a></li>
+                    <li><a href="#">Enterprises</a></li>
+                    <li><a href="#">Goverment</a></li>
+                    <li><a href="#">SaaS</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Ecommerce</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu-list">
+                <span>Social</span>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">AngelList</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-menu-list">
+                <span>Legal</span>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Licenses</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Footer Logo and Copyright-->
+        <div class="footer-footer">
+            <div class="logo">
+                <img src="#" alt="img" />
+                <span>Untitled UI</span>
+            </div>
+            <span>&copy; Untitled UI. All right reserved.</span>
+        </div>
+    </footer>
+</body>
+
 </html>
